@@ -26,6 +26,11 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Seed first screening state
+        run: |
+          mkdir -p data
+          cp seed/guidance.db data/guidance.db
+
       - name: Restore screening state
         id: state
         uses: actions/cache/restore@v4
@@ -53,3 +58,4 @@ jobs:
         with:
           path: data
           key: guidance-state-${{ github.run_id }}
+

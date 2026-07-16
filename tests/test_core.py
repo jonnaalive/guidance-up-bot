@@ -51,6 +51,13 @@ def test_candidate_filter_requires_guidance_and_metric():
     assert not SecClient.is_candidate("We expect customer satisfaction to improve.")
 
 
+def test_guidance_context_is_bounded_and_keeps_financial_sentence():
+    text = "x" * 10_000 + " raises full-year revenue guidance to $150 million " + "y" * 10_000
+    context = SecClient.guidance_context(text, radius=200, max_chars=500)
+    assert "revenue guidance" in context
+    assert len(context) <= 500
+
+
 def test_store_pending_and_mark_notified(tmp_path: Path):
     store = Store(tmp_path / "test.db")
     store.save(sample_filing(), sample_analysis())
@@ -86,5 +93,6 @@ def test_pick_message_payload(tmp_path: Path):
 def test_range_formatting():
     assert DiscordNotifier._range(10, 12, "USD") == "10–12 USD"
     assert DiscordNotifier._range(None, None, "%") == "이전 수치 미상"
+
 
 

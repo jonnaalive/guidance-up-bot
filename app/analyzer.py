@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import time
+
 from google import genai
-from google.genai import types
+from google.genai import errors, types
 
 from .models import Filing, GuidanceAnalysis
 
@@ -19,9 +21,11 @@ Never claim that guidance beat market expectations unless analyst consensus is e
 
 
 class GuidanceAnalyzer:
-    def __init__(self, api_key: str, model: str) -> None:
+    def __init__(self, api_key: str, model: str, *, min_interval: float = 5.0) -> None:
         self.client = genai.Client(api_key=api_key)
         self.model = model
+        self.min_interval = min_interval
+        self._last_request = 0.0
 
     def analyze(self, filing: Filing, prior: GuidanceAnalysis | None) -> GuidanceAnalysis:
         prior_json = prior.model_dump_json() if prior else "없음"
@@ -31,16 +35,31 @@ class GuidanceAnalyzer:
             f"PRIOR_GUIDANCE:\n{prior_json}\n\n"
             f"CURRENT_FILING:\n{filing.text}"
         )
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-                response_mime_type="application/json",
-                response_json_schema=GuidanceAnalysis.model_json_schema(),
-                temperature=0.1,
-            ),
-        )
-        if not response.text:
+        response = None
+        for attempt in range(2):
+            self._pace()
+            try:
+                response = self.client.models.generate_content(
+                    model=self.model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        system_instruction=SYSTEM_PROMPT,
+                        response_mime_type="application/json",
+                        response_json_schema=GuidanceAnalysis.model_json_schema(),
+                        temperature=0.1,
+                    ),
+                )
+                break
+            except errors.ClientError as exc:
+                if "429" not in str(exc) or attempt == 1:
+                    raise
+                time.sleep(65)
+        if response is None or not response.text:
             raise RuntimeError("Gemini가 구조화된 분석 결과를 반환하지 않았습니다.")
         return GuidanceAnalysis.model_validate_json(response.text)
+
+    def _pace(self) -> None:
+        wait = self.min_interval - (time.monotonic() - self._last_request)
+        if wait > 0:
+            time.sleep(wait)
+        self._last_request = time.monotonic()

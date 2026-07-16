@@ -70,7 +70,7 @@ class SecClient:
                 cik_match = re.search(r"CIK:\s*0*(\d+)", summary)
                 if not cik_match:
                     cik_match = re.search(r"\(0*(\d{7,10})\)", title)
-                cik = cik_match.group(1) if cik_match else ""
+                cik = str(int(cik_match.group(1))) if cik_match else ""
                 company = re.sub(r"^.*? - ", "", title).strip() or title
                 company = re.sub(r"\s+\(\d{7,10}\)\s+\([^)]+\)\s*$", "", company)
                 if not accession or not filing_url:
@@ -118,13 +118,34 @@ class SecClient:
             text = BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
             if GUIDANCE_RE.search(text) and FINANCIAL_RE.search(text):
                 selected_url = selected_url or document_url
-                text_parts.append(text)
+                text_parts.append(self.guidance_context(text))
         filing.document_url = selected_url
-        filing.text = "\n\n".join(text_parts)[:100_000]
+        filing.text = "\n\n".join(text_parts)[:24_000]
         return filing
+
+    @staticmethod
+    def guidance_context(text: str, *, radius: int = 2500, max_chars: int = 24_000) -> str:
+        snippets = []
+        seen = set()
+        for match in GUIDANCE_RE.finditer(text):
+            start = max(0, match.start() - radius)
+            end = min(len(text), match.end() + radius)
+            snippet = text[start:end].strip()
+            if not FINANCIAL_RE.search(snippet):
+                continue
+            fingerprint = snippet[:200]
+            if fingerprint in seen:
+                continue
+            seen.add(fingerprint)
+            snippets.append(snippet)
+            if sum(len(item) for item in snippets) >= max_chars:
+                break
+        return "\n\n[GUIDANCE CONTEXT]\n\n".join(snippets)[:max_chars]
 
     @staticmethod
     def is_candidate(text: str) -> bool:
         return bool(GUIDANCE_RE.search(text) and FINANCIAL_RE.search(text))
+
+
 
 
