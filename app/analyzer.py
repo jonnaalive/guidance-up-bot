@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 import time
 
 from google import genai
@@ -56,10 +57,39 @@ class GuidanceAnalyzer:
                 time.sleep(65)
         if response is None or not response.text:
             raise RuntimeError("Gemini가 구조화된 분석 결과를 반환하지 않았습니다.")
-        return GuidanceAnalysis.model_validate_json(response.text)
+        analysis = GuidanceAnalysis.model_validate_json(response.text)
+        return self._validate_evidence(analysis, filing.text)
+
+    @staticmethod
+    def _validate_evidence(
+        analysis: GuidanceAnalysis, filing_text: str
+    ) -> GuidanceAnalysis:
+        source = re.sub(r"\s+", " ", filing_text).lower()
+        valid_raise = False
+        explicit_raise = re.compile(
+            r"\b(raise[sd]?|raising|increase[sd]?\s+(?:its\s+)?(?:annual\s+|full[- ]year\s+)?guidance|up\s+from|compared\s+to\s+(?:the\s+)?previous)\b",
+            re.IGNORECASE,
+        )
+        for metric in analysis.metrics:
+            if metric.direction != "raised":
+                continue
+            evidence = re.sub(r"\s+", " ", metric.evidence).strip().lower()
+            evidence_exists = bool(evidence and evidence in source)
+            has_comparison = (
+                metric.previous_low is not None or metric.previous_high is not None
+            )
+            if evidence_exists and (has_comparison or explicit_raise.search(evidence)):
+                valid_raise = True
+            else:
+                metric.direction = "unknown"
+        analysis.is_raised = analysis.is_raised and valid_raise
+        if not analysis.is_raised:
+            analysis.confidence = min(analysis.confidence, 0.49)
+        return analysis
 
     def _pace(self) -> None:
         wait = self.min_interval - (time.monotonic() - self._last_request)
         if wait > 0:
             time.sleep(wait)
         self._last_request = time.monotonic()
+

@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from app.analyzer import GuidanceAnalyzer
 from app.discord_client import DiscordNotifier
 from app.models import Filing, GuidanceAnalysis, GuidanceMetric
 from app.sec_client import SecClient
@@ -58,6 +59,22 @@ def test_guidance_context_is_bounded_and_keeps_financial_sentence():
     assert len(context) <= 500
 
 
+def test_hallucinated_raise_evidence_is_rejected():
+    analysis = sample_analysis()
+    filing_text = "Revenue is expected to be between $1.2 and $1.3 billion."
+    checked = GuidanceAnalyzer._validate_evidence(analysis, filing_text)
+    assert not checked.is_raised
+    assert checked.metrics[0].direction == "unknown"
+    assert checked.confidence <= 0.49
+
+
+def test_explicit_raise_with_source_evidence_is_accepted():
+    analysis = sample_analysis()
+    evidence = analysis.metrics[0].evidence
+    checked = GuidanceAnalyzer._validate_evidence(analysis, evidence)
+    assert checked.is_raised
+
+
 def test_store_pending_and_mark_notified(tmp_path: Path):
     store = Store(tmp_path / "test.db")
     store.save(sample_filing(), sample_analysis())
@@ -93,6 +110,7 @@ def test_pick_message_payload(tmp_path: Path):
 def test_range_formatting():
     assert DiscordNotifier._range(10, 12, "USD") == "10–12 USD"
     assert DiscordNotifier._range(None, None, "%") == "이전 수치 미상"
+
 
 
 
