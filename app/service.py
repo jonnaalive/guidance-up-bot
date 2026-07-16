@@ -20,8 +20,13 @@ class GuidanceService:
         self.notifier = DiscordNotifier(settings.discord_webhook_url) if settings.discord_webhook_url else None
 
     def run_once(self) -> dict[str, int]:
-        stats = {"fetched": 0, "new": 0, "candidates": 0, "raised": 0, "notified": 0}
-        filings = self.sec.latest_filings(self.settings.forms, self.settings.feed_count)
+        stats = {"fetched": 0, "new": 0, "candidates": 0, "raised": 0, "strong_new": 0, "notified": 0}
+        filings = self.sec.latest_filings(
+            self.settings.forms,
+            self.settings.feed_count,
+            pages=self.settings.feed_pages,
+            lookback_hours=self.settings.lookback_hours,
+        )
         stats["fetched"] = len(filings)
         for filing in filings:
             if self.store.seen(filing.accession):
@@ -38,8 +43,11 @@ class GuidanceService:
                 prior = self.store.latest_guidance(filing.ticker)
                 analysis = self.analyzer.analyze(filing, prior)
                 self.store.save(filing, analysis)
-                if analysis.is_raised and analysis.confidence >= self.settings.min_confidence:
-                    stats["raised"] += 1
+                if analysis.confidence >= self.settings.min_confidence:
+                    if analysis.is_raised:
+                        stats["raised"] += 1
+                    elif analysis.is_strong_new_guidance:
+                        stats["strong_new"] += 1
             except Exception:
                 logger.exception("공시 처리 실패: %s %s", filing.ticker, filing.accession)
 
@@ -55,4 +63,6 @@ class GuidanceService:
             except Exception:
                 logger.exception("Discord 전송 실패: %s", row["accession"])
         return stats
+
+
 

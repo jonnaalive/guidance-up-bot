@@ -18,6 +18,7 @@ class GuidanceMetric(BaseModel):
 class GuidanceAnalysis(BaseModel):
     has_guidance: bool
     is_raised: bool
+    is_strong_new_guidance: bool = False
     confidence: float = Field(ge=0, le=1)
     summary_ko: str
     metrics: list[GuidanceMetric] = Field(default_factory=list)
@@ -37,4 +38,5 @@ class Filing(BaseModel):
     filing_url: str
     document_url: str = ""
     text: str = ""
+
 

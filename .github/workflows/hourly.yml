@@ -48,6 +48,8 @@ jobs:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           FORMS: 8-K,6-K,10-Q,10-K
           FEED_COUNT: "100"
+          FEED_PAGES: "5"
+          LOOKBACK_HOURS: "72"
           MIN_CONFIDENCE: "0.80"
           DATA_DIR: ./data
         run: python main.py --once
@@ -58,4 +60,5 @@ jobs:
         with:
           path: data
           key: guidance-state-${{ github.run_id }}
+
 

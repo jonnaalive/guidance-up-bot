@@ -25,6 +25,7 @@ class Store:
                 document_url TEXT NOT NULL,
                 analysis_json TEXT,
                 is_raised INTEGER NOT NULL DEFAULT 0,
+                is_actionable INTEGER NOT NULL DEFAULT 0,
                 confidence REAL NOT NULL DEFAULT 0,
                 processed_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
                 notified_at TEXT
@@ -38,6 +39,15 @@ class Store:
             );
             """
         )
+        columns = {
+            row["name"] for row in self.connection.execute("PRAGMA table_info(filings)")
+        }
+        if "is_actionable" not in columns:
+            self.connection.execute(
+                "ALTER TABLE filings ADD COLUMN is_actionable INTEGER NOT NULL DEFAULT 0"
+            )
+            self.connection.execute("UPDATE filings SET is_actionable = is_raised")
+            self.connection.commit()
 
     def seen(self, accession: str) -> bool:
         row = self.connection.execute(
@@ -47,11 +57,14 @@ class Store:
 
     def save(self, filing: Filing, analysis: GuidanceAnalysis | None) -> None:
         payload = analysis.model_dump_json() if analysis else None
+        actionable = bool(
+            analysis and (analysis.is_raised or analysis.is_strong_new_guidance)
+        )
         self.connection.execute(
             """INSERT OR REPLACE INTO filings
             (accession, ticker, company, form, filed_at, filing_url, document_url,
-             analysis_json, is_raised, confidence, notified_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
+             analysis_json, is_raised, is_actionable, confidence, notified_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
                 COALESCE((SELECT notified_at FROM filings WHERE accession = ?), NULL))""",
             (
                 filing.accession,
@@ -63,6 +76,7 @@ class Store:
                 filing.document_url,
                 payload,
                 int(bool(analysis and analysis.is_raised)),
+                int(actionable),
                 analysis.confidence if analysis else 0,
                 filing.accession,
             ),
@@ -83,7 +97,7 @@ class Store:
     def pending_alerts(self, min_confidence: float) -> list[sqlite3.Row]:
         rows = self.connection.execute(
             """SELECT * FROM filings
-            WHERE is_raised = 1 AND confidence >= ? AND notified_at IS NULL
+            WHERE is_actionable = 1 AND confidence >= ? AND notified_at IS NULL
             ORDER BY filed_at""",
             (min_confidence,),
         )
@@ -118,7 +132,7 @@ class Store:
     @staticmethod
     def _fingerprint(row: sqlite3.Row) -> str:
         analysis = GuidanceAnalysis.model_validate_json(row["analysis_json"])
-        raised = [
+        actionable_metrics = [
             {
                 "metric": metric.metric.lower().strip(),
                 "period": metric.period.lower().strip(),
@@ -127,10 +141,10 @@ class Store:
                 "high": metric.current_high,
             }
             for metric in analysis.metrics
-            if metric.direction == "raised"
+            if metric.direction in {"raised", "introduced"}
         ]
         raw = json.dumps(
-            {"issuer": row["ticker"] or row["company"], "metrics": raised},
+            {"issuer": row["ticker"] or row["company"], "metrics": actionable_metrics},
             ensure_ascii=False,
             sort_keys=True,
         )

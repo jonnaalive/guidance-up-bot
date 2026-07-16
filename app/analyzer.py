@@ -83,13 +83,36 @@ class GuidanceAnalyzer:
             else:
                 metric.direction = "unknown"
         analysis.is_raised = analysis.is_raised and valid_raise
-        if not analysis.is_raised:
+        analysis.is_strong_new_guidance = (
+            analysis.is_strong_new_guidance
+            and GuidanceAnalyzer._has_strong_yoy_growth(source)
+            and any(
+                metric.direction == "introduced"
+                and re.sub(r"\s+", " ", metric.evidence).strip().lower() in source
+                for metric in analysis.metrics
+                if metric.evidence.strip()
+            )
+        )
+        if not (analysis.is_raised or analysis.is_strong_new_guidance):
             analysis.confidence = min(analysis.confidence, 0.49)
         return analysis
+
+    @staticmethod
+    def _has_strong_yoy_growth(source: str) -> bool:
+        for match in re.finditer(r"year[- ]over[- ]year\s+growth", source):
+            context = source[max(0, match.start() - 120) : match.end() + 120]
+            percentages = [
+                float(value)
+                for value in re.findall(r"(\d+(?:\.\d+)?)\s*%", context)
+            ]
+            if percentages and max(percentages) >= 30:
+                return True
+        return False
 
     def _pace(self) -> None:
         wait = self.min_interval - (time.monotonic() - self._last_request)
         if wait > 0:
             time.sleep(wait)
         self._last_request = time.monotonic()
+
 

@@ -71,12 +71,17 @@ class DiscordNotifier:
                 {"name": "판정 신뢰도", "value": f"{row['confidence']:.0%}", "inline": True},
             ]
         )
+        title = (
+            "🚀 강한 신규 가이던스 기업"
+            if analysis.is_strong_new_guidance and not analysis.is_raised
+            else "📈 가이던스 상향 기업"
+        )
         return {
             "username": "Guidance Up Bot",
             "allowed_mentions": {"parse": []},
             "embeds": [
                 {
-                    "title": "📈 가이던스 상향 기업",
+                    "title": title,
                     "description": description[:4000],
                     "url": row["document_url"] or row["filing_url"],
                     "color": 0x2ECC71,
@@ -114,3 +119,4 @@ class DiscordNotifier:
         if low is None:
             return f"≤ {high:g} {unit}"
         return f"{low:g}–{high:g} {unit}"
+

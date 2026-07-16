@@ -75,6 +75,39 @@ def test_explicit_raise_with_source_evidence_is_accepted():
     assert checked.is_raised
 
 
+def test_strong_new_guidance_is_actionable(tmp_path: Path):
+    evidence = "Aehr expects FY2027 revenue of $130 million to $150 million"
+    analysis = GuidanceAnalysis(
+        has_guidance=True,
+        is_raised=False,
+        is_strong_new_guidance=True,
+        confidence=0.95,
+        summary_ko="FY2027 신규 매출 가이던스를 제시했습니다.",
+        metrics=[
+            GuidanceMetric(
+                metric="Revenue",
+                period="FY2027",
+                unit="USD million",
+                current_low=130,
+                current_high=150,
+                direction="introduced",
+                evidence=evidence,
+            )
+        ],
+        pick_score=92,
+        pick_reason_ko="높은 성장률과 수주 가시성이 확인됩니다.",
+    )
+    source = evidence + ", representing 160%-200% year-over-year growth."
+    checked = GuidanceAnalyzer._validate_evidence(analysis, source)
+    assert checked.is_strong_new_guidance
+    store = Store(tmp_path / "strong.db")
+    filing = sample_filing().model_copy(update={"text": source})
+    store.save(filing, checked)
+    row = store.pending_alerts(0.8)[0]
+    embed = DiscordNotifier.build_payload(row)["embeds"][0]
+    assert embed["title"] == "🚀 강한 신규 가이던스 기업"
+
+
 def test_store_pending_and_mark_notified(tmp_path: Path):
     store = Store(tmp_path / "test.db")
     store.save(sample_filing(), sample_analysis())
@@ -110,6 +143,7 @@ def test_pick_message_payload(tmp_path: Path):
 def test_range_formatting():
     assert DiscordNotifier._range(10, 12, "USD") == "10–12 USD"
     assert DiscordNotifier._range(None, None, "%") == "이전 수치 미상"
+
 
 
 

@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 import time
 import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin
 
 import requests
@@ -53,38 +54,61 @@ class SecClient:
                 self._tickers.setdefault(cik, row["ticker"].upper())
         return self._tickers
 
-    def latest_filings(self, forms: tuple[str, ...], count: int) -> list[Filing]:
+    def latest_filings(
+        self,
+        forms: tuple[str, ...],
+        count: int,
+        *,
+        pages: int = 1,
+        lookback_hours: int = 24,
+    ) -> list[Filing]:
         filings: dict[str, Filing] = {}
         tickers = self.ticker_map()
+        cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
         for form in forms:
-            url = (
-                "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent"
-                f"&type={form}&owner=include&count={count}&output=atom"
-            )
-            root = ET.fromstring(self._get(url).content)
-            for entry in root.findall("a:entry", ATOM):
-                title = entry.findtext("a:title", default="", namespaces=ATOM)
-                summary = entry.findtext("a:summary", default="", namespaces=ATOM)
-                link_node = entry.find("a:link", ATOM)
-                filing_url = link_node.attrib.get("href", "") if link_node is not None else ""
-                accession = self._accession(filing_url)
-                cik_match = re.search(r"CIK:\s*0*(\d+)", summary)
-                if not cik_match:
-                    cik_match = re.search(r"\(0*(\d{7,10})\)", title)
-                cik = str(int(cik_match.group(1))) if cik_match else ""
-                company = re.sub(r"^.*? - ", "", title).strip() or title
-                company = re.sub(r"\s+\(\d{7,10}\)\s+\([^)]+\)\s*$", "", company)
-                if not accession or not filing_url:
-                    continue
-                filings[accession] = Filing(
-                    accession=accession,
-                    form=form,
-                    company=company,
-                    cik=cik,
-                    ticker=tickers.get(cik, ""),
-                    filed_at=entry.findtext("a:updated", default="", namespaces=ATOM),
-                    filing_url=filing_url,
+            for page in range(pages):
+                url = (
+                    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent"
+                    f"&type={form}&owner=include&count={count}&start={page * count}&output=atom"
                 )
+                root = ET.fromstring(self._get(url).content)
+                entries = root.findall("a:entry", ATOM)
+                if not entries:
+                    break
+                page_has_recent = False
+                for entry in entries:
+                    filed_at = entry.findtext("a:updated", default="", namespaces=ATOM)
+                    try:
+                        filed_datetime = datetime.fromisoformat(filed_at)
+                    except ValueError:
+                        continue
+                    if filed_datetime < cutoff:
+                        continue
+                    page_has_recent = True
+                    title = entry.findtext("a:title", default="", namespaces=ATOM)
+                    summary = entry.findtext("a:summary", default="", namespaces=ATOM)
+                    link_node = entry.find("a:link", ATOM)
+                    filing_url = link_node.attrib.get("href", "") if link_node is not None else ""
+                    accession = self._accession(filing_url)
+                    cik_match = re.search(r"CIK:\s*0*(\d+)", summary)
+                    if not cik_match:
+                        cik_match = re.search(r"\(0*(\d{7,10})\)", title)
+                    cik = str(int(cik_match.group(1))) if cik_match else ""
+                    company = re.sub(r"^.*? - ", "", title).strip() or title
+                    company = re.sub(r"\s+\(\d{7,10}\)\s+\([^)]+\)\s*$", "", company)
+                    if not accession or not filing_url:
+                        continue
+                    filings[accession] = Filing(
+                        accession=accession,
+                        form=form,
+                        company=company,
+                        cik=cik,
+                        ticker=tickers.get(cik, ""),
+                        filed_at=filed_at,
+                        filing_url=filing_url,
+                    )
+                if not page_has_recent:
+                    break
         return sorted(filings.values(), key=lambda item: item.filed_at)
 
     @staticmethod
@@ -146,6 +170,7 @@ class SecClient:
     @staticmethod
     def is_candidate(text: str) -> bool:
         return bool(GUIDANCE_RE.search(text) and FINANCIAL_RE.search(text))
+
 
 
 
