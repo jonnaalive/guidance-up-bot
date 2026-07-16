@@ -61,6 +61,7 @@ class SecClient:
         *,
         pages: int = 1,
         lookback_hours: int = 24,
+        earnings_only: bool = False,
     ) -> list[Filing]:
         filings: dict[str, Filing] = {}
         tickers = self.ticker_map()
@@ -87,6 +88,8 @@ class SecClient:
                     page_has_recent = True
                     title = entry.findtext("a:title", default="", namespaces=ATOM)
                     summary = entry.findtext("a:summary", default="", namespaces=ATOM)
+                    if earnings_only and form == "8-K" and "Item 2.02" not in summary:
+                        continue
                     link_node = entry.find("a:link", ATOM)
                     filing_url = link_node.attrib.get("href", "") if link_node is not None else ""
                     accession = self._accession(filing_url)
@@ -170,6 +173,7 @@ class SecClient:
     @staticmethod
     def is_candidate(text: str) -> bool:
         return bool(GUIDANCE_RE.search(text) and FINANCIAL_RE.search(text))
+
 
 
 

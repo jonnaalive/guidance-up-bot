@@ -50,6 +50,7 @@ jobs:
           FEED_COUNT: "100"
           FEED_PAGES: "5"
           LOOKBACK_HOURS: "72"
+          EARNINGS_ONLY: "true"
           MIN_CONFIDENCE: "0.80"
           DATA_DIR: ./data
         run: python main.py --once
@@ -60,5 +61,6 @@ jobs:
         with:
           path: data
           key: guidance-state-${{ github.run_id }}
+
 
 

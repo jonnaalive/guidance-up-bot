@@ -18,6 +18,7 @@ class Settings:
     feed_count: int
     feed_pages: int
     lookback_hours: int
+    earnings_only: bool
     forms: tuple[str, ...]
     watchlist: frozenset[str]
     min_confidence: float
@@ -41,6 +42,7 @@ class Settings:
             feed_count=min(100, max(10, int(os.getenv("FEED_COUNT", "100")))),
             feed_pages=min(10, max(1, int(os.getenv("FEED_PAGES", "5")))),
             lookback_hours=max(1, int(os.getenv("LOOKBACK_HOURS", "72"))),
+            earnings_only=os.getenv("EARNINGS_ONLY", "true").lower() in {"1", "true", "yes"},
             forms=tuple(
                 item.strip().upper()
                 for item in os.getenv("FORMS", "8-K,6-K,10-Q,10-K").split(",")
@@ -63,6 +65,7 @@ class Settings:
             missing.append("DISCORD_WEBHOOK_URL")
         if missing:
             raise ValueError("필수 환경 변수가 없습니다: " + ", ".join(missing))
+
 
 
 

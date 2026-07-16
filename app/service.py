@@ -26,6 +26,7 @@ class GuidanceService:
             self.settings.feed_count,
             pages=self.settings.feed_pages,
             lookback_hours=self.settings.lookback_hours,
+            earnings_only=self.settings.earnings_only,
         )
         stats["fetched"] = len(filings)
         for filing in filings:
@@ -63,6 +64,7 @@ class GuidanceService:
             except Exception:
                 logger.exception("Discord 전송 실패: %s", row["accession"])
         return stats
+
 
 
 
