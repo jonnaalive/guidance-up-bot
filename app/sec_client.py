@@ -47,9 +47,10 @@ class SecClient:
     def ticker_map(self) -> dict[str, str]:
         if self._tickers is None:
             data = self._get("https://www.sec.gov/files/company_tickers.json").json()
-            self._tickers = {
-                str(row["cik_str"]): row["ticker"].upper() for row in data.values()
-            }
+            self._tickers = {}
+            for row in data.values():
+                cik = str(row["cik_str"])
+                self._tickers.setdefault(cik, row["ticker"].upper())
         return self._tickers
 
     def latest_filings(self, forms: tuple[str, ...], count: int) -> list[Filing]:
@@ -145,6 +146,7 @@ class SecClient:
     @staticmethod
     def is_candidate(text: str) -> bool:
         return bool(GUIDANCE_RE.search(text) and FINANCIAL_RE.search(text))
+
 
 
 
