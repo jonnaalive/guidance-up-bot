@@ -1,0 +1,36 @@
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.bmp binary
+*.ico binary
+*.pdf binary
+*.pptx binary
+*.xlsx binary
+*.xls binary
+*.docx binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.7z binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+*.exe binary
+*.dll binary
+*.pyd binary
+*.pyc binary
+*.mp3 binary
+*.mp4 binary
+*.mov binary
+*.mpeg binary
