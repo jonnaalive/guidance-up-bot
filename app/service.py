@@ -63,8 +63,11 @@ class GuidanceService:
                 stats["notified"] += 1
             except Exception:
                 logger.exception("Discord 전송 실패: %s", row["accession"])
+        self.store.export_latest_signals(
+            self.settings.data_dir / "latest_signals.json",
+            self.settings.min_confidence,
+        )
         return stats
-
 
 
 

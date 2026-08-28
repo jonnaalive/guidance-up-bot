@@ -114,6 +114,30 @@ class Store:
             pending.append(row)
         return pending
 
+    def export_latest_signals(self, path: Path, min_confidence: float) -> None:
+        rows = self.connection.execute(
+            """SELECT * FROM filings
+            WHERE is_actionable = 1 AND confidence >= ?
+              AND processed_at >= datetime('now', '-7 days')
+            ORDER BY filed_at DESC""",
+            (min_confidence,),
+        ).fetchall()
+        signals = []
+        for row in rows:
+            analysis = GuidanceAnalysis.model_validate_json(row["analysis_json"])
+            signals.append({
+                "ticker": row["ticker"],
+                "company": row["company"],
+                "detected_at": row["filed_at"],
+                "source_bot": "guidance",
+                "signal": "guidance_up",
+                "summary": analysis.summary_ko,
+                "source_url": row["filing_url"],
+                "confidence": analysis.confidence,
+            })
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(signals, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
     def mark_notified(self, accession: str) -> None:
         row = self.connection.execute(
             "SELECT * FROM filings WHERE accession = ?", (accession,)
