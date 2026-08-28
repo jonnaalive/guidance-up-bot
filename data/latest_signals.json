@@ -1,0 +1,202 @@
+[
+  {
+    "ticker": "GAP",
+    "company": "GAP INC",
+    "detected_at": "2026-08-27T16:22:34-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Gap Inc.는 2026 회계연도 조정 주당순이익(EPS) 가이던스를 기존 2.30~2.40달러에서 2.35~2.45달러로 상향 조정했습니다. 매출 성장률 전망은 1~1.5%로 소폭 하향되었으나, 운영 효율성 개선과 Gap 브랜드의 강력한 모멘텀을 바탕으로 수익성 지표인 조정 영업이익률 전망치를 7.4~7.6%(기존 7.3~7.5%)로 높였습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/39911/000162828026059262/0001628280-26-059262-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "S",
+    "company": "SentinelOne, Inc.",
+    "detected_at": "2026-08-27T16:08:35-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "SentinelOne은 2027 회계연도 연간 매출 및 영업이익 가이던스를 상향 조정했습니다. 연간 매출 가이던스는 12.02억~12.07억 달러로 제시되었으며, 경영진은 2분기 실적 호조와 플랫폼 모델의 강력한 실행력을 바탕으로 연간 전망치를 상향했다고 밝혔습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000052/0001583708-26-000052-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "RBRK",
+    "company": "Rubrik, Inc.",
+    "detected_at": "2026-08-27T16:06:19-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Rubrik은 2027 회계연도 2분기 실적 발표에서 모든 가이던스 지표를 상향 조정했습니다. 연간 구독 ARR은 18억 8,000만~18억 8,500만 달러, 연간 매출은 16억 8,500만~16억 9,300만 달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000055/0001943896-26-000055-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "BZUN",
+    "company": "Baozun Inc.",
+    "detected_at": "2026-08-27T08:23:53-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "바오준(Baozun)은 기술 혁신과 AI 인프라를 통한 생산성 향상을 근거로 2028년 연간 Non-GAAP 영업이익 목표치를 기존 5억 5천만 위안에서 7억 위안 이상으로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1625414/000110465926102080/0001104659-26-102080-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "HQY",
+    "company": "HEALTHEQUITY, INC.",
+    "detected_at": "2026-08-27T08:02:52-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "HealthEquity는 2027 회계연도 가이던스를 상향 조정했습니다. 매출은 14.11억~14.21억 달러, 조정 EBITDA는 6.28억~6.36억 달러로 제시되었습니다. 이전 가이던스 수치는 명시되지 않았으나, 경영진은 실적 모멘텀을 바탕으로 가이던스를 상향한다고 명시했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1428336/000142833626000040/0001428336-26-000040-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "MTLS",
+    "company": "MATERIALISE NV",
+    "detected_at": "2026-08-27T07:07:36-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Materialise NV는 2026년 상반기 견조한 실적을 바탕으로 연간 조정 EBIT 가이던스를 기존 1,000만~1,200만 유로에서 1,200만~1,400만 유로로 상향 조정했습니다. 매출 가이던스는 2억 7,300만~2억 8,300만 유로로 유지했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1091223/000110465926101942/0001104659-26-101942-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "BBY",
+    "company": "BEST BUY CO INC",
+    "detected_at": "2026-08-27T07:00:56-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "베스트바이는 상반기 실적 호조와 하반기 모멘텀을 반영하여 FY27 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 412억~421억 달러에서 423억~428억 달러로, 조정 EPS는 기존 6.30~6.60달러에서 6.70~6.90달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000037/0000764478-26-000037-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "DG",
+    "company": "DOLLAR GENERAL CORP",
+    "detected_at": "2026-08-27T06:57:04-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "달러 제너럴은 상반기 실적 호조와 하반기 전망 개선을 반영하여 2026 회계연도 가이던스를 상향 조정했습니다. 순매출 성장률은 기존 3.7~4.2%에서 4.0~4.3%로, 동일 매장 매출 성장률은 2.2~2.7%에서 2.5~2.9%로, 희석 EPS는 7.20~7.45달러에서 7.80~8.00달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/29534/000110465926101918/0001104659-26-101918-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "PUK",
+    "company": "PRUDENTIAL PLC",
+    "detected_at": "2026-08-27T06:36:04-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "푸르덴셜은 2026년 자사주 매입 프로그램을 기존 12억 달러에서 약 3억 달러 증액하여 총 15억 달러 규모로 상향 조정했습니다. 또한 신규 사업 이익, 영업 잉여금(Gross OFSG), 조정 EPS 및 주당 배당금의 두 자릿수 성장이라는 기존 FY26 가이던스를 재확인했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1116578/000165495426007890/0001654954-26-007890-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "HRL",
+    "company": "HORMEL FOODS CORP /DE/",
+    "detected_at": "2026-08-26T17:42:37-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "호멜 푸즈는 2026 회계연도 조정 주당순이익(EPS) 가이던스를 기존 1.43~1.51달러에서 1.45~1.51달러로 상향 조정했습니다. 견고한 연간 실적과 향후 성장 기회를 바탕으로 수익성 전망을 개선했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/48465/000004846526000053/0000048465-26-000053-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "SNPS",
+    "company": "SYNOPSYS INC",
+    "detected_at": "2026-08-26T16:21:49-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "시놉시스는 2026 회계연도 3분기 실적 호조와 AI 수요 강세를 바탕으로 연간 매출 및 비GAAP EPS 가이던스를 상향 조정했습니다. 연간 매출 가이던스 중간값은 97.15억 달러, 비GAAP EPS 중간값은 15.07달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/883241/000119312526368620/0001193125-26-368620-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "HPQ",
+    "company": "HP INC",
+    "detected_at": "2026-08-26T16:17:31-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "HP는 2026 회계연도 3분기 실적 발표에서 연간 EPS 및 잉여현금흐름(FCF) 가이던스를 상향 조정했습니다. 구체적인 수치는 명시되지 않았으나, 경영진은 FY26 가이던스 상향을 공식화했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/47217/000004721726000048/0000047217-26-000048-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "CRWD",
+    "company": "CrowdStrike Holdings, Inc.",
+    "detected_at": "2026-08-26T16:07:02-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "CrowdStrike는 2027 회계연도 연간 순 신규 ARR 성장 전망치를 기존 대비 630bp 상향 조정했습니다. 2분기 기록적인 실적과 강력한 3분기 파이프라인을 바탕으로 연간 가이던스를 상향하며 지속적인 수익성 있는 성장을 예고했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/0001535527-26-000029-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "CRM",
+    "company": "Salesforce, Inc.",
+    "detected_at": "2026-08-26T16:03:53-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Salesforce는 FY27 연간 매출 가이던스를 기존 대비 2억 달러 상향한 461억~464억 달러로 제시했습니다. 이는 유기적 성장과 인수합병 효과가 반영된 결과이며, AI 제품군인 Agentforce의 강력한 수요가 성장을 견인하고 있습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/0001108524-26-000187-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "PRE",
+    "company": "Prenetics Global Ltd",
+    "detected_at": "2026-08-26T08:40:23-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Prenetics는 2026년 연간 매출 가이던스를 기존 대비 상향 조정하여 2억 2,000만 달러~2억 3,000만 달러로 제시했으며, 2027년 매출 가이던스로 4억 달러 이상을 새롭게 도입했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026058996/0001628280-26-058996-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "ANF",
+    "company": "ABERCROMBIE & FITCH CO /DE/",
+    "detected_at": "2026-08-26T07:38:00-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Abercrombie & Fitch는 2026 회계연도 연간 가이던스를 상향 조정했습니다. 순매출 성장률은 기존 3~5%에서 약 5%로, 주당순이익(EPS)은 기존 10.20~11.00달러에서 13.10~13.60달러로 상향되었습니다. 이는 관세 환급 효과와 브랜드 전반의 견조한 실적에 기인합니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/0001018840-26-000041-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "GFI",
+    "company": "GOLD FIELDS LTD",
+    "detected_at": "2026-08-26T07:25:47-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Gold Fields는 2026년 상반기 실적 발표를 통해 연간 자본지출(CAPEX) 가이던스를 기존 1,900~2,100백만 달러에서 1,600~1,800백만 달러로 하향 조정(비용 효율화)하며 재무 건전성을 강화했습니다. 생산량 가이던스는 2.4~2.6Moz 범위 내 상단 달성을 예상하며, 전반적인 운영 모멘텀을 유지하고 있습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1172724/000162828026058981/0001628280-26-058981-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "BBWI",
+    "company": "Bath & Body Works, Inc.",
+    "detected_at": "2026-08-26T07:17:10-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Bath & Body Works는 2026년 연간 주당순이익(EPS) 가이던스를 기존 대비 상향 조정했습니다. 연간 EPS 가이던스는 3.13~3.33달러로 제시되었으며, 이는 회사의 전략적 전환이 성과를 거두고 있음을 반영합니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/701985/000070198526000025/0000701985-26-000025-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "SJM",
+    "company": "J M SMUCKER Co",
+    "detected_at": "2026-08-26T07:02:27-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "J.M. Smucker는 2027 회계연도 1분기 실적 호조를 바탕으로 연간 가이던스를 상향 조정했습니다. 조정 주당순이익(EPS) 가이던스는 기존 $9.75~$10.25에서 $10.50~$11.00으로, 잉여현금흐름은 $1.0십억에서 $1.1십억으로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/91419/000009141926000079/0000091419-26-000079-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "TRMD",
+    "company": "TORM plc",
+    "detected_at": "2026-08-26T06:06:31-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "TORM은 2026년 2분기 사상 최대 실적을 달성함에 따라 연간 가이던스를 2억 달러 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1655891/000162828026058979/0001628280-26-058979-index.htm",
+    "confidence": 1.0
+  }
+]
