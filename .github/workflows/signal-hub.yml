@@ -1,0 +1,38 @@
+name: Investment signal hub digest
+on:
+  schedule:
+    - cron: "30 13 * * *"
+    - cron: "0 12 * * 0"
+  workflow_dispatch:
+    inputs:
+      weekly:
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: jonnaalive/investment-signal-hub
+          path: hub
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: hub/requirements.txt
+      - run: pip install -r hub/requirements.txt
+      - name: Send correlated report
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          HELD_TICKERS: GEV,POWL,BE,STRL,SDRL,KGS,OCUL,BKR,LPG,TDW,HRMY,TARS,DINO,FTI
+          WATCH_TICKERS: 7181,AGCO,CAT,EROC,HSHP,MPC,MPLX,NOV,OKE,SITM,VG,VLO
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 12 * * 0" ] || [ "${{ inputs.weekly }}" = "true" ]; then
+            python hub/hub.py --weekly
+          else
+            python hub/hub.py
+          fi
