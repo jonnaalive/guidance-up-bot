@@ -1,5 +1,15 @@
 [
   {
+    "ticker": "SAIC",
+    "company": "Science Applications International Corp",
+    "detected_at": "2026-08-31T06:55:28-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "SAIC은 2027 회계연도 가이던스를 상향 조정했습니다. 매출은 기존 7.0B~7.2B USD에서 7.2B~7.3B USD로, 조정 EPS는 9.90~10.10 USD에서 10.65~10.75 USD로 상향되었습니다. 조정 EBITDA 및 마진율 가이던스 또한 상향되었으며, 이는 견고한 연초 성과를 반영한 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1571123/000157112326000131/0001571123-26-000131-index.htm",
+    "confidence": 1.0
+  },
+  {
     "ticker": "GAP",
     "company": "GAP INC",
     "detected_at": "2026-08-27T16:22:34-04:00",
