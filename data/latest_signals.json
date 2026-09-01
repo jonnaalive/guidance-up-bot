@@ -1,5 +1,25 @@
 [
   {
+    "ticker": "MMED",
+    "company": "MiniMed Group, Inc.",
+    "detected_at": "2026-09-01T06:50:10-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "MiniMed은 2027 회계연도 유기적 매출 성장률 가이던스를 기존 약 10%에서 약 10.5%로 상향 조정했습니다. 이는 미국 시장의 성장 가속화와 혁신적인 제품 파이프라인의 성공적인 실행에 따른 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2062583/000162828026059699/0001628280-26-059699-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "MDT",
+    "company": "Medtronic plc",
+    "detected_at": "2026-09-01T06:47:19-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "메드트로닉은 FY27 유기적 매출 성장률 가이던스를 기존 6.75~7.25%에서 7.25~7.75%로, 비GAAP 희석 EPS 가이던스를 기존 5.90~6.00달러에서 5.94~6.00달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1613103/000162828026059697/0001628280-26-059697-index.htm",
+    "confidence": 1.0
+  },
+  {
     "ticker": "SAIC",
     "company": "Science Applications International Corp",
     "detected_at": "2026-08-31T06:55:28-04:00",
