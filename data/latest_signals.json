@@ -1,5 +1,75 @@
 [
   {
+    "ticker": "FIVE",
+    "company": "FIVE BELOW, INC",
+    "detected_at": "2026-09-02T16:17:01-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Five Below은 2026 회계연도 전체 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 5.40~5.48십억 달러에서 5.63~5.71십억 달러로, 조정 EPS는 기존 8.65~9.05달러에서 9.83~10.31달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000023/0001177609-26-000023-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "SNOW",
+    "company": "Snowflake Inc.",
+    "detected_at": "2026-09-02T16:08:29-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Snowflake는 2027 회계연도 연간 제품 매출 가이던스를 기존 58.4억 달러(31% 성장)에서 60.7억 달러(36% 성장)로 상향 조정했습니다. 또한 비GAAP 영업이익률 가이던스도 기존 13.5%에서 14.5%로 상향하며 성장과 수익성 개선을 동시에 달성하고 있습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/0001640147-26-000033-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "HPE",
+    "company": "Hewlett Packard Enterprise Co",
+    "detected_at": "2026-09-02T16:06:52-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "HPE는 2026 회계연도 3분기 실적 호조와 기록적인 수주 잔고를 바탕으로 FY26 및 FY27 가이던스를 상향 조정했습니다. FY26 매출 성장률 전망치를 34~37%로 높였으며, GAAP 및 Non-GAAP EPS 전망치와 잉여현금흐름(FCF) 목표치도 상향했습니다. 또한 FY27 성장 프레임워크를 상향하여 매출 성장률 13~17%, Non-GAAP EPS 성장률 16~20%, FCF 50억 달러 이상을 제시했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000078/0001645590-26-000078-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "NTAP",
+    "company": "NetApp, Inc.",
+    "detected_at": "2026-09-02T16:05:16-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "NetApp은 2027 회계연도 1분기 실적 발표와 함께 연간 매출 및 주당순이익(EPS) 가이던스를 상향 조정했습니다. 2027 회계연도 연간 매출 가이던스는 79.75억~82.25억 달러, 비GAAP EPS 가이던스는 9.73~10.03달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1002047/000100204726000003/0001002047-26-000003-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "TREX",
+    "company": "TREX CO INC",
+    "detected_at": "2026-09-02T08:45:15-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Trex는 강력한 시장 수요와 실행력을 바탕으로 연간 매출 가이던스를 상향 조정했습니다. 이번 상향은 유통망 전략 변경에 따른 일시적 재고 변동이 아닌, 근본적인 수요 강세와 운영 효율성에 기인한 것임을 명확히 했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526379433/0001193125-26-379433-index.htm",
+    "confidence": 0.9
+  },
+  {
+    "ticker": "TREX",
+    "company": "TREX CO INC",
+    "detected_at": "2026-09-02T08:45:14-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Trex는 2분기 실적 호조와 수요 모멘텀 가속화에 힘입어 연간 가이던스를 상향 조정했습니다. 구체적인 수치는 명시되지 않았으나, 경영진은 수요 강세와 전략적 우선순위 달성을 근거로 연간 가이던스 상향 및 자사주 매입 규모 확대를 발표했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526379434/0001193125-26-379434-index.htm",
+    "confidence": 0.9
+  },
+  {
+    "ticker": "GIII",
+    "company": "G III APPAREL GROUP LTD /DE/",
+    "detected_at": "2026-09-02T07:30:18-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "G-III Apparel Group은 2027 회계연도 순이익 가이던스를 상향 조정했습니다. GAAP 기준 순이익은 1억 8,100만~1억 8,500만 달러(주당 4.10~4.20달러)로 예상되며, 이전 가이던스 대비 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/821002/000095014226002481/0000950142-26-002481-index.htm",
+    "confidence": 1.0
+  },
+  {
     "ticker": "AIN",
     "company": "ALBANY INTERNATIONAL CORP /DE/",
     "detected_at": "2026-09-01T16:37:25-04:00",
