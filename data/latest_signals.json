@@ -1,5 +1,55 @@
 [
   {
+    "ticker": "TTC",
+    "company": "TORO CO",
+    "detected_at": "2026-09-03T08:44:31-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Toro Company는 견조한 수요와 운영 효율성 개선을 바탕으로 2026 회계연도 연간 가이던스를 상향 조정했습니다. 순매출 성장률 전망치는 기존 4.0%~6.5%에서 6.3%~6.6%로, 조정 EPS 전망치는 기존 $4.50~$4.62에서 $4.60~$4.65로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/737758/000073775826000041/0000737758-26-000041-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "DLTH",
+    "company": "DULUTH HOLDINGS INC.",
+    "detected_at": "2026-09-03T07:17:40-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Duluth Holdings는 2026 회계연도 조정 EBITDA 가이던스를 기존 2,800만~3,200만 달러에서 3,800만~4,200만 달러로 상향 조정했습니다. 매출 가이던스(5억 4,000만~5억 6,000만 달러)와 CAPEX(약 1,200만 달러)는 기존 수준을 유지했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1649744/000119312526381026/0001193125-26-381026-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "GCO",
+    "company": "GENESCO INC",
+    "detected_at": "2026-09-03T07:15:16-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "제네스코(Genesco)는 2분기 실적 호조와 비용 절감 효과를 반영하여 2027 회계연도 조정 EPS 가이던스를 기존 범위($2.00~$2.40)의 중간값에서 상단으로 상향 조정했습니다. 영업이익 가이던스 또한 기존 범위($3400만~$4000만)의 중간값에서 상단으로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/18498/000119312526381023/0001193125-26-381023-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "CIEN",
+    "company": "CIENA CORP",
+    "detected_at": "2026-09-03T07:07:42-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Ciena는 2026 회계연도 연간 매출 가이던스를 기존 대비 상향 조정했으며, 4분기 매출 가이던스를 17.5억 달러(±5천만 달러)로 제시했습니다. 연간 매출 가이던스는 64.2억 달러(±5천만 달러)로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245/0001628280-26-060245-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "VSXY",
+    "company": "Victoria's Secret & Co.",
+    "detected_at": "2026-09-03T07:01:56-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "빅토리아 시크릿은 상반기 실적 호조와 하반기 모멘텀을 반영하여 2026 회계연도 연간 순매출 가이던스를 기존 70.3억~71.3억 달러에서 71.0억~71.8억 달러로, 조정 영업이익 가이던스를 기존 5.5억~5.8억 달러에서 5.6억~5.9억 달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000019/0001856437-26-000019-index.htm",
+    "confidence": 1.0
+  },
+  {
     "ticker": "FIVE",
     "company": "FIVE BELOW, INC",
     "detected_at": "2026-09-02T16:17:01-04:00",
