@@ -1,5 +1,55 @@
 [
   {
+    "ticker": "DOCU",
+    "company": "DOCUSIGN, INC.",
+    "detected_at": "2026-09-03T16:09:53-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Docusign은 AI 기반의 지능형 계약 관리(IAM) 플랫폼의 모멘텀 가속화를 이유로 2027 회계연도 가이던스를 상향 조정했습니다. 연간 매출 가이던스는 34.99억~35.07억 달러로 제시되었으며, ARR 성장률 가이던스도 8.50%~9.00%로 설정되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/0001261333-26-000088-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "ZS",
+    "company": "Zscaler, Inc.",
+    "detected_at": "2026-09-03T16:08:39-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Zscaler는 2027 회계연도 1분기 및 연간 가이던스를 신규 발표했습니다. 2027 회계연도 연간 매출은 약 39.08억~39.38억 달러, 비GAAP 주당순이익(EPS)은 4.86~4.90달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/0001713683-26-000156-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "ASAN",
+    "company": "Asana, Inc.",
+    "detected_at": "2026-09-03T16:08:01-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Asana는 2027 회계연도 연간 매출 및 비GAAP 영업이익 가이던스를 상향 조정했습니다. 구체적인 연간 매출 가이던스는 8억 5,850만 달러에서 8억 6,350만 달러 범위입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772026000058/0001477720-26-000058-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "BBCP",
+    "company": "Concrete Pumping Holdings, Inc.",
+    "detected_at": "2026-09-03T16:07:12-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Concrete Pumping Holdings는 2026 회계연도 연간 가이던스를 상향 조정했습니다. 매출은 기존 4억 1,000만~4억 2,500만 달러에서 4억 2,500만~4억 3,500만 달러로, 조정 EBITDA는 9,800만~1억 500만 달러에서 1억 300만~1억 800만 달러로, 잉여현금흐름은 4,500만 달러에서 5,000만 달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1703956/000143774926029609/0001437749-26-029609-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "ticker": "CURV",
+    "company": "Torrid Holdings Inc.",
+    "detected_at": "2026-09-03T16:06:08-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Torrid는 2026 회계연도 2분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. 이번 상향은 2분기에 수령한 IEEPA 관세 환급 혜택을 반영한 결과이며, 해당 혜택을 제외한 기존 사업 전망은 유지되었습니다. 3분기 매출 가이던스는 2억 3,000만~2억 3,500만 달러, 조정 EBITDA는 1,500만~2,000만 달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1792781/000179278126000036/0001792781-26-000036-index.htm",
+    "confidence": 1.0
+  },
+  {
     "ticker": "TTC",
     "company": "TORO CO",
     "detected_at": "2026-09-03T08:44:31-04:00",
