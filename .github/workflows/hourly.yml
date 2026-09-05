@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 * * * *"
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '실제 Discord 발송 없이 운영 점검'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -26,11 +31,6 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Seed first screening state
-        run: |
-          mkdir -p data
-          cp seed/guidance.db data/guidance.db
-
       - name: Restore screening state
         id: state
         uses: actions/cache/restore@v4
@@ -39,6 +39,22 @@ jobs:
           key: guidance-state-${{ github.run_id }}
           restore-keys: |
             guidance-state-
+
+      - name: Restore persistent state
+        id: durable
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/runtime_state.py restore screening-state data
+
+      - name: Require existing delivery history
+        run: |
+          if [ '${{ steps.durable.outputs.restored }}' != 'true' ] && [ -z '${{ steps.state.outputs.cache-matched-key }}' ]; then
+            echo 'No delivery history: refusing to replay the seed database.'
+            exit 1
+          fi
+          test -f data/guidance.db
+      - name: Run regression tests
+        run: pip install pytest && python -m pytest -q
 
       - name: Screen SEC earnings filings
         env:
@@ -53,7 +69,19 @@ jobs:
           EARNINGS_ONLY: "true"
           MIN_CONFIDENCE: "0.80"
           DATA_DIR: ./data
-        run: python main.py --once
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          if [ "$DRY_RUN" = 'true' ]; then
+            python main.py --once --dry-run
+          else
+            python main.py --once
+          fi
+
+      - name: Save persistent state
+        if: always() && steps.durable.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/runtime_state.py save screening-state data
 
       - name: Save screening state
         if: always()
@@ -63,10 +91,10 @@ jobs:
           key: guidance-state-${{ github.run_id }}
 
       - name: Publish latest signals
+        if: always() && steps.durable.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f data/latest_signals.json
           git diff --cached --quiet || git commit -m "chore: publish guidance signals"
           git push
-

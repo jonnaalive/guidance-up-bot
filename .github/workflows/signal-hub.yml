@@ -8,13 +8,29 @@ on:
       weekly:
         type: boolean
         default: false
+      review_ticker:
+        description: '분석 완료·보류할 티커 (비우면 정기 보고)'
+        type: string
+        default: ''
+      review_status:
+        type: choice
+        options: [done, snoozed, reopen]
+        default: done
+      review_until:
+        description: '완료 기준 시각 또는 보류 종료일 (비우면 완료=현재, 보류=30일)'
+        type: string
+        default: ''
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: signal-hub-delivery
+  cancel-in-progress: false
 jobs:
   digest:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/checkout@v4
         with:
           repository: jonnaalive/investment-signal-hub
@@ -25,14 +41,29 @@ jobs:
           cache: pip
           cache-dependency-path: hub/requirements.txt
       - run: pip install -r hub/requirements.txt
+      - name: Restore delivery history
+        id: durable
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/runtime_state.py restore digest-state hub/runtime
       - name: Send correlated report
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           HELD_TICKERS: GEV,POWL,BE,STRL,SDRL,KGS,OCUL,BKR,LPG,TDW,HRMY,TARS,DINO,FTI
           WATCH_TICKERS: 7181,AGCO,CAT,EROC,HSHP,MPC,MPLX,NOV,OKE,SITM,VG,VLO
+          REVIEW_TICKER: ${{ inputs.review_ticker }}
+          REVIEW_STATUS: ${{ inputs.review_status }}
+          REVIEW_UNTIL: ${{ inputs.review_until }}
         run: |
-          if [ "${{ github.event.schedule }}" = "0 12 * * 0" ] || [ "${{ inputs.weekly }}" = "true" ]; then
+          if [ -n "$REVIEW_TICKER" ]; then
+            python hub/hub.py --review-ticker "$REVIEW_TICKER" --review-status "$REVIEW_STATUS" --review-until "$REVIEW_UNTIL"
+          elif [ "${{ github.event.schedule }}" = "0 12 * * 0" ] || [ "${{ inputs.weekly }}" = "true" ]; then
             python hub/hub.py --weekly
           else
             python hub/hub.py
           fi
+      - name: Save delivery history
+        if: always() && steps.durable.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/runtime_state.py save digest-state hub/runtime

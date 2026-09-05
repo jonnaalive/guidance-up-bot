@@ -6,6 +6,7 @@ import sqlite3
 from pathlib import Path
 
 from .models import Filing, GuidanceAnalysis
+from .identity import digest, metric_ids
 
 
 class Store:
@@ -48,6 +49,17 @@ class Store:
             )
             self.connection.execute("UPDATE filings SET is_actionable = is_raised")
             self.connection.commit()
+        if "cik" not in columns:
+            self.connection.execute("ALTER TABLE filings ADD COLUMN cik TEXT NOT NULL DEFAULT ''")
+        self.connection.execute("CREATE TABLE IF NOT EXISTS sent_metrics (identity TEXT PRIMARY KEY)")
+        self.connection.execute("CREATE TABLE IF NOT EXISTS delivery_attempts (accession TEXT PRIMARY KEY, status TEXT NOT NULL)")
+        self.connection.execute("CREATE TABLE IF NOT EXISTS migrations (name TEXT PRIMARY KEY)")
+        if not self.connection.execute("SELECT 1 FROM migrations WHERE name='metric-v2'").fetchone():
+            for row in self.connection.execute("SELECT * FROM filings WHERE notified_at IS NOT NULL AND analysis_json IS NOT NULL").fetchall():
+                analysis = GuidanceAnalysis.model_validate_json(row["analysis_json"])
+                self.connection.executemany("INSERT OR IGNORE INTO sent_metrics VALUES (?)", [(key,) for key in metric_ids(row, analysis)])
+            self.connection.execute("INSERT INTO migrations VALUES ('metric-v2')")
+        self.connection.commit()
 
     def seen(self, accession: str) -> bool:
         row = self.connection.execute(
@@ -58,7 +70,7 @@ class Store:
     def save(self, filing: Filing, analysis: GuidanceAnalysis | None) -> None:
         payload = analysis.model_dump_json() if analysis else None
         actionable = bool(
-            analysis and (analysis.is_raised or analysis.is_strong_new_guidance)
+            analysis and (analysis.is_raised or analysis.is_strong_new_guidance or analysis.is_turnaround)
         )
         self.connection.execute(
             """INSERT OR REPLACE INTO filings
@@ -83,27 +95,39 @@ class Store:
         )
         self.connection.commit()
 
-    def latest_guidance(self, ticker: str) -> GuidanceAnalysis | None:
+        self.connection.execute("UPDATE filings SET cik=? WHERE accession=?", (filing.cik, filing.accession))
+        self.connection.commit()
+
+    def latest_guidance(self, ticker: str, before: str | None = None) -> GuidanceAnalysis | None:
         if not ticker:
             return None
-        row = self.connection.execute(
+        rows = self.connection.execute(
             """SELECT analysis_json FROM filings
-            WHERE ticker = ? AND analysis_json IS NOT NULL
-            ORDER BY filed_at DESC LIMIT 1""",
-            (ticker,),
-        ).fetchone()
-        return GuidanceAnalysis.model_validate_json(row["analysis_json"]) if row else None
+            WHERE ticker = ? AND analysis_json IS NOT NULL AND (? IS NULL OR datetime(filed_at) < datetime(?))
+            ORDER BY datetime(filed_at) DESC""",
+            (ticker, before, before),
+        )
+        for row in rows:
+            analysis = GuidanceAnalysis.model_validate_json(row["analysis_json"])
+            if analysis.has_guidance and analysis.metrics:
+                return analysis
+        return None
 
     def pending_alerts(self, min_confidence: float) -> list[sqlite3.Row]:
         rows = self.connection.execute(
             """SELECT * FROM filings
             WHERE is_actionable = 1 AND confidence >= ? AND notified_at IS NULL
+              AND accession NOT IN (SELECT accession FROM delivery_attempts WHERE status IN ('sending', 'uncertain'))
             ORDER BY filed_at""",
             (min_confidence,),
         )
         pending = []
         batch_fingerprints: set[str] = set()
+        covered = {row[0] for row in self.connection.execute("SELECT identity FROM sent_metrics")}
         for row in rows:
+            keys = metric_ids(row, GuidanceAnalysis.model_validate_json(row["analysis_json"]))
+            if keys <= covered:
+                continue
             fingerprint = self._fingerprint(row)
             already_sent = self.connection.execute(
                 "SELECT 1 FROM sent_alerts WHERE fingerprint = ?", (fingerprint,)
@@ -111,26 +135,37 @@ class Store:
             if already_sent or fingerprint in batch_fingerprints:
                 continue
             batch_fingerprints.add(fingerprint)
+            covered.update(keys)
             pending.append(row)
         return pending
+
+    def record_delivery(self, accession: str, status: str) -> None:
+        self.connection.execute("INSERT OR REPLACE INTO delivery_attempts VALUES (?, ?)", (accession, status))
+        self.connection.commit()
 
     def export_latest_signals(self, path: Path, min_confidence: float) -> None:
         rows = self.connection.execute(
             """SELECT * FROM filings
             WHERE is_actionable = 1 AND confidence >= ?
-              AND processed_at >= datetime('now', '-7 days')
+              AND datetime(filed_at) >= datetime('now', '-7 days')
             ORDER BY filed_at DESC""",
             (min_confidence,),
         ).fetchall()
         signals = []
+        covered = set()
         for row in rows:
             analysis = GuidanceAnalysis.model_validate_json(row["analysis_json"])
+            keys = metric_ids(row, analysis)
+            if keys <= covered:
+                continue
+            covered.update(keys)
             signals.append({
+                "event_id": self._fingerprint(row),
                 "ticker": row["ticker"],
                 "company": row["company"],
                 "detected_at": row["filed_at"],
                 "source_bot": "guidance",
-                "signal": "guidance_up",
+                "signal": analysis.signal_type,
                 "summary": analysis.summary_ko,
                 "source_url": row["filing_url"],
                 "confidence": analysis.confidence,
@@ -143,6 +178,8 @@ class Store:
             "SELECT * FROM filings WHERE accession = ?", (accession,)
         ).fetchone()
         if row:
+            self.connection.executemany("INSERT OR IGNORE INTO sent_metrics VALUES (?)",
+                [(key,) for key in metric_ids(row, GuidanceAnalysis.model_validate_json(row["analysis_json"]))])
             self.connection.execute(
                 "INSERT OR IGNORE INTO sent_alerts (fingerprint, accession) VALUES (?, ?)",
                 (self._fingerprint(row), accession),
@@ -153,8 +190,15 @@ class Store:
         )
         self.connection.commit()
 
+        self.record_delivery(accession, "sent")
+
     @staticmethod
     def _fingerprint(row: sqlite3.Row) -> str:
+        analysis = GuidanceAnalysis.model_validate_json(row["analysis_json"])
+        return digest(sorted(metric_ids(row, analysis)))
+
+    @staticmethod
+    def legacy_fingerprint(row: sqlite3.Row) -> str:
         analysis = GuidanceAnalysis.model_validate_json(row["analysis_json"])
         actionable_metrics = [
             {

@@ -2,6 +2,9 @@ from __future__ import annotations
 
 import re
 import time
+import logging
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin
@@ -13,7 +16,7 @@ from .models import Filing
 
 ATOM = {"a": "http://www.w3.org/2005/Atom"}
 GUIDANCE_RE = re.compile(
-    r"\b(guidance|outlook|forecast|raises?|raised|raising|revises?|updated?\s+(?:annual|full[- ]year)\s+outlook)\b",
+    r"\b(guidance|outlook|forecast|raises?|raised|raising|revises?|returned?\s+to\s+profitability|turnaround|loss\s+narrowed|updated?\s+(?:annual|full[- ]year)\s+outlook)\b",
     re.IGNORECASE,
 )
 FINANCIAL_RE = re.compile(
@@ -25,6 +28,11 @@ FINANCIAL_RE = re.compile(
 class SecClient:
     def __init__(self, user_agent: str, *, timeout: int = 25) -> None:
         self.session = requests.Session()
+        self.session.mount("https://", HTTPAdapter(max_retries=Retry(
+            total=3, connect=3, read=3, status=3, backoff_factor=2,
+            status_forcelist=[429, 500, 502, 503, 504], allowed_methods=["GET"],
+            respect_retry_after_header=True)))
+        self.feed_errors: list[str] = []
         self.session.headers.update(
             {
                 "User-Agent": user_agent,
@@ -64,6 +72,7 @@ class SecClient:
         earnings_only: bool = False,
     ) -> list[Filing]:
         filings: dict[str, Filing] = {}
+        self.feed_errors = []
         tickers = self.ticker_map()
         cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
         for form in forms:
@@ -72,7 +81,12 @@ class SecClient:
                     "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent"
                     f"&type={form}&owner=include&count={count}&start={page * count}&output=atom"
                 )
-                root = ET.fromstring(self._get(url).content)
+                try:
+                    root = ET.fromstring(self._get(url).content)
+                except (requests.RequestException, ET.ParseError):
+                    self.feed_errors.append(f"{form}:page{page}")
+                    logging.getLogger(__name__).warning("SEC feed failed after retries: %s page %s", form, page)
+                    continue
                 entries = root.findall("a:entry", ATOM)
                 if not entries:
                     break
@@ -173,8 +187,6 @@ class SecClient:
     @staticmethod
     def is_candidate(text: str) -> bool:
         return bool(GUIDANCE_RE.search(text) and FINANCIAL_RE.search(text))
-
-
 
 
 

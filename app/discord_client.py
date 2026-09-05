@@ -76,6 +76,12 @@ class DiscordNotifier:
             if analysis.is_strong_new_guidance and not analysis.is_raised
             else "📈 가이던스 상향 기업"
         )
+        if analysis.one_off_evidence:
+            title = "⚠️ 일회성 요인 포함 가이던스"
+            fields.append({"name": "일회성 근거: 턴어라운드 후보 제외", "value": analysis.one_off_evidence[:1024], "inline": False})
+        elif analysis.is_turnaround:
+            title = "🔄 턴어라운드 후보"
+            fields.append({"name": "3개 분기 반전 확인", "value": ", ".join(analysis.validated_turnaround_metrics), "inline": False})
         return {
             "username": "Guidance Up Bot",
             "allowed_mentions": {"parse": []},
@@ -119,4 +125,3 @@ class DiscordNotifier:
         if low is None:
             return f"≤ {high:g} {unit}"
         return f"{low:g}–{high:g} {unit}"
-

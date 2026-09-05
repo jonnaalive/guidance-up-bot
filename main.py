@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import logging
 import time
+import sys
 
 from app.config import Settings
 from app.discord_client import DiscordNotifier
@@ -36,6 +37,8 @@ def main() -> None:
         stats = service.run_once()
         logging.info("스캔 완료: %s", stats)
         if args.once:
+            if stats.get("failed") or stats.get("feed_errors"):
+                sys.exit(1)
             return
         time.sleep(settings.poll_minutes * 60)
 

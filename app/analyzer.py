@@ -20,6 +20,14 @@ Score pick_score from 0 to 100 using only filing evidence: guidance increase mag
 Write pick_reason_ko as a persuasive but factual Korean investment thesis in 3-5 sentences. Populate catalysts_ko and risks_ko with concrete items.
 Never claim that guidance beat market expectations unless analyst consensus is explicitly included in the supplied text. Never use unsupported superlatives. Evidence must be a short exact excerpt from the supplied filing."""
 
+SYSTEM_PROMPT += """
+New annual guidance is introduced, not raised relative to last year's guidance.
+Compare only identical fiscal periods, metric definitions, accounting bases and units.
+For introduced guidance set is_strong_new_guidance only for explicit >=30% forward year-over-year growth tied to that guidance metric.
+Identify one-off drivers using one_off_evidence; distinguish a refund-driven increase from recurring operating improvement.
+Extract turnaround_trends only when three consecutive fiscal-quarter actual values of EPS, operating margin, FCF or net debt are explicitly available on the same basis. Use separate exact evidence for each value. Do not use annual totals, forecasts or reconstruct absent quarters. validated_turnaround_metrics must be empty; code computes it.
+"""
+
 
 class GuidanceAnalyzer:
     def __init__(self, api_key: str, model: str, *, min_interval: float = 5.0) -> None:
@@ -78,24 +86,58 @@ class GuidanceAnalyzer:
             has_comparison = (
                 metric.previous_low is not None or metric.previous_high is not None
             )
+            previous = [v for v in (metric.previous_low, metric.previous_high) if v is not None]
+            current = [v for v in (metric.current_low, metric.current_high) if v is not None]
+            invalid_range = any(low is not None and high is not None and low > high for low, high in [(metric.current_low, metric.current_high), (metric.previous_low, metric.previous_high)])
+            if invalid_range or (previous and current and sum(current) / len(current) <= sum(previous) / len(previous)):
+                metric.direction = "unknown"
+                continue
             if evidence_exists and (has_comparison or explicit_raise.search(evidence)):
                 valid_raise = True
             else:
                 metric.direction = "unknown"
-        analysis.is_raised = analysis.is_raised and valid_raise
+        analysis.is_raised = analysis.is_raised and valid_raise and not any(m.direction == "lowered" for m in analysis.metrics)
         analysis.is_strong_new_guidance = (
             analysis.is_strong_new_guidance
-            and GuidanceAnalyzer._has_strong_yoy_growth(source)
             and any(
                 metric.direction == "introduced"
                 and re.sub(r"\s+", " ", metric.evidence).strip().lower() in source
+                and GuidanceAnalyzer._has_strong_yoy_growth(GuidanceAnalyzer._evidence_context(source, metric.evidence))
                 for metric in analysis.metrics
                 if metric.evidence.strip()
             )
         )
-        if not (analysis.is_raised or analysis.is_strong_new_guidance):
+        one_off = re.sub(r"\s+", " ", analysis.one_off_evidence).strip().lower()
+        analysis.one_off_evidence = analysis.one_off_evidence if one_off and one_off in source else ""
+        analysis.validated_turnaround_metrics = []
+        for trend in analysis.turnaround_trends:
+            if len(trend.points) != 3:
+                continue
+            periods = []
+            valid = True
+            for point in trend.points:
+                period = re.fullmatch(r"(?:FY)?(20\d{2})\s*Q([1-4])", point.period, re.I)
+                evidence = re.sub(r"\s+", " ", point.evidence).strip().lower()
+                numbers = re.findall(r"-?\d+(?:\.\d+)?", evidence.replace(",", "").replace("(", "-").replace(")", ""))
+                if not period or not evidence or evidence not in source or point.value not in [float(n) for n in numbers]:
+                    valid = False
+                    break
+                periods.append(int(period[1]) * 4 + int(period[2]))
+            if not valid or periods != list(range(periods[0], periods[0] + 3)):
+                continue
+            a, b, c = [p.value for p in trend.points]
+            improving = (b >= a and c < b) if trend.metric == "net_debt" else ((b <= a and c > b) or (a < 0 and a < b < c))
+            if improving:
+                analysis.validated_turnaround_metrics.append(trend.metric)
+        if not (analysis.is_raised or analysis.is_strong_new_guidance or analysis.is_turnaround):
             analysis.confidence = min(analysis.confidence, 0.49)
         return analysis
+
+    @staticmethod
+    def _evidence_context(source: str, evidence: str) -> str:
+        evidence = re.sub(r"\s+", " ", evidence).strip().lower()
+        start = source.find(evidence)
+        return source[start:start + len(evidence) + 200] if start >= 0 else ""
 
     @staticmethod
     def _has_strong_yoy_growth(source: str) -> bool:
@@ -114,5 +156,3 @@ class GuidanceAnalyzer:
         if wait > 0:
             time.sleep(wait)
         self._last_request = time.monotonic()
-
-
