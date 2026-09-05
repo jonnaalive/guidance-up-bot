@@ -22,7 +22,14 @@ gh workflow run signal-hub.yml --repo jonnaalive/guidance-up-bot -f review_ticke
 
 `review_until`을 주면 완료 기준 시각 또는 보류 종료일로 사용한다. 생략 시 완료는 현재, 보류는 30일이다. 완료 시점까지의 사건은 조사 권유에서 제외하고 이후 새 사건은 `new-factory-update` 검토로 분류한다. 종목 영구 차단은 아니다.
 
-Discord 연결은 발신 전용 웹훅이다. Discord 안에 쓴 답장을 읽거나 슬래시 명령을 받는 봇 계정은 아직 연결돼 있지 않다.
+개인 Discord 채널에서는 일일보고의 분석 검토 후보에 붙은 투표로 `분석 완료`, `30일 보류`, `다시 검토`를 선택할 수 있다. 웹훅으로 보낸 투표 메시지를 조회해 결과를 읽는다. 매시 7분·37분과 일일보고 전 확인하며 Actions 지연이 생길 수 있다. 투표는 32일 뒤 만료된다. 일반 텍스트 답장이나 슬래시 명령은 읽지 않는다.
+
+```sh
+gh workflow run signal-hub.yml --repo jonnaalive/guidance-up-bot -f polls_only=true
+gh workflow run signal-hub.yml --repo jonnaalive/guidance-up-bot -f test_poll=true
+```
+
+첫 명령은 새 메시지 없이 결과만 확인한다. 두 번째는 실제 종목 상태를 바꾸지 않는 테스트 투표 한 개를 생성하고 조회한다. 반복해도 같은 테스트 투표를 다시 만들지 않는다.
 
 ### 발송 없는 운영 점검
 

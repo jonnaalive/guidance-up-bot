@@ -1,10 +1,19 @@
 name: Investment signal hub digest
 on:
   schedule:
+    - cron: "7,37 * * * *"
     - cron: "30 13 * * *"
     - cron: "0 12 * * 0"
   workflow_dispatch:
     inputs:
+      polls_only:
+        description: '투표 결과만 확인 (보고서 발송 없음)'
+        type: boolean
+        default: false
+      test_poll:
+        description: '연결 테스트 투표 1개 생성·조회 (실제 종목 상태 변경 없음)'
+        type: boolean
+        default: false
       weekly:
         type: boolean
         default: false
@@ -54,9 +63,15 @@ jobs:
           REVIEW_TICKER: ${{ inputs.review_ticker }}
           REVIEW_STATUS: ${{ inputs.review_status }}
           REVIEW_UNTIL: ${{ inputs.review_until }}
+          POLLS_ONLY: ${{ inputs.polls_only }}
+          TEST_POLL: ${{ inputs.test_poll }}
         run: |
           if [ -n "$REVIEW_TICKER" ]; then
             python hub/hub.py --review-ticker "$REVIEW_TICKER" --review-status "$REVIEW_STATUS" --review-until "$REVIEW_UNTIL"
+          elif [ "$TEST_POLL" = 'true' ]; then
+            python hub/hub.py --test-poll
+          elif [ "$POLLS_ONLY" = 'true' ] || [ '${{ github.event.schedule }}' = '7,37 * * * *' ]; then
+            python hub/hub.py --polls-only
           elif [ "${{ github.event.schedule }}" = "0 12 * * 0" ] || [ "${{ inputs.weekly }}" = "true" ]; then
             python hub/hub.py --weekly
           else
