@@ -5,6 +5,7 @@ from datetime import datetime
 import requests
 
 from .models import GuidanceAnalysis
+from .market_cap import market_cap_label, UNAVAILABLE
 
 
 class DiscordNotifier:
@@ -15,13 +16,13 @@ class DiscordNotifier:
     def send(self, row) -> None:
         response = requests.post(
             self.webhook_url + ("&" if "?" in self.webhook_url else "?") + "wait=true",
-            json=self.build_payload(row),
+            json=self.build_payload(row, market_cap=market_cap_label(row["ticker"])),
             timeout=self.timeout,
         )
         response.raise_for_status()
 
     @classmethod
-    def build_payload(cls, row) -> dict:
+    def build_payload(cls, row, *, market_cap: str = UNAVAILABLE) -> dict:
         analysis = GuidanceAnalysis.model_validate_json(row["analysis_json"])
         ticker_label = f" ({row['ticker']})" if row["ticker"] else ""
         company_label = f"{row['company']}{ticker_label}"
@@ -38,6 +39,7 @@ class DiscordNotifier:
             description += "\n\n" + "\n".join(metric_lines)
 
         fields = [
+            {"name": "시가총액", "value": market_cap, "inline": False},
             {
                 "name": f"🏆 {cls._month_label(row['filed_at'])}의 Pick: {row['ticker'] or row['company']}",
                 "value": f"**Pick 점수: {analysis.pick_score}/100**",

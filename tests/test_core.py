@@ -106,6 +106,8 @@ def test_strong_new_guidance_is_actionable(tmp_path: Path):
     row = store.pending_alerts(0.8)[0]
     embed = DiscordNotifier.build_payload(row)["embeds"][0]
     assert embed["title"] == "🚀 강한 신규 가이던스 기업"
+    assert embed["fields"][0] == {"name": "시가총액", "value": "조회 불가", "inline": False}
+    assert DiscordNotifier.build_payload(row, market_cap="12.50억 USD")["embeds"][0]["fields"][0]["value"] == "12.50억 USD"
 
 
 def test_store_pending_and_mark_notified(tmp_path: Path):
@@ -135,7 +137,7 @@ def test_pick_message_payload(tmp_path: Path):
     row = store.pending_alerts(0.8)[0]
     embed = DiscordNotifier.build_payload(row)["embeds"][0]
     assert embed["title"] == "📈 가이던스 상향 기업"
-    assert "7월의 Pick: EXM" in embed["fields"][0]["name"]
+    assert any("7월의 Pick: EXM" in field["name"] for field in embed["fields"])
     assert any(field["name"] == "선정 이유" for field in embed["fields"])
     assert any(field["name"] == "확인할 리스크" for field in embed["fields"])
 
@@ -143,8 +145,6 @@ def test_pick_message_payload(tmp_path: Path):
 def test_range_formatting():
     assert DiscordNotifier._range(10, 12, "USD") == "10–12 USD"
     assert DiscordNotifier._range(None, None, "%") == "이전 수치 미상"
-
-
 
 
 
