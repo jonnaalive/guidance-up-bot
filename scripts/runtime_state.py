@@ -6,6 +6,7 @@ No webhook URLs, environment variables, or source text are included in this arch
 import argparse
 import base64
 import gzip
+import hashlib
 import json
 import os
 import sqlite3
@@ -63,7 +64,12 @@ def main():
             db.execute("PRAGMA wal_checkpoint(TRUNCATE)")
     payload = {name: base64.b64encode((args.directory / name).read_bytes()).decode()
         for name in allowed if (args.directory / name).is_file()}
-    content = base64.b64encode(gzip.compress(json.dumps(payload).encode(), mtime=0)).decode()
+    compressed = gzip.compress(json.dumps(payload).encode(), mtime=0)
+    blob_sha = hashlib.sha1(f"blob {len(compressed)}\0".encode() + compressed).hexdigest()
+    if current and current["sha"] == blob_sha:
+        print("Persistent state unchanged")
+        return
+    content = base64.b64encode(compressed).decode()
     if not current:
         ref = session.get(base + "/git/ref/heads/main", timeout=30)
         ref.raise_for_status()

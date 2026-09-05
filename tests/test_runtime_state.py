@@ -1,5 +1,6 @@
 import base64
 import gzip
+import hashlib
 import json
 import sys
 from unittest.mock import Mock
@@ -51,3 +52,22 @@ def test_restore_api_failure_is_not_empty_state(tmp_path, monkeypatch):
     with pytest.raises(RuntimeError, match="API unavailable"):
         runtime_state.main()
     assert not (tmp_path / "runtime").exists()
+
+
+def test_unchanged_poll_state_does_not_create_commit(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv("GH_TOKEN", "test-token")
+    monkeypatch.setenv("GITHUB_REPOSITORY", "owner/repo")
+    folder = tmp_path / "runtime"
+    folder.mkdir()
+    (folder / "delivery.json").write_bytes(b'{"polls": {}}')
+    payload = {"delivery.json": base64.b64encode(b'{"polls": {}}').decode()}
+    raw = gzip.compress(json.dumps(payload).encode(), mtime=0)
+    sha = hashlib.sha1(f"blob {len(raw)}\0".encode() + raw).hexdigest()
+    (tmp_path / ".runtime-digest-state.json").write_text(json.dumps({"sha": sha}))
+    session = Mock()
+    session.get.return_value = response({"sha": sha})
+    monkeypatch.setattr(runtime_state.requests, "Session", lambda: session)
+    monkeypatch.setattr(sys, "argv", ["runtime_state", "save", "digest-state", "runtime"])
+    runtime_state.main()
+    assert not session.put.called
