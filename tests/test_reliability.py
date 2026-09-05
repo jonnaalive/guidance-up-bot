@@ -52,6 +52,8 @@ def test_uncertain_delivery_is_held_until_review(tmp_path):
     assert not store.pending_alerts(0.8)
     store.record_delivery(filing.accession, "uncertain")
     assert not store.pending_alerts(0.8)
+    store.save(filing.model_copy(update={"accession": "uncertain-cross-form"}), sample_analysis())
+    assert not store.pending_alerts(0.8)
     store.record_delivery(filing.accession, "failed")
     assert len(store.pending_alerts(0.8)) == 1
 

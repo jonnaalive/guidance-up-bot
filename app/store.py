@@ -124,6 +124,8 @@ class Store:
         pending = []
         batch_fingerprints: set[str] = set()
         covered = {row[0] for row in self.connection.execute("SELECT identity FROM sent_metrics")}
+        for held in self.connection.execute("SELECT f.* FROM filings f JOIN delivery_attempts d USING (accession) WHERE d.status IN ('sending', 'uncertain') AND f.analysis_json IS NOT NULL"):
+            covered.update(metric_ids(held, GuidanceAnalysis.model_validate_json(held["analysis_json"])))
         for row in rows:
             keys = metric_ids(row, GuidanceAnalysis.model_validate_json(row["analysis_json"]))
             if keys <= covered:
