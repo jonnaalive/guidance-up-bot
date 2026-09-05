@@ -1,25 +1,28 @@
 [
   {
+    "event_id": "3e107dbd806aa3c13cc111f87ed2b4c910c183242652b47d328c557e20ab9444",
     "ticker": "DOCU",
     "company": "DOCUSIGN, INC.",
     "detected_at": "2026-09-03T16:09:53-04:00",
     "source_bot": "guidance",
-    "signal": "guidance_up",
+    "signal": "new_guidance",
     "summary": "Docusign은 AI 기반의 지능형 계약 관리(IAM) 플랫폼의 모멘텀 가속화를 이유로 2027 회계연도 가이던스를 상향 조정했습니다. 연간 매출 가이던스는 34.99억~35.07억 달러로 제시되었으며, ARR 성장률 가이던스도 8.50%~9.00%로 설정되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/0001261333-26-000088-index.htm",
     "confidence": 1.0
   },
   {
+    "event_id": "ac1c9bbca1b5c54ae308d690b27145bd7e4a3f274cde925ab82381f8512bdb57",
     "ticker": "ZS",
     "company": "Zscaler, Inc.",
     "detected_at": "2026-09-03T16:08:39-04:00",
     "source_bot": "guidance",
-    "signal": "guidance_up",
+    "signal": "new_guidance",
     "summary": "Zscaler는 2027 회계연도 1분기 및 연간 가이던스를 신규 발표했습니다. 2027 회계연도 연간 매출은 약 39.08억~39.38억 달러, 비GAAP 주당순이익(EPS)은 4.86~4.90달러로 제시되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/0001713683-26-000156-index.htm",
     "confidence": 1.0
   },
   {
+    "event_id": "6a0d94ef9d3b9d9cdc9d3bed6fd0382808d8bf056bdfc336a6b972ca32d53292",
     "ticker": "ASAN",
     "company": "Asana, Inc.",
     "detected_at": "2026-09-03T16:08:01-04:00",
@@ -30,6 +33,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "a4135f620455e4f96c3aaaa5a6dfd0d0d7a44dfcc1ecf50d135e10fea25f129a",
     "ticker": "BBCP",
     "company": "Concrete Pumping Holdings, Inc.",
     "detected_at": "2026-09-03T16:07:12-04:00",
@@ -40,6 +44,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "b8aed824f1317c5d1cbd5e30ad0acbbf8a87cc6034253345e9043af457d00c59",
     "ticker": "CURV",
     "company": "Torrid Holdings Inc.",
     "detected_at": "2026-09-03T16:06:08-04:00",
@@ -50,6 +55,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "36edffb63f45529dc5925018962306203f42103bc8875c5e2cd3d7d6eadb1c2f",
     "ticker": "TTC",
     "company": "TORO CO",
     "detected_at": "2026-09-03T08:44:31-04:00",
@@ -60,6 +66,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "2810c8fb5b756266106243cdb68c5a234fdcda56346e1cb4e5c0e2f46349ddd6",
     "ticker": "DLTH",
     "company": "DULUTH HOLDINGS INC.",
     "detected_at": "2026-09-03T07:17:40-04:00",
@@ -70,6 +77,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "2735b3585a517f819346436c3262a18e3f341d5602d2f86b0343796846420fed",
     "ticker": "GCO",
     "company": "GENESCO INC",
     "detected_at": "2026-09-03T07:15:16-04:00",
@@ -80,6 +88,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "b52b9fcdc6baf6e392f72ad71ca0efd922b0d4cf378c6bf513309fb349e1542d",
     "ticker": "CIEN",
     "company": "CIENA CORP",
     "detected_at": "2026-09-03T07:07:42-04:00",
@@ -90,6 +99,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "3e55f6337e72d3ed6690c40ce3191608955ffa759df47db2ba14197105726450",
     "ticker": "VSXY",
     "company": "Victoria's Secret & Co.",
     "detected_at": "2026-09-03T07:01:56-04:00",
@@ -100,6 +110,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "d1cf9c7fe6558f2acd76265220821dc9653238cfc95c818c88931e32402efd4b",
     "ticker": "FIVE",
     "company": "FIVE BELOW, INC",
     "detected_at": "2026-09-02T16:17:01-04:00",
@@ -110,6 +121,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "376e67ac76913fff3f6d84b345af7c59d912abd084e7e5123d625bc225ca548d",
     "ticker": "SNOW",
     "company": "Snowflake Inc.",
     "detected_at": "2026-09-02T16:08:29-04:00",
@@ -120,6 +132,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "eda0fc0f0805c7c0e8462fc431aaf4731da83afb60d01b2e40be4047ba9db6ed",
     "ticker": "HPE",
     "company": "Hewlett Packard Enterprise Co",
     "detected_at": "2026-09-02T16:06:52-04:00",
@@ -130,6 +143,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "c4d63b9e08d4d6d15394775b2daf12ac9c7fda307ac3ae6dec00ee45b3e6b51c",
     "ticker": "NTAP",
     "company": "NetApp, Inc.",
     "detected_at": "2026-09-02T16:05:16-04:00",
@@ -140,6 +154,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "d94c571e6691e84906b9c26ec643e525f8dbad0fb8da42adca4b1baaeebd9abd",
     "ticker": "TREX",
     "company": "TREX CO INC",
     "detected_at": "2026-09-02T08:45:15-04:00",
@@ -150,6 +165,7 @@
     "confidence": 0.9
   },
   {
+    "event_id": "caaec56a5b570e9b01f832d06c904a77c296a8513d3fcf3d586bebf0727e8b54",
     "ticker": "TREX",
     "company": "TREX CO INC",
     "detected_at": "2026-09-02T08:45:14-04:00",
@@ -160,6 +176,7 @@
     "confidence": 0.9
   },
   {
+    "event_id": "977f87c986365e426f0d2db6de86f3878b42819977cd8f24f4811d4c044c79c2",
     "ticker": "GIII",
     "company": "G III APPAREL GROUP LTD /DE/",
     "detected_at": "2026-09-02T07:30:18-04:00",
@@ -170,6 +187,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "92d9c606592cd41724fd0daab9adb58b51aeaadfc1d9b28ea05675c29648c8e1",
     "ticker": "AIN",
     "company": "ALBANY INTERNATIONAL CORP /DE/",
     "detected_at": "2026-09-01T16:37:25-04:00",
@@ -180,16 +198,18 @@
     "confidence": 1.0
   },
   {
+    "event_id": "29869f3f09559af596c906d85118a5966b7da49cec59757c45e68275356942d5",
     "ticker": "PANW",
     "company": "Palo Alto Networks Inc",
     "detected_at": "2026-09-01T16:32:15-04:00",
     "source_bot": "guidance",
-    "signal": "guidance_up",
+    "signal": "new_guidance",
     "summary": "팔로알토 네트웍스는 2027 회계연도 1분기 및 연간 가이던스를 신규 제시했습니다. 2027 회계연도 연간 매출 가이던스는 141억~142억 달러, 비GAAP 주당순이익(EPS)은 4.16~4.19달러로 설정되었습니다. 이전 가이던스가 제공되지 않아 직접적인 상향 여부는 판단할 수 없으나, 강력한 실적과 AI 보안 수요를 바탕으로 견고한 성장 전망을 제시했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000019/0001327567-26-000019-index.htm",
     "confidence": 1.0
   },
   {
+    "event_id": "e2e43ffacf890442274d2d1654b24815ec69b6e2ae328ada77cb49ba5157e7ee",
     "ticker": "DELL",
     "company": "Dell Technologies Inc.",
     "detected_at": "2026-09-01T16:10:14-04:00",
@@ -200,16 +220,18 @@
     "confidence": 1.0
   },
   {
+    "event_id": "2eb8d1f14be499275db9d20d0549530151e001f032c3c8c02ef50558663b5d9d",
     "ticker": "CRDO",
     "company": "Credo Technology Group Holding Ltd",
     "detected_at": "2026-09-01T16:08:16-04:00",
     "source_bot": "guidance",
-    "signal": "guidance_up",
+    "signal": "new_guidance",
     "summary": "Credo Technology는 2027 회계연도 2분기 가이던스로 매출 5억 2,500만~5억 3,500만 달러를 제시했습니다. 이전 가이던스가 제공되지 않아 직접적인 상향 여부는 확인되지 않으나, AI 인프라 확장에 따른 강력한 연결성 솔루션 수요를 바탕으로 견조한 성장세를 이어가고 있습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/0001628280-26-059795-index.htm",
     "confidence": 1.0
   },
   {
+    "event_id": "7b3f2ec67892f86176f1d0f7b0c0fa24ea690c569c35c1db63fea12ae32791d4",
     "ticker": "MDB",
     "company": "MongoDB, Inc.",
     "detected_at": "2026-09-01T16:07:56-04:00",
@@ -220,6 +242,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "8069139d0a04240e52e17e1dc1633d72722d9561e49f62fcb0abaf8992eb973e",
     "ticker": "MMED",
     "company": "MiniMed Group, Inc.",
     "detected_at": "2026-09-01T06:50:10-04:00",
@@ -230,6 +253,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "3c694888c04bcfbbfe9de34fdda402a8fd4a212fc9618b0598c71549aa8a813e",
     "ticker": "MDT",
     "company": "Medtronic plc",
     "detected_at": "2026-09-01T06:47:19-04:00",
@@ -240,6 +264,7 @@
     "confidence": 1.0
   },
   {
+    "event_id": "2ce814119439556b0dc203c23e1123ea602c4725d89ce6fbcfd0a0a8f4c0cb43",
     "ticker": "SAIC",
     "company": "Science Applications International Corp",
     "detected_at": "2026-08-31T06:55:28-04:00",
