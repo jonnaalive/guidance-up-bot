@@ -262,16 +262,5 @@
     "summary": "메드트로닉은 FY27 유기적 매출 성장률 가이던스를 기존 6.75~7.25%에서 7.25~7.75%로, 비GAAP 희석 EPS 가이던스를 기존 5.90~6.00달러에서 5.94~6.00달러로 상향 조정했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1613103/000162828026059697/0001628280-26-059697-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "2ce814119439556b0dc203c23e1123ea602c4725d89ce6fbcfd0a0a8f4c0cb43",
-    "ticker": "SAIC",
-    "company": "Science Applications International Corp",
-    "detected_at": "2026-08-31T06:55:28-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "SAIC은 2027 회계연도 가이던스를 상향 조정했습니다. 매출은 기존 7.0B~7.2B USD에서 7.2B~7.3B USD로, 조정 EPS는 9.90~10.10 USD에서 10.65~10.75 USD로 상향되었습니다. 조정 EBITDA 및 마진율 가이던스 또한 상향되었으며, 이는 견고한 연초 성과를 반영한 결과입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1571123/000157112326000131/0001571123-26-000131-index.htm",
-    "confidence": 1.0
   }
 ]
