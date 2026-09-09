@@ -1,5 +1,38 @@
 [
   {
+    "event_id": "640554966c5460e51eb4b8d1f21f8913b67fa7ac43d7aabaec867697785938a3",
+    "ticker": "UFG",
+    "company": "Uni-Fuels Holdings Ltd",
+    "detected_at": "2026-09-09T08:56:44-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Uni-Fuels는 상반기 실적 호조와 지속적인 상업적 모멘텀을 반영하여 2026년 연간 매출 가이던스를 기존 3억 2,000만~3억 4,000만 달러에서 3억 4,000만~3억 6,000만 달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2021688/000149315226041902/0001493152-26-041902-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "693701ff1c24e5f7fa4dcf15e754b8203261dfd8e80896e7d23d3beeb94783de",
+    "ticker": "ASO",
+    "company": "Academy Sports & Outdoors, Inc.",
+    "detected_at": "2026-09-09T08:02:41-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Academy Sports + Outdoors는 2026 회계연도 가이던스를 업데이트하여 주당순이익(EPS) 및 조정 EPS, 총마진율, 조정 잉여현금흐름(FCF) 전망치를 상향 조정했습니다. GAAP EPS는 기존 $5.95~$6.35에서 $6.05~$6.45로, 조정 EPS는 $6.40~$6.80에서 $6.50~$6.90으로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1817358/000181735826000146/0001817358-26-000146-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "091266f25ae71ed9fbe9aca76bf2b20be83a9c950aebeafc0d589ee73a49fbe6",
+    "ticker": "CAL",
+    "company": "CALERES INC",
+    "detected_at": "2026-09-09T07:49:15-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Caleres는 2026년 연간 조정 EPS 가이던스를 기존 1.40~1.65달러에서 1.50~1.65달러로 상향 조정했습니다. 브랜드 포트폴리오의 강력한 유기적 성장과 시장 점유율 확대가 주요 동력입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/14707/000001470726000138/0000014707-26-000138-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "e55ba2bb6c1640811d63d75575b0c12073f2814b1b4f794fe3c7e76374f5767f",
     "ticker": "SUNB",
     "company": "Sunbelt Rentals Holdings, Inc.",
@@ -207,27 +240,5 @@
     "summary": "NetApp은 2027 회계연도 1분기 실적 발표와 함께 연간 매출 및 주당순이익(EPS) 가이던스를 상향 조정했습니다. 2027 회계연도 연간 매출 가이던스는 79.75억~82.25억 달러, 비GAAP EPS 가이던스는 9.73~10.03달러로 제시되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1002047/000100204726000003/0001002047-26-000003-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "d94c571e6691e84906b9c26ec643e525f8dbad0fb8da42adca4b1baaeebd9abd",
-    "ticker": "TREX",
-    "company": "TREX CO INC",
-    "detected_at": "2026-09-02T08:45:15-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Trex는 강력한 시장 수요와 실행력을 바탕으로 연간 매출 가이던스를 상향 조정했습니다. 이번 상향은 유통망 전략 변경에 따른 일시적 재고 변동이 아닌, 근본적인 수요 강세와 운영 효율성에 기인한 것임을 명확히 했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526379433/0001193125-26-379433-index.htm",
-    "confidence": 0.9
-  },
-  {
-    "event_id": "caaec56a5b570e9b01f832d06c904a77c296a8513d3fcf3d586bebf0727e8b54",
-    "ticker": "TREX",
-    "company": "TREX CO INC",
-    "detected_at": "2026-09-02T08:45:14-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Trex는 2분기 실적 호조와 수요 모멘텀 가속화에 힘입어 연간 가이던스를 상향 조정했습니다. 구체적인 수치는 명시되지 않았으나, 경영진은 수요 강세와 전략적 우선순위 달성을 근거로 연간 가이던스 상향 및 자사주 매입 규모 확대를 발표했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526379434/0001193125-26-379434-index.htm",
-    "confidence": 0.9
   }
 ]
