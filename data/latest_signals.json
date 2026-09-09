@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "36ea4a56af00365ec913275e960942f89d43bea26e75c63f7dadf39f3963d9fe",
+    "ticker": "GLOO",
+    "company": "Gloo Holdings, Inc.",
+    "detected_at": "2026-09-09T16:10:01-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Gloo Holdings은 2026 회계연도 매출 가이던스를 2억 달러로 상향 조정했습니다. 이전 가이던스 수치는 명시되지 않았으나, 경영진은 연간 매출이 전년 대비 두 배 이상 증가할 것으로 전망하며 성장세를 강조했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2069785/000119312526386446/0001193125-26-386446-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "640554966c5460e51eb4b8d1f21f8913b67fa7ac43d7aabaec867697785938a3",
     "ticker": "UFG",
     "company": "Uni-Fuels Holdings Ltd",
@@ -195,50 +206,6 @@
     "signal": "guidance_up",
     "summary": "빅토리아 시크릿은 상반기 실적 호조와 하반기 모멘텀을 반영하여 2026 회계연도 연간 순매출 가이던스를 기존 70.3억~71.3억 달러에서 71.0억~71.8억 달러로, 조정 영업이익 가이던스를 기존 5.5억~5.8억 달러에서 5.6억~5.9억 달러로 상향 조정했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000019/0001856437-26-000019-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "d1cf9c7fe6558f2acd76265220821dc9653238cfc95c818c88931e32402efd4b",
-    "ticker": "FIVE",
-    "company": "FIVE BELOW, INC",
-    "detected_at": "2026-09-02T16:17:01-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Five Below은 2026 회계연도 전체 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 5.40~5.48십억 달러에서 5.63~5.71십억 달러로, 조정 EPS는 기존 8.65~9.05달러에서 9.83~10.31달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000023/0001177609-26-000023-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "376e67ac76913fff3f6d84b345af7c59d912abd084e7e5123d625bc225ca548d",
-    "ticker": "SNOW",
-    "company": "Snowflake Inc.",
-    "detected_at": "2026-09-02T16:08:29-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Snowflake는 2027 회계연도 연간 제품 매출 가이던스를 기존 58.4억 달러(31% 성장)에서 60.7억 달러(36% 성장)로 상향 조정했습니다. 또한 비GAAP 영업이익률 가이던스도 기존 13.5%에서 14.5%로 상향하며 성장과 수익성 개선을 동시에 달성하고 있습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/0001640147-26-000033-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "eda0fc0f0805c7c0e8462fc431aaf4731da83afb60d01b2e40be4047ba9db6ed",
-    "ticker": "HPE",
-    "company": "Hewlett Packard Enterprise Co",
-    "detected_at": "2026-09-02T16:06:52-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "HPE는 2026 회계연도 3분기 실적 호조와 기록적인 수주 잔고를 바탕으로 FY26 및 FY27 가이던스를 상향 조정했습니다. FY26 매출 성장률 전망치를 34~37%로 높였으며, GAAP 및 Non-GAAP EPS 전망치와 잉여현금흐름(FCF) 목표치도 상향했습니다. 또한 FY27 성장 프레임워크를 상향하여 매출 성장률 13~17%, Non-GAAP EPS 성장률 16~20%, FCF 50억 달러 이상을 제시했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000078/0001645590-26-000078-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "c4d63b9e08d4d6d15394775b2daf12ac9c7fda307ac3ae6dec00ee45b3e6b51c",
-    "ticker": "NTAP",
-    "company": "NetApp, Inc.",
-    "detected_at": "2026-09-02T16:05:16-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "NetApp은 2027 회계연도 1분기 실적 발표와 함께 연간 매출 및 주당순이익(EPS) 가이던스를 상향 조정했습니다. 2027 회계연도 연간 매출 가이던스는 79.75억~82.25억 달러, 비GAAP EPS 가이던스는 9.73~10.03달러로 제시되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1002047/000100204726000003/0001002047-26-000003-index.htm",
     "confidence": 1.0
   }
 ]
