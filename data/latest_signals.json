@@ -1,5 +1,49 @@
 [
   {
+    "event_id": "e55ba2bb6c1640811d63d75575b0c12073f2814b1b4f794fe3c7e76374f5767f",
+    "ticker": "SUNB",
+    "company": "Sunbelt Rentals Holdings, Inc.",
+    "detected_at": "2026-09-09T07:09:23-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Sunbelt Rentals은 2027 회계연도 1분기 실적 호조와 사업 전반의 모멘텀을 바탕으로 연간 가이던스를 상향 조정했습니다. 총 매출 성장률 가이던스는 기존 4.5~7.5%에서 6~9%로, 렌탈 매출 성장률은 5~8%에서 7~10%로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2083785/000162828026061014/0001628280-26-061014-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "402eb560a188c687db5dff28592e6ef30eae2af49dd1ccd5ae5b96a03d3228f5",
+    "ticker": "CHWY",
+    "company": "Chewy, Inc.",
+    "detected_at": "2026-09-09T07:04:35-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Chewy는 2026 회계연도 2분기 실적 발표에서 연간 매출 및 수익성 가이던스를 상향 조정했습니다. 경영진은 반복 매출 기반의 견고함과 지속적인 고객 증가, 규율 있는 실행력을 상향 조정의 근거로 제시했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1766502/000162828026061011/0001628280-26-061011-index.htm",
+    "confidence": 0.8
+  },
+  {
+    "event_id": "1176b5c5fc214079682cfb9e8c774a83b4999257a3165a0905e454338880a41e",
+    "ticker": "SIG",
+    "company": "SIGNET JEWELERS LTD",
+    "detected_at": "2026-09-09T06:55:44-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "시그넷 주얼러스는 2027 회계연도 연간 조정 EPS 가이던스를 기존 9.20~11.00달러에서 10.45~12.15달러로 상향 조정했습니다. 또한 조정 영업이익 가이던스를 5.35억~6.05억 달러(기존 4.8억~5.6억 달러)로, 조정 EBITDA 가이던스를 7.3억~8.0억 달러(기존 6.65억~7.45억 달러)로 상향했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000227/0000832988-26-000227-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "4c9c854838093208c7e53facadb5001f42cfa3944e10bcc9ceaff31d76964f84",
+    "ticker": "JILL",
+    "company": "J.Jill, Inc.",
+    "detected_at": "2026-09-09T06:45:15-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "J.Jill은 2026 회계연도 전체 가이던스를 상향 조정했습니다. 이번 상향은 관세 환급금 수령 및 관세율 하락에 따른 비용 절감 효과를 반영한 결과입니다. 3분기 가이던스도 함께 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1687932/000119312526385874/0001193125-26-385874-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "a9b4e56137adc5a0ea18804529764db953352211a8a0536a24d9d51af4891fae",
     "ticker": "GME",
     "company": "GameStop Corp.",
@@ -185,16 +229,5 @@
     "summary": "Trex는 2분기 실적 호조와 수요 모멘텀 가속화에 힘입어 연간 가이던스를 상향 조정했습니다. 구체적인 수치는 명시되지 않았으나, 경영진은 수요 강세와 전략적 우선순위 달성을 근거로 연간 가이던스 상향 및 자사주 매입 규모 확대를 발표했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526379434/0001193125-26-379434-index.htm",
     "confidence": 0.9
-  },
-  {
-    "event_id": "977f87c986365e426f0d2db6de86f3878b42819977cd8f24f4811d4c044c79c2",
-    "ticker": "GIII",
-    "company": "G III APPAREL GROUP LTD /DE/",
-    "detected_at": "2026-09-02T07:30:18-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "G-III Apparel Group은 2027 회계연도 순이익 가이던스를 상향 조정했습니다. GAAP 기준 순이익은 1억 8,100만~1억 8,500만 달러(주당 4.10~4.20달러)로 예상되며, 이전 가이던스 대비 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/821002/000095014226002481/0000950142-26-002481-index.htm",
-    "confidence": 1.0
   }
 ]
