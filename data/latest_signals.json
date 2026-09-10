@@ -1,5 +1,49 @@
 [
   {
+    "event_id": "acafe86d13855dfcc2cd5f434542b9196a53f00327833b043fedc785d067de95",
+    "ticker": "VNCE",
+    "company": "VINCE HOLDING CORP.",
+    "detected_at": "2026-09-10T07:01:15-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "빈스 홀딩스(VNCE)는 2026 회계연도 전체 가이던스를 상향 조정했습니다. 이번 상향은 IEEPA 관세 환급 효과를 반영한 결과이며, 매출 성장률은 전년 대비 8~10%, 조정 영업이익률 7.5~8.0%, 조정 EBITDA 마진 9.0~9.5%를 제시했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1579157/000119312526387188/0001193125-26-387188-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "bf2411c42149551ee0e3e991484275a04167501b4ee6620a13fc3b58c70ab301",
+    "ticker": "M",
+    "company": "Macy's, Inc.",
+    "detected_at": "2026-09-10T06:57:29-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "메이시스(Macy's)는 2분기 실적 호조에 힘입어 2026 회계연도 연간 가이던스를 상향 조정했습니다. 순매출 가이던스는 기존 215억~217.5억 달러에서 216.75억~218.25억 달러로, 조정 주당순이익(EPS)은 기존 2.00~2.20달러에서 2.15~2.35달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/794367/000162828026061217/0001628280-26-061217-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "da5884ef6331f3b86856a11712485ba3cd851d9baf1f1d55e7bf90fc6918618f",
+    "ticker": "DBI",
+    "company": "Designer Brands Inc.",
+    "detected_at": "2026-09-10T06:51:20-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Designer Brands는 2026년 2분기 실적 호조와 3분기 초기 매출 흐름 개선을 근거로 연간 가이던스를 상향 조정했습니다. 조정 주당순이익(EPS) 가이던스는 기존 $0.28~$0.38에서 $0.47~$0.52로 상향되었으며, 순매출 변동률 가이던스는 기존 -1%~+1%에서 0%~+1%로 조정되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1319947/000131994726000048/0001319947-26-000048-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "bdb5250f19bf24d72bf428b26cb19fb60e7f5a5aa30fea07c980b2406ad5df30",
+    "ticker": "CDLR",
+    "company": "Cadeler A/S",
+    "detected_at": "2026-09-10T06:19:21-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Cadeler는 2026년 연간 매출 및 EBITDA 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 854~944백만 유로에서 910~1,000백만 유로로, EBITDA 가이던스는 기존 420~510백만 유로에서 435~525백만 유로로 상향되었습니다. 이는 Menck 인수 효과 및 12월 예정된 해머 매각 등이 반영된 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1978867/000197886726000105/0001978867-26-000105-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "36ea4a56af00365ec913275e960942f89d43bea26e75c63f7dadf39f3963d9fe",
     "ticker": "GLOO",
     "company": "Gloo Holdings, Inc.",
@@ -162,50 +206,6 @@
     "signal": "guidance_up",
     "summary": "Toro Company는 견조한 수요와 운영 효율성 개선을 바탕으로 2026 회계연도 연간 가이던스를 상향 조정했습니다. 순매출 성장률 전망치는 기존 4.0%~6.5%에서 6.3%~6.6%로, 조정 EPS 전망치는 기존 $4.50~$4.62에서 $4.60~$4.65로 상향되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/737758/000073775826000041/0000737758-26-000041-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "2810c8fb5b756266106243cdb68c5a234fdcda56346e1cb4e5c0e2f46349ddd6",
-    "ticker": "DLTH",
-    "company": "DULUTH HOLDINGS INC.",
-    "detected_at": "2026-09-03T07:17:40-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Duluth Holdings는 2026 회계연도 조정 EBITDA 가이던스를 기존 2,800만~3,200만 달러에서 3,800만~4,200만 달러로 상향 조정했습니다. 매출 가이던스(5억 4,000만~5억 6,000만 달러)와 CAPEX(약 1,200만 달러)는 기존 수준을 유지했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1649744/000119312526381026/0001193125-26-381026-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "2735b3585a517f819346436c3262a18e3f341d5602d2f86b0343796846420fed",
-    "ticker": "GCO",
-    "company": "GENESCO INC",
-    "detected_at": "2026-09-03T07:15:16-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "제네스코(Genesco)는 2분기 실적 호조와 비용 절감 효과를 반영하여 2027 회계연도 조정 EPS 가이던스를 기존 범위($2.00~$2.40)의 중간값에서 상단으로 상향 조정했습니다. 영업이익 가이던스 또한 기존 범위($3400만~$4000만)의 중간값에서 상단으로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/18498/000119312526381023/0001193125-26-381023-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "b52b9fcdc6baf6e392f72ad71ca0efd922b0d4cf378c6bf513309fb349e1542d",
-    "ticker": "CIEN",
-    "company": "CIENA CORP",
-    "detected_at": "2026-09-03T07:07:42-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Ciena는 2026 회계연도 연간 매출 가이던스를 기존 대비 상향 조정했으며, 4분기 매출 가이던스를 17.5억 달러(±5천만 달러)로 제시했습니다. 연간 매출 가이던스는 64.2억 달러(±5천만 달러)로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245/0001628280-26-060245-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "3e55f6337e72d3ed6690c40ce3191608955ffa759df47db2ba14197105726450",
-    "ticker": "VSXY",
-    "company": "Victoria's Secret & Co.",
-    "detected_at": "2026-09-03T07:01:56-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "빅토리아 시크릿은 상반기 실적 호조와 하반기 모멘텀을 반영하여 2026 회계연도 연간 순매출 가이던스를 기존 70.3억~71.3억 달러에서 71.0억~71.8억 달러로, 조정 영업이익 가이던스를 기존 5.5억~5.8억 달러에서 5.6억~5.9억 달러로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000019/0001856437-26-000019-index.htm",
     "confidence": 1.0
   }
 ]
