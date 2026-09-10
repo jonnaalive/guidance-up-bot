@@ -196,16 +196,5 @@
     "summary": "Torrid는 2026 회계연도 2분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. 이번 상향은 2분기에 수령한 IEEPA 관세 환급 혜택을 반영한 결과이며, 해당 혜택을 제외한 기존 사업 전망은 유지되었습니다. 3분기 매출 가이던스는 2억 3,000만~2억 3,500만 달러, 조정 EBITDA는 1,500만~2,000만 달러로 제시되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1792781/000179278126000036/0001792781-26-000036-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "36edffb63f45529dc5925018962306203f42103bc8875c5e2cd3d7d6eadb1c2f",
-    "ticker": "TTC",
-    "company": "TORO CO",
-    "detected_at": "2026-09-03T08:44:31-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Toro Company는 견조한 수요와 운영 효율성 개선을 바탕으로 2026 회계연도 연간 가이던스를 상향 조정했습니다. 순매출 성장률 전망치는 기존 4.0%~6.5%에서 6.3%~6.6%로, 조정 EPS 전망치는 기존 $4.50~$4.62에서 $4.60~$4.65로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/737758/000073775826000041/0000737758-26-000041-index.htm",
-    "confidence": 1.0
   }
 ]
