@@ -19,7 +19,7 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         working-directory: hub
         run: |
-          pip install -q requests
+          pip install -q -r requirements.txt
           python - <<'PY'
           import os
           import hub
@@ -34,8 +34,8 @@ jobs:
           )
           report = hub.build_daily(
               [item],
-              market_caps={'CHWY': '120.00억 USD'},
-              company_infos={'CHWY': '온라인 유통 · 반려동물 용품 판매'},
+              market_caps={'CHWY': hub.market_cap_label('CHWY')},
+              company_infos={'CHWY': hub.company_info_label('CHWY')},
           )
           report = report.replace(
               '# 투자 신호 일일보고:',
