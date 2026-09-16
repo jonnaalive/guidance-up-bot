@@ -86,16 +86,5 @@
     "summary": "Cadeler는 2026년 연간 매출 및 EBITDA 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 854~944백만 유로에서 910~1,000백만 유로로, EBITDA 가이던스는 기존 420~510백만 유로에서 435~525백만 유로로 상향되었습니다. 이는 Menck 인수 효과 및 12월 예정된 해머 매각 등이 반영된 결과입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1978867/000197886726000105/0001978867-26-000105-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "36ea4a56af00365ec913275e960942f89d43bea26e75c63f7dadf39f3963d9fe",
-    "ticker": "GLOO",
-    "company": "Gloo Holdings, Inc.",
-    "detected_at": "2026-09-09T16:10:01-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Gloo Holdings은 2026 회계연도 매출 가이던스를 2억 달러로 상향 조정했습니다. 이전 가이던스 수치는 명시되지 않았으나, 경영진은 연간 매출이 전년 대비 두 배 이상 증가할 것으로 전망하며 성장세를 강조했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/2069785/000119312526386446/0001193125-26-386446-index.htm",
-    "confidence": 1.0
   }
 ]
