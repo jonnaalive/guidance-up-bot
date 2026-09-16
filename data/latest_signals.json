@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "bcbf91f0b81897e50f48f256b5fec1de8592c669e02d15bea6e24d52618f2242",
+    "ticker": "AS",
+    "company": "Amer Sports, Inc.",
+    "detected_at": "2026-09-16T16:17:49-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Amer Sports는 2026년 3분기 매출 성장률 가이던스를 기존 18~20%에서 20~22%로 상향 조정했으며, 조정 영업이익률 또한 기존 범위인 13.5~14%의 상단을 상회할 것으로 전망했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1988894/000198889426000086/0001988894-26-000086-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "23b5ebf904976c0b4bc978a80a5cf3882cc103dcfc581d14d11335e2940607fd",
     "ticker": "OESX",
     "company": "ORION ENERGY SYSTEMS, INC.",
