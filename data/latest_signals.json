@@ -42,16 +42,5 @@
     "summary": "Kestra Medical Technologies는 FY27 매출 가이던스를 기존 1억 3,700만 달러에서 1억 4,100만 달러로 상향 조정했습니다. 이는 전년 대비 48% 성장을 의미합니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1877184/000119312526390535/0001193125-26-390535-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "e391a2c96b29ce037aae7725f7e1bd68f55e0b3ba7fb52f11a04b07773e1d78f",
-    "ticker": "ADBE",
-    "company": "ADOBE INC.",
-    "detected_at": "2026-09-10T16:06:14-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Adobe는 2026 회계연도 3분기 실적 발표와 함께 연간 매출 및 EPS 가이던스를 상향 조정했습니다. 경영진은 AI 혁신과 사용자 기반 확대를 통한 지속적인 성장을 강조했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/0000796343-26-000147-index.htm",
-    "confidence": 1.0
   }
 ]
