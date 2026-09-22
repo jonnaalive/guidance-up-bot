@@ -31,16 +31,5 @@
     "summary": "오리온 에너지 시스템즈는 주요 소매 고객사로부터의 추가 수주(1,000만~1,500만 달러 규모)를 반영하여 2027 회계연도 매출 가이던스를 기존 9,500만~9,700만 달러에서 1억~1억 200만 달러로 상향 조정했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1409375/000119312526391540/0001193125-26-391540-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "3b0c7cc72342bc848dadc8f46c303a7843a438aa3925865ee088043c46238645",
-    "ticker": "FPS",
-    "company": "Forgent Power Solutions, Inc.",
-    "detected_at": "2026-09-15T06:40:38-04:00",
-    "source_bot": "guidance",
-    "signal": "new_guidance",
-    "summary": "Forgent Power Solutions는 2027 회계연도 가이던스를 신규 발표했습니다. 매출 24억~26억 달러, 조정 EBITDA 5억 7,500만~6억 2,500만 달러, 조정 EPS 1.26~1.40달러를 제시했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/2080126/000208012626000034/0002080126-26-000034-index.htm",
-    "confidence": 1.0
   }
 ]
