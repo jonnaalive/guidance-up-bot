@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "86f50cc0fbd3765a5a2f19986326e417501bd711bc14e41446dfc896db72e21b",
+    "ticker": "PAYX",
+    "company": "PAYCHEX INC",
+    "detected_at": "2026-09-23T08:41:28-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Paychex는 2027 회계연도 가이던스를 상향 조정했습니다. PEO 및 보험 솔루션 매출 성장률 전망치를 기존 6~7%에서 7~8%로, 고객 자금 운용 이자 수익 전망치를 기존 1억 9,500만~2억 500만 달러에서 2억~2억 1,000만 달러로 상향했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/723531/000072353126000004/0000723531-26-000004-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "f28d4e49fc452e0c50e91761083832886695dd378833c5951c756602804d2d7b",
+    "ticker": "CTAS",
+    "company": "CINTAS CORP",
+    "detected_at": "2026-09-23T08:31:07-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "신타스(Cintas)는 2027 회계연도 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 121.0억~122.5억 달러에서 121.5억~122.7억 달러로, 조정 주당순이익(EPS) 가이던스는 기존 5.36~5.50달러에서 5.45~5.54달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000044/0000723254-26-000044-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "3f4a91a5697f0b89e32f25a5de316e492a1562a59fde7665d0fdc46eaed393fb",
     "ticker": "ELE",
     "company": "Elemental Royalty Corp",
@@ -8,17 +30,6 @@
     "signal": "guidance_up",
     "summary": "Elemental Royalty는 Orion으로부터의 자산 인수를 반영하여 2026년 GEO 판매 가이던스를 기존 17,000~21,000 GEO에서 19,500~22,000 GEO로 상향 조정했습니다. 또한 2026년 매출 가이던스를 89.8~101.1백만 달러로 새롭게 제시했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/2086771/000106299326005032/0001062993-26-005032-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "bcbf91f0b81897e50f48f256b5fec1de8592c669e02d15bea6e24d52618f2242",
-    "ticker": "AS",
-    "company": "Amer Sports, Inc.",
-    "detected_at": "2026-09-16T16:17:49-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Amer Sports는 2026년 3분기 매출 성장률 가이던스를 기존 18~20%에서 20~22%로 상향 조정했으며, 조정 영업이익률 또한 기존 범위인 13.5~14%의 상단을 상회할 것으로 전망했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1988894/000198889426000086/0001988894-26-000086-index.htm",
     "confidence": 1.0
   }
 ]
