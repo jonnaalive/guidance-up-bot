@@ -20,16 +20,5 @@
     "summary": "신타스(Cintas)는 2027 회계연도 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 121.0억~122.5억 달러에서 121.5억~122.7억 달러로, 조정 주당순이익(EPS) 가이던스는 기존 5.36~5.50달러에서 5.45~5.54달러로 상향되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000044/0000723254-26-000044-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "3f4a91a5697f0b89e32f25a5de316e492a1562a59fde7665d0fdc46eaed393fb",
-    "ticker": "ELE",
-    "company": "Elemental Royalty Corp",
-    "detected_at": "2026-09-21T16:40:40-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Elemental Royalty는 Orion으로부터의 자산 인수를 반영하여 2026년 GEO 판매 가이던스를 기존 17,000~21,000 GEO에서 19,500~22,000 GEO로 상향 조정했습니다. 또한 2026년 매출 가이던스를 89.8~101.1백만 달러로 새롭게 제시했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/2086771/000106299326005032/0001062993-26-005032-index.htm",
-    "confidence": 1.0
   }
 ]
