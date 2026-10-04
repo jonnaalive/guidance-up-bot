@@ -58,8 +58,10 @@ jobs:
       - name: Send correlated report
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          HELD_TICKERS: GEV,POWL,BE,STRL,SDRL,KGS,OCUL,BKR,LPG,TDW,HRMY,TARS,DINO,FTI
-          WATCH_TICKERS: 7181,AGCO,CAT,EROC,HSHP,MPC,MPLX,NOV,OKE,SITM,VG,VLO
+          # 투자보드(watchlist-dashboard) 유니버스가 정본이다.
+          # 갱신: watchlist-dashboard에서 `python export_hub_universe.py` 실행.
+          HELD_TICKERS: ${{ vars.HELD_TICKERS }}
+          WATCH_TICKERS: ${{ vars.WATCH_TICKERS }}
           REVIEW_TICKER: ${{ inputs.review_ticker }}
           REVIEW_STATUS: ${{ inputs.review_status }}
           REVIEW_UNTIL: ${{ inputs.review_until }}
