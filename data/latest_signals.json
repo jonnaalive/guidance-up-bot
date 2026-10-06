@@ -1,5 +1,38 @@
 [
   {
+    "event_id": "82c97b088f88a98c3d14fab80b42e7069ba3f6691bc4f1425385ec7284395376",
+    "ticker": "PENG",
+    "company": "Penguin Solutions, Inc.",
+    "detected_at": "2026-10-06T16:34:08-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Penguin Solutions는 2026 회계연도 실적 발표와 함께 2027 회계연도 연간 가이던스를 상향 조정했습니다. 구체적인 수치는 별도의 실적 발표 자료를 통해 제공되었으나, 본 공시에서 가이던스 상향을 명시적으로 확인했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1616533/000119312526415645/0001193125-26-415645-index.htm",
+    "confidence": 0.9
+  },
+  {
+    "event_id": "78f216bf6f53e6f40d8f593951e28dab5f7987abeeb90152cf8a9210ea13e250",
+    "ticker": "NEOG",
+    "company": "NEOGEN CORP",
+    "detected_at": "2026-10-06T16:05:19-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "네오젠은 2027 회계연도 재무 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 8억 8,000만~8억 8,500만 달러에서 8억 8,500만~8억 9,000만 달러로, 조정 EBITDA는 기존 1억 8,000만~1억 8,200만 달러에서 1억 8,100만~1억 8,300만 달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/711377/000119312526415544/0001193125-26-415544-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "dc75f69fdecd00d13106d65e3153bea7ef75ab4d7b6e1bd8f6008afb34950803",
+    "ticker": "APOG",
+    "company": "APOGEE ENTERPRISES, INC.",
+    "detected_at": "2026-10-06T09:44:57-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "아포지 엔터프라이즈는 상반기 실적 호조와 Kalwall 및 Groglass 인수 효과를 반영하여 2027 회계연도 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 13.8억~14.3억 달러에서 14.6억~15.0억 달러로, 조정 주당순이익(EPS)은 기존 2.70~3.25달러에서 3.00~3.40달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/6845/000000684526000100/0000006845-26-000100-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "057cef41f4e3c4d680ce7aba26bf83bb8cb467344979a47336eb9274911edfd7",
     "ticker": "LW",
     "company": "Lamb Weston Holdings, Inc.",
@@ -8,6 +41,17 @@
     "signal": "guidance_up",
     "summary": "Lamb Weston은 2027 회계연도 가이던스를 상향 조정했습니다. 순매출 성장률은 기존 0.0~1.0%에서 '낮은 한 자릿수(Low Single Digits)'로, 조정 EBITDA는 기존 11.0억~12.0억 달러에서 11.25억~12.15억 달러로, 조정 주당순이익(EPS)은 기존 2.95~3.25달러에서 3.05~3.35달러로 각각 상향되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1679273/000167927326000051/0001679273-26-000051-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "c8d23b4f24105c0b8ca2bbd98a946e6f2c0cfdb5311eb418509c8e0f79ee295e",
+    "ticker": "NOMD",
+    "company": "Nomad Foods Ltd",
+    "detected_at": "2026-10-06T06:45:26-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Nomad Foods는 2026년 연간 유기적 매출 성장률 가이던스를 기존 -5%~-2%에서 -3%~-2%로 상향 조정했습니다. 3분기부터 유기적 매출 성장이 재개될 것으로 예상하며, 생산성 향상 이니셔티브를 통해 수익성 개선을 도모하고 있습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1651717/000165171726000026/0001651717-26-000026-index.htm",
     "confidence": 1.0
   },
   {
