@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "057cef41f4e3c4d680ce7aba26bf83bb8cb467344979a47336eb9274911edfd7",
+    "ticker": "LW",
+    "company": "Lamb Weston Holdings, Inc.",
+    "detected_at": "2026-10-06T08:02:01-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Lamb Weston은 2027 회계연도 가이던스를 상향 조정했습니다. 순매출 성장률은 기존 0.0~1.0%에서 '낮은 한 자릿수(Low Single Digits)'로, 조정 EBITDA는 기존 11.0억~12.0억 달러에서 11.25억~12.15억 달러로, 조정 주당순이익(EPS)은 기존 2.95~3.25달러에서 3.05~3.35달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1679273/000167927326000051/0001679273-26-000051-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "cfba8ae32ab5298a0ffcdec72dbfbb46b979739dacdb0acffdaec9617814db20",
     "ticker": "NGG",
     "company": "NATIONAL GRID PLC",
