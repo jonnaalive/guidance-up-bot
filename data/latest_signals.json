@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "cfba8ae32ab5298a0ffcdec72dbfbb46b979739dacdb0acffdaec9617814db20",
+    "ticker": "NGG",
+    "company": "NATIONAL GRID PLC",
+    "detected_at": "2026-10-05T06:54:50-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "내셔널 그리드(National Grid)는 FY27 EPS 성장률 가이던스(13-15%)를 상회할 것으로 전망했습니다. 이는 National Grid Ventures 부문의 일회성 공정가치 평가 이익 및 인터커넥터 사업의 성과 호조에 기인합니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1004315/000165495426008780/0001654954-26-008780-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "5de1dc8b2bcdd5ff9846c7a25cb3117d394f5e69782b12606924ac6e06582a78",
     "ticker": "HYPD",
     "company": "HYPERION DEFI, INC.",
