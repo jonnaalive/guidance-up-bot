@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "f6babf0f2339261c946499e6babfb8add2de78f8c13c2a470f046f13e36c3d92",
+    "ticker": "TGB",
+    "company": "Trekor Metals Ltd",
+    "detected_at": "2026-10-08T16:29:14-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Trekor Metals은 Gibraltar 광산의 2026년 구리 생산량 가이던스를 기존 110~115백만 파운드에서 115~120백만 파운드로 상향 조정했습니다. 이는 Connector Pit의 우수한 품위와 처리량 증가에 따른 운영 성과 개선을 반영한 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/878518/000117184326006543/0001171843-26-006543-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "16892241261444424a2489a8aa6683def9597cc66234519d0e23b41d3fbea79f",
     "ticker": "VOD",
     "company": "VODAFONE GROUP PUBLIC LTD CO",
@@ -8,6 +19,17 @@
     "signal": "guidance_up",
     "summary": "보다폰은 영국 사업부(VodafoneThree)의 연간 비용 절감 목표를 FY32 기준 기존 7억 파운드에서 10억 파운드로 상향 조정했습니다. 또한 FY30 기준 목표치도 기존 7억 파운드에서 8억 파운드로 상향하며 운영 효율성 개선에 대한 자신감을 드러냈습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/839923/000165495426008837/0001654954-26-008837-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "5a9b1739e5e6662c64ac849022119ef4d17ead06cc2f2a4efa69a07c6c23d856",
+    "ticker": "HELE",
+    "company": "HELEN OF TROY LTD",
+    "detected_at": "2026-10-08T06:50:14-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Helen of Troy는 FY2027 연간 가이던스를 상향 조정했습니다. 조정된 주당순이익(EPS) 가이던스는 기존 $3.25~$3.75에서 $3.60~$4.15로, 조정된 EBITDA는 $190M~$197M에서 $203M~$210M으로 상향되었습니다. 이는 관세 환급 효과가 일부 반영된 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/916789/000091678926000137/0000916789-26-000137-index.htm",
     "confidence": 1.0
   },
   {
