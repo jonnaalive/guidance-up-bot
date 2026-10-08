@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "16892241261444424a2489a8aa6683def9597cc66234519d0e23b41d3fbea79f",
+    "ticker": "VOD",
+    "company": "VODAFONE GROUP PUBLIC LTD CO",
+    "detected_at": "2026-10-08T07:04:01-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "보다폰은 영국 사업부(VodafoneThree)의 연간 비용 절감 목표를 FY32 기준 기존 7억 파운드에서 10억 파운드로 상향 조정했습니다. 또한 FY30 기준 목표치도 기존 7억 파운드에서 8억 파운드로 상향하며 운영 효율성 개선에 대한 자신감을 드러냈습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/839923/000165495426008837/0001654954-26-008837-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "82c97b088f88a98c3d14fab80b42e7069ba3f6691bc4f1425385ec7284395376",
     "ticker": "PENG",
     "company": "Penguin Solutions, Inc.",
