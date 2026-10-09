@@ -97,16 +97,5 @@
     "summary": "내셔널 그리드(National Grid)는 FY27 EPS 성장률 가이던스(13-15%)를 상회할 것으로 전망했습니다. 이는 National Grid Ventures 부문의 일회성 공정가치 평가 이익 및 인터커넥터 사업의 성과 호조에 기인합니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1004315/000165495426008780/0001654954-26-008780-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "5de1dc8b2bcdd5ff9846c7a25cb3117d394f5e69782b12606924ac6e06582a78",
-    "ticker": "HYPD",
-    "company": "HYPERION DEFI, INC.",
-    "detected_at": "2026-10-02T08:05:47-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "회사는 2026년 9월 중 가이던스를 상향 조정했음을 공식적으로 언급했습니다. 구체적인 수치 범위는 본 공시에서 제공되지 않았으나, 경영진은 가이던스 상향을 포함한 재무적 성과를 강조했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1682639/000110465926113050/0001104659-26-113050-index.htm",
-    "confidence": 0.8
   }
 ]
