@@ -1,5 +1,38 @@
 [
   {
+    "event_id": "0d25b0e80284b397ed14c21ed354273f65580a84c616c5e3f1af43c59b2d31f0",
+    "ticker": "AZZ",
+    "company": "AZZ INC",
+    "detected_at": "2026-10-13T16:16:38-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "AZZ는 2027 회계연도 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 18.0억~18.5억 달러에서 18.25억~18.75억 달러로, 조정 EBITDA는 3.75억~4.15억 달러에서 3.8억~4.2억 달러로, 조정 주당순이익(EPS)은 6.75~7.15달러에서 7.00~7.30달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/8947/000000894726000188/0000008947-26-000188-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "e935f1c30bf8ef3a56784e494c699574e586c183c72f72e0d5aa068b44ba4254",
+    "ticker": "JNJ",
+    "company": "JOHNSON & JOHNSON",
+    "detected_at": "2026-10-13T08:12:35-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "존슨앤드존슨(JNJ)은 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. 예상 보고 매출은 기존 1,008억~1,014억 달러(중간값 1,011억 달러)에서 1,010억~1,014억 달러(중간값 1,012억 달러)로, 조정 EPS는 기존 10.96~11.11달러(중간값 11.04달러)에서 11.05~11.15달러(중간값 11.10달러)로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/0000200406-26-000189-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "1e50ba7298f73ae905e524049ea6ae3bfcf07e5f4b6e9a4c6e3f04e7f2702c77",
+    "ticker": "BP",
+    "company": "BP PLC",
+    "detected_at": "2026-10-13T06:59:13-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "BP는 2026년 3분기 실적 가이던스를 업데이트하며 정제 처리량(throughput) 전망치를 기존 1,300~1,360mb/d에서 1,375~1,405mb/d로 상향 조정했습니다. 이는 계획된 정기 보수 작업 감소와 겔젠키르헨 매각 완료 효과가 반영된 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/313807/000165495426008895/0001654954-26-008895-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "f6babf0f2339261c946499e6babfb8add2de78f8c13c2a470f046f13e36c3d92",
     "ticker": "TGB",
     "company": "Trekor Metals Ltd",
@@ -30,28 +63,6 @@
     "signal": "one_off_guidance",
     "summary": "Helen of Troy는 FY2027 연간 가이던스를 상향 조정했습니다. 조정된 주당순이익(EPS) 가이던스는 기존 $3.25~$3.75에서 $3.60~$4.15로, 조정된 EBITDA는 $190M~$197M에서 $203M~$210M으로 상향되었습니다. 이는 관세 환급 효과가 일부 반영된 결과입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/916789/000091678926000137/0000916789-26-000137-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "82c97b088f88a98c3d14fab80b42e7069ba3f6691bc4f1425385ec7284395376",
-    "ticker": "PENG",
-    "company": "Penguin Solutions, Inc.",
-    "detected_at": "2026-10-06T16:34:08-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Penguin Solutions는 2026 회계연도 실적 발표와 함께 2027 회계연도 연간 가이던스를 상향 조정했습니다. 구체적인 수치는 별도의 실적 발표 자료를 통해 제공되었으나, 본 공시에서 가이던스 상향을 명시적으로 확인했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1616533/000119312526415645/0001193125-26-415645-index.htm",
-    "confidence": 0.9
-  },
-  {
-    "event_id": "78f216bf6f53e6f40d8f593951e28dab5f7987abeeb90152cf8a9210ea13e250",
-    "ticker": "NEOG",
-    "company": "NEOGEN CORP",
-    "detected_at": "2026-10-06T16:05:19-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "네오젠은 2027 회계연도 재무 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 8억 8,000만~8억 8,500만 달러에서 8억 8,500만~8억 9,000만 달러로, 조정 EBITDA는 기존 1억 8,000만~1억 8,200만 달러에서 1억 8,100만~1억 8,300만 달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/711377/000119312526415544/0001193125-26-415544-index.htm",
     "confidence": 1.0
   }
 ]
