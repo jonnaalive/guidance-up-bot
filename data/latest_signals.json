@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "4eabfb5f8a715bfe6cd1636fdc322074392c805cb8a37cb1fd4e792f70ce2636",
+    "ticker": "MXCT",
+    "company": "MAXCYTE, INC.",
+    "detected_at": "2026-10-14T08:10:32-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "MaxCyte는 2026년 전체 매출 가이던스를 기존 3,000만~3,200만 달러에서 약 3,400만 달러로 상향 조정했습니다. 핵심 사업 매출 가이던스는 2,500만~2,700만 달러에서 약 2,800만 달러로, SPL 프로그램 관련 매출 가이던스는 약 500만 달러에서 약 600만 달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1287098/000110465926115745/0001104659-26-115745-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "0d25b0e80284b397ed14c21ed354273f65580a84c616c5e3f1af43c59b2d31f0",
     "ticker": "AZZ",
     "company": "AZZ INC",
