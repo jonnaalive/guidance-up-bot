@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "981316280df434d4e6a7a201783e19dc79e58ec88f0f3d378b74049c9ecae1aa",
+    "ticker": "USB",
+    "company": "US BANCORP \\DE\\",
+    "detected_at": "2026-10-15T06:59:47-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "US Bancorp은 2026년 연간 가이던스를 상향 조정했습니다. 순이자이익은 전년 대비 7~9% 증가(기존 대비 +5~7%), 총 비이자 비용은 5~7% 증가(기존 대비 +7~9%)로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/0000036104-26-000054-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "43e167e6b5aff36513389f94b7a80434f99e8af9a4017408eae1ac0486b6d8aa",
+    "ticker": "TSM",
+    "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+    "detected_at": "2026-10-15T06:40:56-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "TSMC는 2026년 4분기 매출 가이던스를 523억~543억 달러로 제시했으며, 2026년 연간 매출 성장률 전망치를 기존 40% 이상에서 약 44%로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/0001046179-26-000726-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "4eabfb5f8a715bfe6cd1636fdc322074392c805cb8a37cb1fd4e792f70ce2636",
     "ticker": "MXCT",
     "company": "MAXCYTE, INC.",
