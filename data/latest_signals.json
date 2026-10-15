@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "94b79dea902483f9f434a89940ec55c7826fcc697892cfec63fc36e47b97b432",
+    "ticker": "WSE",
+    "company": "Wise Group plc",
+    "detected_at": "2026-10-15T16:02:05-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Wise Group은 FY27 순매출 성장률 가이던스를 기존 중기 목표 범위(15-20%)의 상단인 17.5%~20%로 상향 조정했습니다. 세전 이익(IBT) 마진은 기존 20-25% 범위의 상단 수준을 유지할 것으로 전망했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2099039/000117184326006666/0001171843-26-006666-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "981316280df434d4e6a7a201783e19dc79e58ec88f0f3d378b74049c9ecae1aa",
     "ticker": "USB",
     "company": "US BANCORP \\DE\\",
@@ -63,17 +74,6 @@
     "signal": "guidance_up",
     "summary": "BP는 2026년 3분기 실적 가이던스를 업데이트하며 정제 처리량(throughput) 전망치를 기존 1,300~1,360mb/d에서 1,375~1,405mb/d로 상향 조정했습니다. 이는 계획된 정기 보수 작업 감소와 겔젠키르헨 매각 완료 효과가 반영된 결과입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/313807/000165495426008895/0001654954-26-008895-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "f6babf0f2339261c946499e6babfb8add2de78f8c13c2a470f046f13e36c3d92",
-    "ticker": "TGB",
-    "company": "Trekor Metals Ltd",
-    "detected_at": "2026-10-08T16:29:14-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Trekor Metals은 Gibraltar 광산의 2026년 구리 생산량 가이던스를 기존 110~115백만 파운드에서 115~120백만 파운드로 상향 조정했습니다. 이는 Connector Pit의 우수한 품위와 처리량 증가에 따른 운영 성과 개선을 반영한 결과입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/878518/000117184326006543/0001171843-26-006543-index.htm",
     "confidence": 1.0
   }
 ]
