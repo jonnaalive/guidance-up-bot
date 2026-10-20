@@ -11,6 +11,17 @@
     "confidence": 1.0
   },
   {
+    "event_id": "660697dc1f6c3fac7051fd5a2c5f4111889ee5f9a4c39330d998b41432c6332f",
+    "ticker": "RTX",
+    "company": "RTX Corp",
+    "detected_at": "2026-10-20T06:57:06-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "RTX는 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. 조정 매출은 기존 950억~960억 달러에서 970억~975억 달러로, 조정 EPS는 7.10~7.25달러에서 7.65~7.75달러로, 잉여현금흐름은 85억~87.5억 달러에서 90억~92억 달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000030/0000101829-26-000030-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "73835439149f8f82228fc837dee56f89e936f40115c54cc7d4951e7150132c4b",
     "ticker": "MMM",
     "company": "3M CO",
@@ -19,6 +30,28 @@
     "signal": "guidance_up",
     "summary": "3M은 2026년 3분기 실적 발표와 함께 연간 조정 EPS 가이던스를 9.10달러~9.15달러로 상향 조정했습니다. 이는 구조적 변화를 통한 생산성 향상과 차별화된 기술 파이프라인에 대한 자신감을 반영한 결과입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000308/0000066740-26-000308-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "9281736b38a6b662f4b8a4396169f27eaa5d6938742af610daa4da81c2b9c81a",
+    "ticker": "HAS",
+    "company": "HASBRO, INC.",
+    "detected_at": "2026-10-20T06:32:14-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Hasbro는 2026년 연간 가이던스를 상향 조정했습니다. 매출 성장률 전망은 기존 5-7%에서 7-9%로, 조정 영업이익률은 25-26%에서 27-28%로, 조정 EBITDA는 14.5억-15억 달러에서 15.75억-16.25억 달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000058/0000046080-26-000058-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "c526c2977d56d970684d19e9b86202c927c37e31f4fdb343b0a95ea52e97f942",
+    "ticker": "KEY",
+    "company": "KEYCORP /NEW/",
+    "detected_at": "2026-10-20T06:30:51-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "KeyCorp은 2026년 연간 가이던스를 상향 조정했습니다. 순이자수익 성장률 전망은 기존 9~11%에서 10%로, 평균 대출 성장률은 기존 4~5%에서 5%로, 상업 대출 성장률은 기존 8~10%에서 10%로 상향되었으며, NCO 비율 전망은 기존 40~45bps에서 37~39bps로 개선되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/0000091576-26-000020-index.htm",
     "confidence": 1.0
   },
   {
