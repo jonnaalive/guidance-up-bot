@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "80d35f9552ea02c34757e73945120b435e907bcbb2d8f4457537df941a60a41b",
+    "ticker": "VMI",
+    "company": "VALMONT INDUSTRIES INC",
+    "detected_at": "2026-10-20T07:05:18-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "발몬트 인더스트리즈는 2026년 전체 조정 주당순이익(EPS) 가이던스를 기존 22.25~23.50달러에서 22.75~23.75달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/102729/000110465926117126/0001104659-26-117126-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "73835439149f8f82228fc837dee56f89e936f40115c54cc7d4951e7150132c4b",
+    "ticker": "MMM",
+    "company": "3M CO",
+    "detected_at": "2026-10-20T06:35:38-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "3M은 2026년 3분기 실적 발표와 함께 연간 조정 EPS 가이던스를 9.10달러~9.15달러로 상향 조정했습니다. 이는 구조적 변화를 통한 생산성 향상과 차별화된 기술 파이프라인에 대한 자신감을 반영한 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000308/0000066740-26-000308-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "94b79dea902483f9f434a89940ec55c7826fcc697892cfec63fc36e47b97b432",
     "ticker": "WSE",
     "company": "Wise Group plc",
@@ -52,28 +74,6 @@
     "signal": "guidance_up",
     "summary": "AZZ는 2027 회계연도 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 18.0억~18.5억 달러에서 18.25억~18.75억 달러로, 조정 EBITDA는 3.75억~4.15억 달러에서 3.8억~4.2억 달러로, 조정 주당순이익(EPS)은 6.75~7.15달러에서 7.00~7.30달러로 각각 상향되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/8947/000000894726000188/0000008947-26-000188-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "e935f1c30bf8ef3a56784e494c699574e586c183c72f72e0d5aa068b44ba4254",
-    "ticker": "JNJ",
-    "company": "JOHNSON & JOHNSON",
-    "detected_at": "2026-10-13T08:12:35-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "존슨앤드존슨(JNJ)은 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. 예상 보고 매출은 기존 1,008억~1,014억 달러(중간값 1,011억 달러)에서 1,010억~1,014억 달러(중간값 1,012억 달러)로, 조정 EPS는 기존 10.96~11.11달러(중간값 11.04달러)에서 11.05~11.15달러(중간값 11.10달러)로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/0000200406-26-000189-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "1e50ba7298f73ae905e524049ea6ae3bfcf07e5f4b6e9a4c6e3f04e7f2702c77",
-    "ticker": "BP",
-    "company": "BP PLC",
-    "detected_at": "2026-10-13T06:59:13-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "BP는 2026년 3분기 실적 가이던스를 업데이트하며 정제 처리량(throughput) 전망치를 기존 1,300~1,360mb/d에서 1,375~1,405mb/d로 상향 조정했습니다. 이는 계획된 정기 보수 작업 감소와 겔젠키르헨 매각 완료 효과가 반영된 결과입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/313807/000165495426008895/0001654954-26-008895-index.htm",
     "confidence": 1.0
   }
 ]
