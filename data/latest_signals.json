@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "a8aed1d0706085d7841023c906063dd3e5a9c78eeec1f4c51dbf50fb77ed6e3a",
+    "ticker": "SHMD",
+    "company": "SCHMID Group N.V.",
+    "detected_at": "2026-10-21T06:55:00-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "SCHMID Group은 2026년 연간 수주 가이던스를 기존 1억 2,500만~1억 5,000만 유로에서 1억 5,000만 유로 초과로 상향 조정했습니다. 매출액 1억 유로 초과 및 조정 EBITDA 마진 6~9% 가이던스는 유지되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1987240/000121390026111170/0001213900-26-111170-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "2b5f64b6a59a647f16895352e962cd4334796a827e51ad7d9efbafe9c1e658b5",
+    "ticker": "DHR",
+    "company": "DANAHER CORP /DE/",
+    "detected_at": "2026-10-20T17:43:14-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "다나허(Danaher)는 2026년 연간 조정 주당순이익(EPS) 가이던스를 기존 8.45~8.60달러에서 8.57~8.62달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000201/0000313616-26-000201-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "18b063b6546c8c0879f0b53b7b63decef94a7e75b01b2ea7c3e25493a452057d",
     "ticker": "SMCI",
     "company": "Super Micro Computer, Inc.",
@@ -151,17 +173,6 @@
     "signal": "guidance_up",
     "summary": "TSMC는 2026년 4분기 매출 가이던스를 523억~543억 달러로 제시했으며, 2026년 연간 매출 성장률 전망치를 기존 40% 이상에서 약 44%로 상향 조정했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/0001046179-26-000726-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "4eabfb5f8a715bfe6cd1636fdc322074392c805cb8a37cb1fd4e792f70ce2636",
-    "ticker": "MXCT",
-    "company": "MAXCYTE, INC.",
-    "detected_at": "2026-10-14T08:10:32-04:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "MaxCyte는 2026년 전체 매출 가이던스를 기존 3,000만~3,200만 달러에서 약 3,400만 달러로 상향 조정했습니다. 핵심 사업 매출 가이던스는 2,500만~2,700만 달러에서 약 2,800만 달러로, SPL 프로그램 관련 매출 가이던스는 약 500만 달러에서 약 600만 달러로 각각 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1287098/000110465926115745/0001104659-26-115745-index.htm",
     "confidence": 1.0
   }
 ]
