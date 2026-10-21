@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "7af0796a39e6b107c4ea8898439a8a3db991509d68447724cd16827a8b4f0335",
+    "ticker": "COR",
+    "company": "Cencora, Inc.",
+    "detected_at": "2026-10-21T07:48:25-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Cencora는 미국 헬스케어 솔루션 부문의 실적 강세를 반영하여 2026 회계연도 조정 주당순이익(EPS) 가이던스를 상향 조정했습니다. 기존 17.75~17.95달러 범위에서 최소 17.90달러 이상으로 조정되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1140859/000110465926117576/0001104659-26-117576-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "77eee8ffd5e20737763a3780a63000ac477eae7a57e9a17d2ac7ed4533234968",
+    "ticker": "HCSG",
+    "company": "HEALTHCARE SERVICES GROUP INC",
+    "detected_at": "2026-10-21T07:01:55-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "HCSG는 2027년 매출 성장률 전망치를 기존 '한 자릿수 중반(mid single-digits)'에서 '두 자릿수 초반(low double-digits)'으로 상향 조정했습니다. 또한 2026년 4분기 매출 가이던스로 5억 3,500만 달러에서 5억 4,500만 달러를 제시했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/731012/000073101226000055/0000731012-26-000055-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "a8aed1d0706085d7841023c906063dd3e5a9c78eeec1f4c51dbf50fb77ed6e3a",
     "ticker": "SHMD",
     "company": "SCHMID Group N.V.",
