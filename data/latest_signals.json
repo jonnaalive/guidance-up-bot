@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "5867a735cc8361212c69c141d659e1e54cbfabd4bfd80ba2273a0c78f4d5b88a",
+    "ticker": "R",
+    "company": "RYDER SYSTEM INC",
+    "detected_at": "2026-10-22T06:55:41-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Ryder System은 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. Comparable EPS(비GAAP) 가이던스는 기존 대비 상향된 $14.85 - $15.05 범위로 제시되었으며, ROE(비GAAP) 가이던스 역시 18% - 19%로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/85961/000008596126000023/0000085961-26-000023-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "bf045958f166487840ce70ce51fa6dd16bea4c0a40a4e867a39613ee86cc5e99",
+    "ticker": "ALLE",
+    "company": "Allegion plc",
+    "detected_at": "2026-10-22T06:03:30-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Allegion은 2026년 전체 매출 성장률(보고 기준 9.5~10.5%, 유기적 기준 5.0~6.0%) 및 조정 EPS 가이던스($9.05~$9.10)를 상향 조정했습니다. 이전 가이던스 수치는 명시되지 않았으나, 경영진은 실적 발표를 통해 가이던스 상향을 공식화했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1579241/000157924126000032/0001579241-26-000032-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "53ba6d433cd258d8c20b233b40c5921298adc6d5e1172b30a9e875911e34aac6",
     "ticker": "CACI",
     "company": "CACI INTERNATIONAL INC /DE/",
@@ -151,6 +173,17 @@
     "signal": "guidance_up",
     "summary": "Teledyne Technologies는 2026년 연간 GAAP 희석 EPS 가이던스를 기존 $20.73~$20.99에서 $21.71~$21.87로, Non-GAAP 희석 EPS 가이던스를 기존 $24.45~$24.65에서 $25.40~$25.50으로 상향 조정했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000055/0001094285-26-000055-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "443cf363406d48b379a7f5db831db12de02d1bc114a330a2aef1932360dee8c2",
+    "ticker": "WAB",
+    "company": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+    "detected_at": "2026-10-21T07:08:59-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Wabtec은 2026년 조정 EPS 가이던스를 기존 대비 중간값 기준 0.20달러 상향 조정하여 10.85~11.05달러로 제시했습니다. 매출 가이던스는 123억~126억 달러로 유지했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/943452/000094345226000017/0000943452-26-000017-index.htm",
     "confidence": 1.0
   },
   {
@@ -327,28 +360,6 @@
     "signal": "one_off_guidance",
     "summary": "Wise Group은 FY27 순매출 성장률 가이던스를 기존 중기 목표 범위(15-20%)의 상단인 17.5%~20%로 상향 조정했습니다. 세전 이익(IBT) 마진은 기존 20-25% 범위의 상단 수준을 유지할 것으로 전망했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/2099039/000117184326006666/0001171843-26-006666-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "981316280df434d4e6a7a201783e19dc79e58ec88f0f3d378b74049c9ecae1aa",
-    "ticker": "USB",
-    "company": "US BANCORP \\DE\\",
-    "detected_at": "2026-10-15T06:59:47-04:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "US Bancorp은 2026년 연간 가이던스를 상향 조정했습니다. 순이자이익은 전년 대비 7~9% 증가(기존 대비 +5~7%), 총 비이자 비용은 5~7% 증가(기존 대비 +7~9%)로 제시되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/0000036104-26-000054-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "43e167e6b5aff36513389f94b7a80434f99e8af9a4017408eae1ac0486b6d8aa",
-    "ticker": "TSM",
-    "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-    "detected_at": "2026-10-15T06:40:56-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "TSMC는 2026년 4분기 매출 가이던스를 523억~543억 달러로 제시했으며, 2026년 연간 매출 성장률 전망치를 기존 40% 이상에서 약 44%로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/0001046179-26-000726-index.htm",
     "confidence": 1.0
   }
 ]
