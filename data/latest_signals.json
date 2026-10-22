@@ -1,5 +1,137 @@
 [
   {
+    "event_id": "baf2444ce34ed73a3ff5b2484d75164f4c62350c8e990511132a61ff049c4aff",
+    "ticker": "BWMX",
+    "company": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+    "detected_at": "2026-10-22T17:25:04-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Betterware de Mexico는 2026년 연간 순매출 성장률 가이던스를 기존 대비 상향 조정하여 24.0%~26.0% 범위로 제시했습니다. 유기적 성장률 가이던스는 4.0%~5.0%로 좁혔으며, 연간 EBITDA 마진은 19%로 예상했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1788257/000121390026111757/0001213900-26-111757-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "66d1d45e2b2a2e78afa0affcdc6a7e601e8604b29d794a5d5be4a451c5c4b759",
+    "ticker": "KRC",
+    "company": "KILROY REALTY CORP",
+    "detected_at": "2026-10-22T16:56:14-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Kilroy Realty Corp은 2026년 연간 Nareit FFO 가이던스를 기존 주당 3.49~3.63달러에서 3.55~3.59달러로 상향 조정했습니다. 하단 범위가 크게 상승하며 수익성 전망이 개선되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1025996/000162828026066920/0001628280-26-066920-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "ddcdd08c6ba79f7fbf87f93f5de74aadc216d513935144c761510554972664e2",
+    "ticker": "RNG",
+    "company": "RingCentral, Inc.",
+    "detected_at": "2026-10-22T16:50:07-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "RingCentral은 2026년 3분기 실적 호조에 힘입어 연간 가이던스를 상향 조정했습니다. 구독 매출은 25.63억~25.69억 달러, 총 매출은 26.50억~26.57억 달러, 비GAAP EPS는 5.07~5.12달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000058/0001384905-26-000058-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "7185a8160221aa34d784cc5afb1ac2bc90911761e0b7eaf379a1d7a8a20e4c20",
+    "ticker": "REXR",
+    "company": "Rexford Industrial Realty, Inc.",
+    "detected_at": "2026-10-22T16:28:26-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Rexford Industrial은 2026년 Core FFO 가이던스를 기존 $2.38-$2.43에서 $2.41-$2.44로 상향 조정했습니다. 또한 동일 부동산 포트폴리오의 NOI 성장률 및 점유율 전망치도 개선되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1571283/000157128326000058/0001571283-26-000058-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "f1f9af56c07bbd5993dec216815212018634c43728956c5a0b7d97e594d58061",
+    "ticker": "SAM",
+    "company": "BOSTON BEER CO INC",
+    "detected_at": "2026-10-22T16:23:13-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Boston Beer는 2026년 연간 가이던스를 업데이트하여 총 마진 및 비GAAP EPS 전망치를 상향 조정했습니다. 총 마진 가이던스는 기존 48.5%~50%에서 49%~50%로, 비GAAP EPS는 기존 $8.50~$10.50에서 $9.00~$10.50으로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/949870/000119312526428973/0001193125-26-428973-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "b65a584de9c977306bb856bc8a31b007e8b38ed6de3c6ba4e4d643af3af193ab",
+    "ticker": "SIGI",
+    "company": "SELECTIVE INSURANCE GROUP INC",
+    "detected_at": "2026-10-22T16:18:10-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Selective Insurance Group은 2026년 세후 순투자수익 가이던스를 기존 4억 8천만 달러에서 4억 9천만 달러로 상향 조정했습니다. 또한 GAAP 합산 비율 96.5%~97.5%, 유효 세율 21.5%, 희석 주당 가중 평균 주식 수 5,990만 주를 제시했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/230557/000023055726000024/0000230557-26-000024-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "f5b889fee0b0eb10e3c8035d937c9767b3110f6df31e423f3a192bc74b879c8c",
+    "ticker": "DECK",
+    "company": "DECKERS OUTDOOR CORP",
+    "detected_at": "2026-10-22T16:09:31-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "덱커스 아웃도어(DECK)는 2027 회계연도 연간 희석 주당순이익(EPS) 가이던스를 기존 대비 상향 조정하여 7.80~7.95달러 범위로 제시했습니다. 이번 가이던스 상향에는 IEEPA 관세 환급금으로 인한 약 0.52달러의 일회성 세후 이익이 포함되어 있습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/910521/000091052126000028/0000910521-26-000028-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "75e600b553628b72c689a026d78c2bb4546f65ac0ce1d70eb6a9e49664a7288f",
+    "ticker": "VTMX",
+    "company": "Vesta Real Estate Corporation, S.A.B. de C.V.",
+    "detected_at": "2026-10-22T16:00:18-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Vesta는 2026년 전체 매출 성장률 가이던스를 기존 10%~11%에서 11.5%~12.5%로 상향 조정했습니다. 또한 조정 NOI 마진 가이던스를 93.5%에서 94.0%로, 조정 EBITDA 마진 가이던스를 83.0%에서 84.0%로 상향했습니다. 이는 신규 임대 자산의 조기 임대 수익 발생과 운영 효율성 개선에 따른 것입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1969373/000196937326000018/0001969373-26-000018-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "25c067ba5e57628467926754dd8717e4f6a201ae0ac1136f2c689c4321026db7",
+    "ticker": "SLG",
+    "company": "SL GREEN REALTY CORP",
+    "detected_at": "2026-10-22T13:45:18-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "SL Green Realty는 2026년 FFO 가이던스를 기존 $5.60-$5.90에서 $6.50-$6.70으로, 순이익 가이던스를 $0.20-$0.50에서 $0.40-$0.60으로 상향 조정했습니다. 이는 주로 자산 매각에 따른 일회성 수익이 반영된 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1040971/000162828026066842/0001628280-26-066842-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "cc8166bc73a77669ba394a8be1a3638c4083d0a6ba535474884e98529342ea2a",
+    "ticker": "AMBP",
+    "company": "Ardagh Metal Packaging S.A.",
+    "detected_at": "2026-10-22T11:13:19-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Ardagh Metal Packaging은 2026년 연간 조정 EBITDA 가이던스를 기존 범위에서 7억 8,500만~7억 9,500만 달러로 상향 조정했습니다. 이는 유럽 시장의 강력한 수요와 글로벌 음료 캔 출하량 증가에 따른 것입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1845097/000110465926118033/0001104659-26-118033-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "446f0ab64eccae549253741cd1616f3fc7949a41cf9b48fd9725ebbd3b09c5e3",
+    "ticker": "COCO",
+    "company": "Vita Coco Company, Inc.",
+    "detected_at": "2026-10-22T07:32:07-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Vita Coco는 2026년 전체 매출 가이던스를 기존 7억 9,000만~8억 500만 달러에서 8억 1,000만~8억 2,000만 달러로, 조정 EBITDA 가이던스를 기존 1억 5,400만~1억 6,100만 달러에서 1억 7,000만~1억 7,500만 달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000183/0001482981-26-000183-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "63552759397438756b05fe3d211a7125b886cbac4089fbc803bd90cc4de473ad",
+    "ticker": "ROP",
+    "company": "ROPER TECHNOLOGIES INC",
+    "detected_at": "2026-10-22T07:02:51-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Roper Technologies는 2026년 3분기 실적 호조에 힘입어 연간 조정 주당순이익(DEPS) 가이던스를 기존 $22.15 - $22.30에서 $22.35 - $22.40으로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000042/0000882835-26-000042-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "5867a735cc8361212c69c141d659e1e54cbfabd4bfd80ba2273a0c78f4d5b88a",
     "ticker": "R",
     "company": "RYDER SYSTEM INC",
@@ -8,6 +140,28 @@
     "signal": "guidance_up",
     "summary": "Ryder System은 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. Comparable EPS(비GAAP) 가이던스는 기존 대비 상향된 $14.85 - $15.05 범위로 제시되었으며, ROE(비GAAP) 가이던스 역시 18% - 19%로 상향되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/85961/000008596126000023/0000085961-26-000023-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "e504df874c30cf13548bd685e0799a469bfaaebf13c168edc66750025b2da633",
+    "ticker": "DGX",
+    "company": "QUEST DIAGNOSTICS INC",
+    "detected_at": "2026-10-22T06:49:59-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Quest Diagnostics는 2026년 3분기 실적 호조와 향후 성장 추세를 반영하여 2026년 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 119.5억~120.5억 달러에서 120.65억~121.05억 달러로, 조정 EPS 가이던스는 기존 11.05~11.25달러에서 11.25~11.35달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1022079/000102207926000097/0001022079-26-000097-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "56f39db00864e2ecbf7b86e64921ae582943ac84f4d4a8d601936af02f1c2f4c",
+    "ticker": "THRM",
+    "company": "Gentherm Inc",
+    "detected_at": "2026-10-22T06:10:14-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "젠썸(Gentherm)은 모딘 퍼포먼스 테크놀로지스(Modine Performance Technologies) 인수 완료를 반영하여 2026년 연간 가이던스를 상향 조정했습니다. 제품 매출 가이던스는 기존 15.5억~16.5억 달러에서 18.25억~19.25억 달러로, 조정 EBITDA는 1.85억~2.0억 달러에서 2.1억~2.3억 달러로, 조정 잉여현금흐름은 0.85억~1.0억 달러에서 1.0억~1.2억 달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/903129/000119312526428275/0001193125-26-428275-index.htm",
     "confidence": 1.0
   },
   {
@@ -349,17 +503,6 @@
     "signal": "guidance_up",
     "summary": "노스롭 그루먼은 2026년 주요 재무 지표에 대한 가이던스를 상향 조정했습니다. 부문 영업이익 가이던스는 기존 48.5억~50억 달러에서 49.4억~50.4억 달러로, MTM 조정 EPS 가이던스는 기존 28.60~29.10달러에서 29.35~29.75달러로 상향되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/0001133421-26-000037-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "94b79dea902483f9f434a89940ec55c7826fcc697892cfec63fc36e47b97b432",
-    "ticker": "WSE",
-    "company": "Wise Group plc",
-    "detected_at": "2026-10-15T16:02:05-04:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "Wise Group은 FY27 순매출 성장률 가이던스를 기존 중기 목표 범위(15-20%)의 상단인 17.5%~20%로 상향 조정했습니다. 세전 이익(IBT) 마진은 기존 20-25% 범위의 상단 수준을 유지할 것으로 전망했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/2099039/000117184326006666/0001171843-26-006666-index.htm",
     "confidence": 1.0
   }
 ]
