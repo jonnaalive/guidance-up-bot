@@ -44,6 +44,17 @@
     "confidence": 1.0
   },
   {
+    "event_id": "f5a057a53656d7dc2ad9c0ab93c1d0f7f677ca4514da1f80c219a8e4538bab4e",
+    "ticker": "",
+    "company": "UNITED RENTALS NORTH AMERICA INC",
+    "detected_at": "2026-10-21T16:25:20-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "United Rentals은 2026년 3분기 실적 호조를 바탕으로 연간 가이던스를 상향 조정했습니다. 총 매출 가이던스는 기존 175억~178억 달러에서 180억~182억 달러로, 조정 EBITDA는 79.75억~81.25억 달러에서 83억~84억 달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1047166/000106770126000036/0001067701-26-000036-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "2639461df55fe683d22a8e60a8c4753656357f1134d80d5b983f7e2418d65293",
     "ticker": "ESI",
     "company": "Element Solutions Inc",
@@ -66,6 +77,17 @@
     "confidence": 1.0
   },
   {
+    "event_id": "c60a5b5008ca63c2e927a91c50a1e6fad60604dedc4b760cf8af10db587f3f9e",
+    "ticker": "NTST",
+    "company": "NETSTREIT Corp.",
+    "detected_at": "2026-10-21T16:13:46-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "NETSTREIT은 2026년 순 투자 활동 가이던스를 기존 7억~8억 달러에서 8억 달러 이상으로 상향 조정했습니다. AFFO 주당 가이던스(1.37~1.39달러)와 현금 G&A 가이던스는 유지되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1798100/000162828026066715/0001628280-26-066715-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "7d7d8636d23250b6ee4815617a75b132fd235a99474faac6e00a5c51e7ae4a2b",
     "ticker": "KMI",
     "company": "KINDER MORGAN, INC.",
@@ -74,6 +96,28 @@
     "signal": "guidance_up",
     "summary": "KMI는 2026년 연간 가이던스 대비 조정 EBITDA가 6% 이상, 조정 EPS가 13% 이상 상회할 것으로 예상하며 실적 전망을 상향 조정했습니다. 기존 예산 대비 조정 EPS는 1.36달러에서 약 1.54달러 수준으로, 조정 EBITDA는 86억 달러에서 약 91.2억 달러 수준으로 개선될 전망입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1506307/000150630726000130/0001506307-26-000130-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "cae254942984328cf2229852e30c29d7f4900c76ee6497eb741df8b6f1eaaeda",
+    "ticker": "EGP",
+    "company": "EASTGROUP PROPERTIES INC",
+    "detected_at": "2026-10-21T16:09:30-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "EastGroup Properties는 2026년 연간 FFO 가이던스를 기존 $9.52-$9.66에서 $9.62-$9.68로 상향 조정했습니다. 이는 견고한 임대 모멘텀과 개발 및 인수 활동의 증가에 따른 것입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/49600/000004960026000047/0000049600-26-000047-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "b592d20adabda5462e98e65683a78a449075ea1b6e87b29e151d3dc9145be92f",
+    "ticker": "HBM",
+    "company": "Hudbay Minerals Inc.",
+    "detected_at": "2026-10-21T13:14:25-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Hudbay Minerals는 Copper World 합작 투자 프로젝트의 승인에 따라 2026년 성장 자본 지출 가이던스를 기존 1억 3,500만 달러에서 2억 4,500만 달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1322422/000106299326005462/0001062993-26-005462-index.htm",
     "confidence": 1.0
   },
   {
@@ -96,6 +140,17 @@
     "signal": "guidance_up",
     "summary": "Cencora는 미국 헬스케어 솔루션 부문의 실적 강세를 반영하여 2026 회계연도 조정 주당순이익(EPS) 가이던스를 상향 조정했습니다. 기존 17.75~17.95달러 범위에서 최소 17.90달러 이상으로 조정되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1140859/000110465926117576/0001104659-26-117576-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "85ce5e2c6910601cebe3c8e0a0362155d364879f40746551b7a562788202b7f3",
+    "ticker": "TDY",
+    "company": "TELEDYNE TECHNOLOGIES INC",
+    "detected_at": "2026-10-21T07:14:11-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Teledyne Technologies는 2026년 연간 GAAP 희석 EPS 가이던스를 기존 $20.73~$20.99에서 $21.71~$21.87로, Non-GAAP 희석 EPS 가이던스를 기존 $24.45~$24.65에서 $25.40~$25.50으로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000055/0001094285-26-000055-index.htm",
     "confidence": 1.0
   },
   {
