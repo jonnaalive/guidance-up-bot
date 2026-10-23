@@ -154,6 +154,17 @@
     "confidence": 1.0
   },
   {
+    "event_id": "decb348abed5671b31b970dba8889a74da8def3190dd831c7f9a4b0306cd58fd",
+    "ticker": "LMT",
+    "company": "LOCKHEED MARTIN CORP",
+    "detected_at": "2026-10-22T06:26:08-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "록히드마틴은 2026년 3분기 실적 호조와 수주 잔고 기록 경신을 바탕으로 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 797.5억~817.5억 달러에서 800억~820억 달러로, 주당순이익(EPS)은 29.95~30.65달러에서 30.35~30.75달러로, 잉여현금흐름(FCF)은 70억~72억 달러에서 78억~80억 달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/0001628280-26-066780-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "56f39db00864e2ecbf7b86e64921ae582943ac84f4d4a8d601936af02f1c2f4c",
     "ticker": "THRM",
     "company": "Gentherm Inc",
