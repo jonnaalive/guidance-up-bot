@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "9d28daa8ef32b343a9dc90071c48229386f3d9dccae80490e549b74d6ea95b9c",
+    "ticker": "AXP",
+    "company": "AMERICAN EXPRESS CO",
+    "detected_at": "2026-10-23T07:00:36-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "아메리칸 익스프레스는 2026년 3분기 실적 발표와 함께 연간 EPS 가이던스를 상향 조정했습니다. 조정 EPS 가이던스는 기존 대비 상향된 17.60~17.90달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/0000004962-26-000405-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "3323a37d58867e1b6e675d20e36e0787f07b6d54da9a824130fe2fcddac5007b",
+    "ticker": "BAH",
+    "company": "Booz Allen Hamilton Holding Corp",
+    "detected_at": "2026-10-23T06:48:19-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Booz Allen Hamilton은 2027 회계연도 가이던스를 상향 조정했습니다. 조정된 주당순이익(Adjusted Diluted EPS) 가이던스는 기존 $6.00~$6.35에서 $6.50~$6.70으로 상향되었으며, 조정된 EBITDA 가이던스 또한 기존 $1,240M~$1,290M에서 $1,260M~$1,290M으로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026066971/0001628280-26-066971-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "baf2444ce34ed73a3ff5b2484d75164f4c62350c8e990511132a61ff049c4aff",
     "ticker": "BWMX",
     "company": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
