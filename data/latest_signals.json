@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "d9df8fd3aede2cef8db3eb029ca94b69610824101542f5245c25619184e7aa0e",
+    "ticker": "VZ",
+    "company": "VERIZON COMMUNICATIONS INC",
+    "detected_at": "2026-10-26T07:00:28-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Verizon은 2026년 3분기 실적 호조에 힘입어 연간 가이던스를 3분기 연속 상향 조정했습니다. 주요 지표인 후불제 휴대폰 순증 가입자(1.1M~1.2M), 조정 EPS(5.04~5.06달러), 영업 현금 흐름(3.5~5.0% 성장), 잉여 현금 흐름(약 12% 성장) 전망치를 모두 상향했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000049/0000732712-26-000049-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "a9253c1c81df118fb86c948ef45e917d382dff5f687877ddab8162a7a4882ddd",
+    "ticker": "DEA",
+    "company": "Easterly Government Properties, Inc.",
+    "detected_at": "2026-10-26T06:45:17-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Easterly Government Properties는 2026년 연간 Core FFO 가이던스 하단 범위를 상향 조정하여 3.08~3.13달러로 제시했습니다. 또한 2027년 연간 Core FFO 가이던스를 3.09~3.17달러로 신규 발표했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1622194/000162219426000032/0001622194-26-000032-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "9d28daa8ef32b343a9dc90071c48229386f3d9dccae80490e549b74d6ea95b9c",
     "ticker": "AXP",
     "company": "AMERICAN EXPRESS CO",
