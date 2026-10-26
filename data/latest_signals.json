@@ -1,5 +1,71 @@
 [
   {
+    "event_id": "701bfd4741c236b4af9738b6b81b1edc7573bd10824c4610569a71bb361a6bdb",
+    "ticker": "PDM",
+    "company": "Piedmont Realty Trust, Inc.",
+    "detected_at": "2026-10-26T16:20:10-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Piedmont Realty Trust는 2026년 3분기 실적 발표에서 3분기 연속으로 연간 가이던스를 상향 조정했습니다. 이번 상향으로 연간 전망치는 당초 가이던스 대비 0.06달러 높아졌습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1042776/000104277626000072/0001042776-26-000072-index.htm",
+    "confidence": 0.9
+  },
+  {
+    "event_id": "77bcf217a93ca580d4553a7e93eb893069495e58395b580742b8532708d4d3b5",
+    "ticker": "PECO",
+    "company": "Phillips Edison & Company, Inc.",
+    "detected_at": "2026-10-26T16:18:44-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Phillips Edison & Company(PECO)는 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. Nareit FFO 주당 가이던스는 기존 $2.67~$2.72에서 $2.68~$2.72로, Core FFO 주당 가이던스는 기존 $2.73~$2.79에서 $2.75~$2.79로 상향되었습니다. 동일 점포 NOI 성장률 가이던스 또한 기존 3.40%~4.00%에서 3.50%~4.00%로 상향 조정되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1476204/000147620426000052/0001476204-26-000052-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "91e22c021ea9bc034a034d9848f80cc6de120ddc38e1805d493dfd2952418d83",
+    "ticker": "PSA",
+    "company": "Public Storage",
+    "detected_at": "2026-10-26T16:11:58-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Public Storage는 2026년 연간 가이던스를 상향 조정했습니다. Core FFO 주당 순이익 가이던스는 기존 $16.75~$17.05에서 $16.90~$17.10으로 상향되었으며, 동일 점포(Same Store) 순영업이익(NOI) 성장률 전망치도 개선되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026067283/0001628280-26-067283-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "e678cbfe084e0019a571bb2e80040f329b04232da7105a5ae28549d247a8433b",
+    "ticker": "AEYE",
+    "company": "AUDIOEYE INC",
+    "detected_at": "2026-10-26T16:09:45-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "AudioEye는 2026년 4분기 및 연간 가이던스를 제시하며, 조정 EBITDA 가이던스를 상향 조정했습니다. 2026년 연간 조정 EBITDA는 기존 대비 상향된 1,340만~1,360만 달러로 예상되며, 이는 전년 대비 약 50% 성장한 수치입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1362190/000110465926118780/0001104659-26-118780-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "4e7c16fadff8d10531fac35a05d2242a8b9d5f6470fcb2563781e047fb008d8e",
+    "ticker": "SUI",
+    "company": "SUN COMMUNITIES INC",
+    "detected_at": "2026-10-26T16:05:37-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Sun Communities은 2026년 연간 Core FFO 가이던스를 6.97~7.05달러(중간값 7.01달러)로 제시하고, 북미 동일 부동산 NOI 성장률 전망치를 기존 4.5%~5.3%에서 4.9%~5.3%로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/912593/000091259326000272/0000912593-26-000272-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "1211150cca48b9de0387ad6b05effc5d5a1b7751da49ec716b8aa1b91d0c426b",
+    "ticker": "AGYS",
+    "company": "AGILYSYS INC",
+    "detected_at": "2026-10-26T16:05:15-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Agilysys는 2027 회계연도 전체 가이던스를 상향 조정했습니다. 총 매출 가이던스는 3억 7,400만~3억 7,800만 달러로, 구독 매출 성장률은 최소 34% 이상으로, 조정 EBITDA 마진은 25%로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526431911/0001193125-26-431911-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "d9df8fd3aede2cef8db3eb029ca94b69610824101542f5245c25619184e7aa0e",
     "ticker": "VZ",
     "company": "VERIZON COMMUNICATIONS INC",
