@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "9569fb5433abcb41a0b8a258a320b25fd72f28c1020ef246eacbfafb49839cdb",
+    "ticker": "CLS",
+    "company": "CELESTICA INC",
+    "detected_at": "2026-10-26T16:23:49-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "셀레스티카는 2026년 연간 매출 가이던스를 기존 205억 달러에서 210억 달러로, 조정 EPS 가이던스를 11.30달러에서 11.55달러로 상향 조정했습니다. 또한 2027년 연간 매출 400억 달러, 조정 EPS 21.50달러라는 강력한 초기 가이던스를 제시했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000049/0001030894-26-000049-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "701bfd4741c236b4af9738b6b81b1edc7573bd10824c4610569a71bb361a6bdb",
     "ticker": "PDM",
     "company": "Piedmont Realty Trust, Inc.",
@@ -41,6 +52,17 @@
     "signal": "guidance_up",
     "summary": "AudioEye는 2026년 4분기 및 연간 가이던스를 제시하며, 조정 EBITDA 가이던스를 상향 조정했습니다. 2026년 연간 조정 EBITDA는 기존 대비 상향된 1,340만~1,360만 달러로 예상되며, 이는 전년 대비 약 50% 성장한 수치입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1362190/000110465926118780/0001104659-26-118780-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "2005b55a51564d5dea81dc40546c4c44f5076e55eeddfa982a2f6d6b252eaba4",
+    "ticker": "BRX",
+    "company": "Brixmor Property Group Inc.",
+    "detected_at": "2026-10-26T16:06:50-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Brixmor Property Group은 2026년 연간 Nareit FFO 가이던스를 기존 $2.35-$2.37에서 $2.36-$2.38로, 동일 부동산(Same Property) NOI 성장률 가이던스를 기존 5.00%-5.75%에서 5.50%-5.75%로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1581068/000158106826000032/0001581068-26-000032-index.htm",
     "confidence": 1.0
   },
   {
