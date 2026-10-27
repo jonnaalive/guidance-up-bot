@@ -66,6 +66,17 @@
     "confidence": 1.0
   },
   {
+    "event_id": "60c39afdbc9dcaa46f147d1b6fb0825cfcf08a85c6b3c73bcf5e69a7f84050b1",
+    "ticker": "CDNS",
+    "company": "CADENCE DESIGN SYSTEMS INC",
+    "detected_at": "2026-10-26T16:03:09-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Cadence는 2026년 3분기 실적 발표에서 강력한 비즈니스 모멘텀과 기록적인 수주 잔고(82억 달러)를 바탕으로 2026년 연간 매출 성장률 전망치를 21%로 상향 조정했습니다. 연간 매출 가이던스는 63.87억~64.17억 달러, 비GAAP 기준 주당순이익(EPS)은 8.37~8.43달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/0000813672-26-000116-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "d9df8fd3aede2cef8db3eb029ca94b69610824101542f5245c25619184e7aa0e",
     "ticker": "VZ",
     "company": "VERIZON COMMUNICATIONS INC",
