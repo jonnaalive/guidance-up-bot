@@ -1,5 +1,137 @@
 [
   {
+    "event_id": "dc6ff096360ff503bde07298952adf04aa822326de95f1bd392ce6349a33fdb3",
+    "ticker": "BKR",
+    "company": "Baker Hughes Co",
+    "detected_at": "2026-10-27T17:05:54-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Baker Hughes는 데이터 센터, 우주, LNG 및 가스 인프라 전반의 광범위한 수요 증가를 반영하여 연간 IET(Industrial & Energy Technology) 수주 가이던스를 500억 달러 이상으로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1701605/000170160526000033/0001701605-26-000033-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "f0827ec06f2cc63fc3f14392fb3e12620fa3f4557a54dc36960e73b169e08e76",
+    "ticker": "VTR",
+    "company": "Ventas, Inc.",
+    "detected_at": "2026-10-27T16:32:09-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Ventas는 2026년 3분기 실적 발표에서 시니어 하우징 부문의 투자 성과를 반영하여 연간 가이던스를 상향 조정했습니다. Attributable Net Income은 기존 $0.58~$0.63에서 $0.64~$0.67로, Nareit FFO는 $3.76~$3.81에서 $3.83~$3.86으로, Normalized FFO는 $3.85~$3.90에서 $3.87~$3.90으로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/740260/000074026026000026/0000740260-26-000026-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "e13e8b3ea75d0398e0bbad56a798a783077c37c9435eceb0d5dae23cf10703e2",
+    "ticker": "CR",
+    "company": "Crane Co",
+    "detected_at": "2026-10-27T16:29:30-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Crane Co는 2026년 3분기 실적 호조와 인수 기업의 성과를 반영하여 연간 조정 EPS 가이던스를 기존 $6.85-$7.05에서 $7.23-$7.38로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1944013/000162828026067607/0001628280-26-067607-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "b6e402a0393b85713f1e7f264634cacee1b435959fc67e5fb34eb1c83cded101",
+    "ticker": "SLDE",
+    "company": "Slide Insurance Holdings, Inc.",
+    "detected_at": "2026-10-27T16:27:25-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Slide Insurance는 2026년 전체 가이던스를 상향 조정했습니다. 총 원수보험료(GWP)는 기존 18.5억~19.5억 달러에서 19.0억~19.5억 달러로, 순이익은 기존 4.55억~4.7억 달러에서 5.0억~5.2억 달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1886428/000119312526434282/0001193125-26-434282-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "425d6990d515427a81e9006294535bf4c59b7cc0441298ef34d7e6123ca5f3e5",
+    "ticker": "CTO",
+    "company": "CTO Realty Growth, Inc.",
+    "detected_at": "2026-10-27T16:26:14-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "CTO Realty Growth는 2026년 Core FFO 가이던스를 기존 주당 2.09~2.13달러에서 2.11~2.14달러로 상향 조정했습니다. 이는 연초 대비 4억 7,200만 달러 규모의 투자 집행과 지속적인 임대 모멘텀을 반영한 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/23795/000110465926119170/0001104659-26-119170-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "437cd495a5b904dc5727e81836a80c8e0b77f6d473274ab0f589600085fa8cb0",
+    "ticker": "EXR",
+    "company": "Extra Space Storage Inc.",
+    "detected_at": "2026-10-27T16:17:52-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Extra Space Storage는 2026년 연간 Core FFO 가이던스를 기존 $8.25~$8.40에서 $8.40~$8.50으로 상향 조정했습니다. 동일 점포 매출 성장률 및 NOI 성장률 전망치도 함께 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1289490/000128949026000061/0001289490-26-000061-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "5179cb438fa8393a876c48ebc98e6a081b89252b6b31eec3c0a590fc5b073550",
+    "ticker": "AAT",
+    "company": "American Assets Trust, Inc.",
+    "detected_at": "2026-10-27T16:16:27-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "American Assets Trust는 2026년 FFO(주당 운영자금) 가이던스를 기존 $1.96~$2.10에서 $2.04~$2.10으로 상향 조정했습니다. 이는 중간값 기준 $0.04 증가한 수치입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1500217/000150021726000049/0001500217-26-000049-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "ffe753ebf216fb635ebe667abca7ea01b8abfc8a550b9ccce0efaf115c353bfe",
+    "ticker": "ENSG",
+    "company": "ENSIGN GROUP, INC",
+    "detected_at": "2026-10-27T16:11:35-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Ensign Group은 2026년 3분기 실적 호조와 4분기 전망에 대한 자신감을 바탕으로 연간 가이던스를 상향 조정했습니다. 조정 EPS 가이던스는 기존 $7.75~$7.85에서 $7.94~$8.02로, 연간 매출 가이던스 하단은 $5.89억으로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1125376/000112537626000047/0001125376-26-000047-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "983bc2f1ff088c507bf0bf22c13a46b3f29f6c9a7c5b459502770fd6d11b92c9",
+    "ticker": "IVT",
+    "company": "InvenTrust Properties Corp.",
+    "detected_at": "2026-10-27T16:08:46-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "InvenTrust Properties는 2026년 연간 가이던스를 상향 조정했습니다. 주요 지표인 Nareit FFO는 기존 $2.01~$2.07에서 $2.05~$2.07로, Core FFO는 $1.92~$1.96에서 $1.94~$1.96으로 상향되었으며, 동일 부동산 NOI 성장률 전망치도 3.25%~4.25%에서 3.75%~4.25%로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1307748/000130774826000209/0001307748-26-000209-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "a6a69d2bc445d7715a018ee2f0ef8937b9dab00c2b314dcaa878849391591b0a",
+    "ticker": "KIDS",
+    "company": "ORTHOPEDIATRICS CORP",
+    "detected_at": "2026-10-27T16:07:43-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "OrthoPediatrics는 2026년 연간 매출 가이던스를 기존 2억 6,500만~2억 6,900만 달러에서 2억 7,000만~2억 7,300만 달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1425450/000142545026000091/0001425450-26-000091-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "fbefb675bb6e417a5f4259a405660e09de2af702845c59f9869dada9cd32d5ba",
+    "ticker": "BBNX",
+    "company": "Beta Bionics, Inc.",
+    "detected_at": "2026-10-27T16:04:14-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "2026년 연간 매출 가이던스를 기존 1억 2,100만~1억 2,600만 달러에서 1억 2,400만~1억 2,600만 달러로 상향 조정했습니다. Mint 출시 대기 수요로 인한 4분기 매출 이연 가능성(최대 850만 달러)에도 불구하고 견조한 실적 흐름을 반영한 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1674632/000117184326006856/0001171843-26-006856-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "8720d148951ca20560576abec3598f6a45ed109c989c81b1d67a94d65167aee3",
+    "ticker": "EXLS",
+    "company": "ExlService Holdings, Inc.",
+    "detected_at": "2026-10-27T16:02:39-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "EXL은 2026년 3분기 실적 호조를 바탕으로 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 23.90억~24.15억 달러에서 24.30억~24.40억 달러로, 조정 주당순이익(EPS) 가이던스는 기존 2.25~2.29달러에서 2.34~2.36달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1297989/000129798926000028/0001297989-26-000028-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "393aed861e490a5592c1287e2e83dd9500192731d18c7f5a0835805e05197bfb",
     "ticker": "E",
     "company": "ENI SPA",
@@ -19,6 +151,17 @@
     "signal": "one_off_guidance",
     "summary": "Applied Industrial Technologies는 2027 회계연도 EPS 가이던스를 기존 $11.65~$12.15에서 $11.70~$12.20으로 상향 조정했습니다. 이는 1분기 자사주 매입에 따른 희석 주식 수 감소를 반영한 결과입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/109563/000010956326000051/0000109563-26-000051-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "76baec4330b8f203141fbd15b7cccc8a7fe4fe8ccc97365c2c880b5d61faedc6",
+    "ticker": "SXC",
+    "company": "SunCoke Energy, Inc.",
+    "detected_at": "2026-10-27T09:24:41-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "SunCoke Energy는 2026년 연간 가이던스를 상향 조정했습니다. 연결 조정 EBITDA 가이던스는 기존 $230M~$250M에서 $250M~$265M으로, 잉여현금흐름(FCF) 가이던스는 $180M~$185M으로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1514705/000151470526000047/0001514705-26-000047-index.htm",
     "confidence": 1.0
   },
   {
@@ -745,61 +888,6 @@
     "signal": "guidance_up",
     "summary": "Elevance Health는 2026년 연간 가이던스를 상향 조정했습니다. 희석 주당순이익(EPS) 가이던스는 최소 22.00달러, 조정 희석 EPS 가이던스는 최소 29.00달러, 영업 현금 흐름 가이던스는 최소 65억 달러로 각각 상향되었습니다. 이전 가이던스 수치는 공시에서 제공되지 않았습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/0001156039-26-000068-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "2b5f64b6a59a647f16895352e962cd4334796a827e51ad7d9efbafe9c1e658b5",
-    "ticker": "DHR",
-    "company": "DANAHER CORP /DE/",
-    "detected_at": "2026-10-20T17:43:14-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "다나허(Danaher)는 2026년 연간 조정 주당순이익(EPS) 가이던스를 기존 8.45~8.60달러에서 8.57~8.62달러로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000201/0000313616-26-000201-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "18b063b6546c8c0879f0b53b7b63decef94a7e75b01b2ea7c3e25493a452057d",
-    "ticker": "SMCI",
-    "company": "Super Micro Computer, Inc.",
-    "detected_at": "2026-10-20T16:44:26-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "슈퍼마이크로컴퓨터는 AI 플랫폼 수요 증가를 반영하여 2027 회계연도 1분기 매출 가이던스를 기존 145억~155억 달러에서 185억~195억 달러로 상향 조정했습니다. 또한 제품 및 고객 믹스 개선에 따라 매출총이익률 가이던스도 기존 10.4%~10.8%에서 12.0%~12.5%로 상향했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000025/0001375365-26-000025-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "b5240f94d31568c9948ee836688ea3b8d4654a089335cb9f46e7a5c94c3c58cf",
-    "ticker": "NP",
-    "company": "Neptune Insurance Holdings Inc.",
-    "detected_at": "2026-10-20T16:15:51-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Neptune Insurance Holdings는 3분기 실적 호조를 바탕으로 2026년 연간 매출 가이던스를 2억 400만 달러로 상향 조정하고, 2027년 연간 매출 가이던스를 2억 3,800만 달러로 신규 제시했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/2067129/000162828026066494/0001628280-26-066494-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "61fcf679c8745695cf694ed19bfcc57322e1c167c846be2c9e54a9644c71c07d",
-    "ticker": "ADC",
-    "company": "AGREE REALTY CORP",
-    "detected_at": "2026-10-20T16:05:27-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Agree Realty는 2026년 AFFO 주당 가이던스를 기존 $4.57~$4.59에서 $4.58~$4.59로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/917251/000091725126000075/0000917251-26-000075-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "c8f5516741e948b58314205d1d4ca2de18db32815baac36614a2b75f093ecdf0",
-    "ticker": "EWBC",
-    "company": "EAST WEST BANCORP INC",
-    "detected_at": "2026-10-20T16:04:23-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "East West Bancorp은 2026년 연간 순이자이익(NII) 성장률 가이던스를 기존 8~9%에서 9~10%로 상향 조정했습니다. 또한 세금 공제 및 CRA 투자 상각액 가이던스를 90~95백만 달러로 좁히며 상단 범위를 유지했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1069157/000106915726000048/0001069157-26-000048-index.htm",
     "confidence": 1.0
   }
 ]
