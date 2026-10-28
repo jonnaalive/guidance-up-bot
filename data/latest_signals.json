@@ -1,5 +1,214 @@
 [
   {
+    "event_id": "ef0d6c7402256219b622cc913ba5d648a02a8d634c7441de39cfc83c9b4de24b",
+    "ticker": "CHEF",
+    "company": "Chefs' Warehouse, Inc.",
+    "detected_at": "2026-10-28T08:33:46-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Chefs' Warehouse는 2026 회계연도 전체 재무 가이던스를 상향 조정했습니다. 순매출은 45.6억~46.1억 달러, 매출총이익은 11.3억~11.4억 달러, 조정 EBITDA는 3.17억~3.21억 달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000034/0001517175-26-000034-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "68ee3fad373f96d741b3599f537c99f30423e9400b57ef4ae1bd003317fa5d0f",
+    "ticker": "CLH",
+    "company": "CLEAN HARBORS INC",
+    "detected_at": "2026-10-28T08:17:54-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Clean Harbors는 2026년 연간 조정 EBITDA 가이던스를 14.4억~14.8억 달러(중간값 14.6억 달러)로, 조정 잉여현금흐름(FCF) 가이던스를 6억~6.6억 달러(중간값 6.3억 달러)로 상향 조정했습니다. 이는 기존 가이던스 대비 중간값을 각각 8천만 달러씩 높인 수치입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/822818/000082281826000045/0000822818-26-000045-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "a7ec8870e949bacf82296e7b20484dc4ea1d35458d38a69286c66b0d3c5cde30",
+    "ticker": "OSS",
+    "company": "ONE STOP SYSTEMS, INC.",
+    "detected_at": "2026-10-28T08:12:30-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "One Stop Systems은 2026년 연간 매출 성장률 가이던스를 기존 25~30%에서 약 40%로 상향 조정했습니다. 이는 헬스케어, 항공우주, 데이터 센터 등 상업용 시장에서의 강력한 수요와 1.46배의 높은 수주잔고 비율(book-to-bill)에 기인합니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1394056/000119312526435175/0001193125-26-435175-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "9db37a3e420a49654762657e3e2acb7ff89e8905b763893266f60e6651db06e5",
+    "ticker": "EAT",
+    "company": "BRINKER INTERNATIONAL, INC",
+    "detected_at": "2026-10-28T08:03:32-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Brinker International은 2027 회계연도 가이던스를 상향 조정했습니다. 총 매출 가이던스는 기존 61.5억~62.7억 달러에서 62.3억~63.3억 달러로, 조정 EPS 가이던스는 기존 12.60~13.40달러에서 13.30~13.90달러로 상향되었습니다. 이는 4분기 53주 운영 효과를 포함한 수치입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000036/0000703351-26-000036-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "1050a66fb21d9a16bfe8c82c3469dfb19f4e5189114cd9b6543346840261cf51",
+    "ticker": "FELE",
+    "company": "FRANKLIN ELECTRIC CO INC",
+    "detected_at": "2026-10-28T08:00:40-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Franklin Electric은 2026년 연간 가이던스를 상향 조정했습니다. 순매출 가이던스는 22.3억~23.0억 달러, 조정 희석 EPS 가이던스는 4.62~4.82달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000064/0000038725-26-000064-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "af69b05317fa3af98ea205fbafa3cbb74d2f6ae8c72e9865ac12a6494709fc8e",
+    "ticker": "FTV",
+    "company": "Fortive Corp",
+    "detected_at": "2026-10-28T07:31:45-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Fortive는 2026년 연간 조정 주당순이익(EPS) 가이던스를 기존 대비 상향 조정하여 3.10달러에서 3.14달러 범위로 제시했습니다. 이는 견조한 연초 대비 실적과 향후 사업 궤도에 대한 자신감을 반영한 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1659166/000165916626000039/0001659166-26-000039-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "c7c4b97e2b31120ac67e3303aaa69c10770403c75584a4e07af976e323e02039",
+    "ticker": "FLEX",
+    "company": "FLEX LTD.",
+    "detected_at": "2026-10-28T07:10:19-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Flex는 2027 회계연도 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 337억~352억 달러에서 349억~359억 달러로, 조정 영업이익률은 7.0%~7.2%에서 7.6%~7.8%로, 조정 EPS는 4.42~4.74달러에서 4.84~5.16달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000039/0000866374-26-000039-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "33224c75c21ed8eaea78303ce035c5b91b4ed68c120ddc7192e456fc275bbc84",
+    "ticker": "HAYW",
+    "company": "Hayward Holdings, Inc.",
+    "detected_at": "2026-10-28T07:04:04-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Hayward Holdings는 2026 회계연도 가이던스를 상향 조정했습니다. 순매출 성장률 전망치는 기존 약 5%에서 5~6%로, 조정 주당순이익(EPS) 전망치는 기존 $0.84~$0.87에서 $0.86~$0.88로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1834622/000183462226000054/0001834622-26-000054-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "ad236d1fee27a6d468abaa202fbf46e76e90db1e30878fd95f515bbbd15e7c7d",
+    "ticker": "BLCO",
+    "company": "Bausch & Lomb Corp",
+    "detected_at": "2026-10-28T07:03:19-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Bausch + Lomb는 2026년 3분기 실적 호조를 바탕으로 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 54.4억~55.4억 달러에서 54.5억~55.5억 달러로, 조정 EBITDA(IPR&D 제외) 가이던스는 기존 10.25억~10.75억 달러에서 10.9억~11.4억 달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1860742/000186074226000108/0001860742-26-000108-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "b5e2168e558a47b1a1f5fadfa560c9ca72f4f27830331d2156d86e7399f848f4",
+    "ticker": "MAS",
+    "company": "MASCO CORP /DE/",
+    "detected_at": "2026-10-28T07:01:30-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "마스코(Masco)는 2026년 연간 조정 주당순이익(EPS) 가이던스를 기존 4.40~4.60달러에서 4.65~4.75달러로 상향 조정했습니다. 이는 견고한 연초 대비 운영 성과를 반영한 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/62996/000006299626000032/0000062996-26-000032-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "7419cdc5825785ec0775a37d26601b8b837347072e1326c56c218d01e75233f0",
+    "ticker": "DAN",
+    "company": "DANA Inc",
+    "detected_at": "2026-10-28T07:00:10-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Dana는 2026년 연간 매출 가이던스를 약 5천만 달러 상향 조정했습니다. 이는 수요 증가와 회복세에 따른 결과입니다. 조정된 EBITDA, 주당순이익(EPS), 잉여현금흐름 가이던스는 기존 수준을 유지했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/26780/000119312526435068/0001193125-26-435068-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "3b0b2296bf0e5a96fa2a827e09c9a2345ab75a73b27cdfdc1a86e8d02f6ffe75",
+    "ticker": "UE",
+    "company": "Urban Edge Properties",
+    "detected_at": "2026-10-28T06:59:57-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Urban Edge Properties는 2026년 연간 가이던스를 상향 조정했습니다. 조정된 FFO(FFO as Adjusted) 가이던스는 주당 $1.52~$1.54로 제시되었습니다. 이전 가이던스 수치는 공시에서 명시되지 않았으나, 회사는 연초 대비 성과를 바탕으로 중간값을 $0.01 상향했다고 밝혔습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1611547/000161154726000069/0001611547-26-000069-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "6825a6ccc38a3d31c25a5c92213e3c1dbcb0db08d8e30442b67cdfe714bdbbe4",
+    "ticker": "LH",
+    "company": "LABCORP HOLDINGS INC.",
+    "detected_at": "2026-10-28T06:57:40-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Labcorp은 2026년 3분기 실적 호조에 힘입어 연간 가이던스를 상향 조정했습니다. 기업 전체 매출 성장률 가이던스는 기존 5.4%~6.3%에서 5.9%~6.7%로, 조정 EPS 가이던스는 기존 $18.10~$18.55에서 $18.30~$18.70으로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/920148/000092014826000213/0000920148-26-000213-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "cf26a5ca67441adf4a5eef91062d62d22c0ce3ef9f25949185245212c43bb419",
+    "ticker": "ADP",
+    "company": "AUTOMATIC DATA PROCESSING INC",
+    "detected_at": "2026-10-28T06:55:11-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "ADP는 2027 회계연도 가이던스를 상향 조정했습니다. 조정된 희석 주당순이익(EPS) 성장률 전망치는 기존 9~11%에서 10~12%로 상향되었으며, 고객 자금 이자 수익 전망치도 15.4억~15.6억 달러에서 15.9억~16.1억 달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/8670/000000867026000033/0000008670-26-000033-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "31940e57e5e584448d3ff62c9b6f26b05bdebe7dde2538c7be91c5bf204535ea",
+    "ticker": "NI",
+    "company": "NISOURCE INC.",
+    "detected_at": "2026-10-28T06:35:16-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "NiSource는 2026년 비GAAP 조정 EPS 가이던스를 기존 $2.02-$2.07 범위의 상단으로 좁혔으며, 2027년 가이던스를 $2.22-$2.30으로 새롭게 제시했습니다. 또한 2027-2033년 기간 동안의 연간 조정 EPS 성장률 전망치를 10%-11%로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000099/0001111711-26-000099-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "a28cb657961a8cd0c8e08b0958c70f266c84eddf871768e8654e970d1a4d2018",
+    "ticker": "GEV",
+    "company": "GE Vernova Inc.",
+    "detected_at": "2026-10-28T06:16:59-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "GE Vernova는 2026년 3분기 실적 호조와 전력 인프라 수요 증가를 반영하여 2026년 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 45.5~46.5십억 달러에서 46.5~47.5십억 달러로, 조정 EBITDA 마진은 12~14%에서 13.5~14.5%로, 잉여현금흐름(FCF)은 11.5~12.5십억 달러에서 16~17십억 달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000162/0001996810-26-000162-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "39bd3933bd2599aef2ff4b53e8ac7d7c70639112fcce0810182313796bd3f3f3",
+    "ticker": "BIIB",
+    "company": "BIOGEN INC.",
+    "detected_at": "2026-10-28T06:07:33-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "바이오젠은 2026년 연간 Non-GAAP 희석 주당순이익(EPS) 가이던스 하단을 기존 12.00달러에서 12.20달러로 상향 조정했습니다(범위: 12.20~13.00달러). 이는 사업의 지속적인 강세와 아펠리스(Apellis) 인수 관련 희석 효과의 개선을 반영한 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000094/0000875045-26-000094-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "406f519320e5b08a123698ca77222e1f05027eb2c2bdf032445bb1c56a0f605c",
+    "ticker": "VRT",
+    "company": "Vertiv Holdings Co",
+    "detected_at": "2026-10-28T06:02:00-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Vertiv는 강력한 데이터 센터 수요와 유기적 주문 성장(100% 이상)을 바탕으로 2026년 연간 가이던스를 상향 조정했습니다. 연간 순매출 가이던스는 144.5억~148.5억 달러, 조정 주당순이익(EPS)은 7.10~7.20달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/0001628280-26-067707-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "e736efe781298813488ec78a58272209f56b2b311c4775b1952fbe6641291c4c",
+    "ticker": "GNRC",
+    "company": "GENERAC HOLDINGS INC.",
+    "detected_at": "2026-10-28T06:01:12-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "제너랙 홀딩스는 2026년 연간 조정 EBITDA 마진 가이던스를 기존 20.0~21.0%에서 20.5~21.0%로 상향 조정했습니다. 매출 성장률 및 순이익 마진 가이던스는 기존 수준을 유지했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926033685/0001437749-26-033685-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "dc6ff096360ff503bde07298952adf04aa822326de95f1bd392ce6349a33fdb3",
     "ticker": "BKR",
     "company": "Baker Hughes Co",
@@ -822,83 +1031,6 @@
     "signal": "guidance_up",
     "summary": "Hudbay Minerals는 Copper World 합작 투자 프로젝트의 승인에 따라 2026년 성장 자본 지출 가이던스를 기존 1억 3,500만 달러에서 2억 4,500만 달러로 상향 조정했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1322422/000106299326005462/0001062993-26-005462-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "0485d06149578de1cd5c7eab4268b5ea35096609988bd370d8ff3b35352a9b97",
-    "ticker": "UDR",
-    "company": "UDR, Inc.",
-    "detected_at": "2026-10-21T08:05:10-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "UDR은 2026년 연간 순이익 및 FFOA 가이던스를 상향 조정했습니다. 순이익 가이던스는 기존 1.03~1.11달러에서 1.58~1.60달러로, FFOA 가이던스는 기존 2.49~2.57달러에서 2.54~2.56달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/74208/000007420826000081/0000074208-26-000081-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "7af0796a39e6b107c4ea8898439a8a3db991509d68447724cd16827a8b4f0335",
-    "ticker": "COR",
-    "company": "Cencora, Inc.",
-    "detected_at": "2026-10-21T07:48:25-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Cencora는 미국 헬스케어 솔루션 부문의 실적 강세를 반영하여 2026 회계연도 조정 주당순이익(EPS) 가이던스를 상향 조정했습니다. 기존 17.75~17.95달러 범위에서 최소 17.90달러 이상으로 조정되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1140859/000110465926117576/0001104659-26-117576-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "85ce5e2c6910601cebe3c8e0a0362155d364879f40746551b7a562788202b7f3",
-    "ticker": "TDY",
-    "company": "TELEDYNE TECHNOLOGIES INC",
-    "detected_at": "2026-10-21T07:14:11-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Teledyne Technologies는 2026년 연간 GAAP 희석 EPS 가이던스를 기존 $20.73~$20.99에서 $21.71~$21.87로, Non-GAAP 희석 EPS 가이던스를 기존 $24.45~$24.65에서 $25.40~$25.50으로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000055/0001094285-26-000055-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "443cf363406d48b379a7f5db831db12de02d1bc114a330a2aef1932360dee8c2",
-    "ticker": "WAB",
-    "company": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-    "detected_at": "2026-10-21T07:08:59-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Wabtec은 2026년 조정 EPS 가이던스를 기존 대비 중간값 기준 0.20달러 상향 조정하여 10.85~11.05달러로 제시했습니다. 매출 가이던스는 123억~126억 달러로 유지했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/943452/000094345226000017/0000943452-26-000017-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "77eee8ffd5e20737763a3780a63000ac477eae7a57e9a17d2ac7ed4533234968",
-    "ticker": "HCSG",
-    "company": "HEALTHCARE SERVICES GROUP INC",
-    "detected_at": "2026-10-21T07:01:55-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "HCSG는 2027년 매출 성장률 전망치를 기존 '한 자릿수 중반(mid single-digits)'에서 '두 자릿수 초반(low double-digits)'으로 상향 조정했습니다. 또한 2026년 4분기 매출 가이던스로 5억 3,500만 달러에서 5억 4,500만 달러를 제시했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/731012/000073101226000055/0000731012-26-000055-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "a8aed1d0706085d7841023c906063dd3e5a9c78eeec1f4c51dbf50fb77ed6e3a",
-    "ticker": "SHMD",
-    "company": "SCHMID Group N.V.",
-    "detected_at": "2026-10-21T06:55:00-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "SCHMID Group은 2026년 연간 수주 가이던스를 기존 1억 2,500만~1억 5,000만 유로에서 1억 5,000만 유로 초과로 상향 조정했습니다. 매출액 1억 유로 초과 및 조정 EBITDA 마진 6~9% 가이던스는 유지되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1987240/000121390026111170/0001213900-26-111170-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "2b87286746c6f40badcf0c99ff79bd672562a303286d0ab0c74b5e6f8b0e7913",
-    "ticker": "ELV",
-    "company": "Elevance Health, Inc.",
-    "detected_at": "2026-10-21T06:01:36-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Elevance Health는 2026년 연간 가이던스를 상향 조정했습니다. 희석 주당순이익(EPS) 가이던스는 최소 22.00달러, 조정 희석 EPS 가이던스는 최소 29.00달러, 영업 현금 흐름 가이던스는 최소 65억 달러로 각각 상향되었습니다. 이전 가이던스 수치는 공시에서 제공되지 않았습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/0001156039-26-000068-index.htm",
     "confidence": 1.0
   }
 ]
