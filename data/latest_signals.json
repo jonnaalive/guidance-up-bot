@@ -55,6 +55,17 @@
     "confidence": 1.0
   },
   {
+    "event_id": "ff85295f3da7b597ceacd5138894fb90d0a8f607a1c48aaaca13c1dbfb6a2b51",
+    "ticker": "JLL",
+    "company": "JONES LANG LASALLE INC",
+    "detected_at": "2026-10-28T07:33:19-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "JLL은 2026년 3분기 실적 발표에서 견조한 운영 성과와 파이프라인 강세를 근거로 연간 조정 EPS 가이던스를 상향 조정했습니다. 구체적인 수치는 공개되지 않았으나, 경영진은 중간값 기준 37% 성장을 반영한 목표 범위 상향을 명시했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1037976/000103797626000187/0001037976-26-000187-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "af69b05317fa3af98ea205fbafa3cbb74d2f6ae8c72e9865ac12a6494709fc8e",
     "ticker": "FTV",
     "company": "Fortive Corp",
@@ -107,6 +118,17 @@
     "signal": "guidance_up",
     "summary": "마스코(Masco)는 2026년 연간 조정 주당순이익(EPS) 가이던스를 기존 4.40~4.60달러에서 4.65~4.75달러로 상향 조정했습니다. 이는 견고한 연초 대비 운영 성과를 반영한 결과입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/62996/000006299626000032/0000062996-26-000032-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "a4f696e359138af1bfa2541faa8300e75fe51276a71acc0ce9ae3dc56826d60e",
+    "ticker": "IEX",
+    "company": "IDEX CORP /DE/",
+    "detected_at": "2026-10-28T07:01:11-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "IDEX는 2026년 3분기 실적 호조와 연말 가시성 개선을 바탕으로 연간 가이던스를 상향 조정했습니다. 유기적 매출 성장률 전망치는 기존 5~6%에서 6.5~6.8%로, 조정 주당순이익(EPS) 전망치는 기존 8.70~8.85달러에서 8.91~8.96달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000026/0000832101-26-000026-index.htm",
     "confidence": 1.0
   },
   {
@@ -173,6 +195,17 @@
     "signal": "guidance_up",
     "summary": "GE Vernova는 2026년 3분기 실적 호조와 전력 인프라 수요 증가를 반영하여 2026년 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 45.5~46.5십억 달러에서 46.5~47.5십억 달러로, 조정 EBITDA 마진은 12~14%에서 13.5~14.5%로, 잉여현금흐름(FCF)은 11.5~12.5십억 달러에서 16~17십억 달러로 각각 상향되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000162/0001996810-26-000162-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "b56e874fe2572d22c5c52fb4c94c69eefcb4f1c5420c42cd2cd5a39685eef5fc",
+    "ticker": "AVTR",
+    "company": "Avantor, Inc.",
+    "detected_at": "2026-10-28T06:08:04-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Avantor는 2026년 3분기 실적 호조에 힘입어 연간 가이던스를 상향 조정했습니다. 유기적 매출 성장률은 기존 -0.5%~+0.5%에서 +0.75%~+1.25%로, 조정 EPS는 $0.80~$0.83에서 $0.81~$0.83으로, 잉여현금흐름은 $500M~$550M에서 $525M~$550M으로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1722482/000162828026067710/0001628280-26-067710-index.htm",
     "confidence": 1.0
   },
   {
@@ -1020,17 +1053,6 @@
     "signal": "guidance_up",
     "summary": "EastGroup Properties는 2026년 연간 FFO 가이던스를 기존 $9.52-$9.66에서 $9.62-$9.68로 상향 조정했습니다. 이는 견고한 임대 모멘텀과 개발 및 인수 활동의 증가에 따른 것입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/49600/000004960026000047/0000049600-26-000047-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "b592d20adabda5462e98e65683a78a449075ea1b6e87b29e151d3dc9145be92f",
-    "ticker": "HBM",
-    "company": "Hudbay Minerals Inc.",
-    "detected_at": "2026-10-21T13:14:25-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Hudbay Minerals는 Copper World 합작 투자 프로젝트의 승인에 따라 2026년 성장 자본 지출 가이던스를 기존 1억 3,500만 달러에서 2억 4,500만 달러로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1322422/000106299326005462/0001062993-26-005462-index.htm",
     "confidence": 1.0
   }
 ]
