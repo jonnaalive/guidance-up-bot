@@ -11,6 +11,17 @@
     "confidence": 1.0
   },
   {
+    "event_id": "9dfe2bbd5b8a3d696305cbe6b7e8db6e453c43e65ad0b400d95c1d65232735b3",
+    "ticker": "ESS",
+    "company": "ESSEX PROPERTY TRUST, INC.",
+    "detected_at": "2026-10-27T16:34:17-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Essex Property Trust는 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. 주요 지표인 Core FFO 주당 순이익 가이던스 범위는 기존 $16.03~$16.25에서 $16.10~$16.22로 조정되었으며, 동일 부동산(Same-Property) NOI 성장률 전망치도 기존 2.3%~3.3%에서 2.8%~3.2%로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/920522/000114036126040903/0001140361-26-040903-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "f0827ec06f2cc63fc3f14392fb3e12620fa3f4557a54dc36960e73b169e08e76",
     "ticker": "VTR",
     "company": "Ventas, Inc.",
