@@ -1,5 +1,60 @@
 [
   {
+    "event_id": "c54f11c9c321fa12438223afd448b55947985211196e6b80f576c83e21009e53",
+    "ticker": "MICC",
+    "company": "Magnum Ice Cream Co N.V.",
+    "detected_at": "2026-10-29T06:05:05-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Magnum Ice Cream Co는 2026년 연간 유기적 매출 성장률(OSG) 가이던스를 기존 3~5%에서 약 5.5%로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2071668/000117184326006949/0001171843-26-006949-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "4352cc94190430b4f1dfb3f9c4f83b9b1dfa72365425fe9977dbed66120e7bad",
+    "ticker": "LHX",
+    "company": "L3HARRIS TECHNOLOGIES, INC. /DE/",
+    "detected_at": "2026-10-29T06:04:22-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "L3Harris는 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 232억~237억 달러에서 235억~237억 달러로, GAAP EPS 가이던스는 기존 11.80~12.00달러에서 12.25~12.35달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000084/0000202058-26-000084-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "0e4f8bbdcea08e1009297db9245975b9ecfd7b6515e26bb753da88867299cdc2",
+    "ticker": "WCC",
+    "company": "WESCO INTERNATIONAL INC",
+    "detected_at": "2026-10-29T06:02:36-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Wesco International은 2026년 3분기 실적 호조와 강력한 수주 잔고를 바탕으로 2026년 연간 가이던스를 상향 조정했습니다. 구체적인 수치는 공시되지 않았으나, 경영진은 '2026년 전망을 다시 한번 크게 상향한다'고 명시했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/929008/000092900826000029/0000929008-26-000029-index.htm",
+    "confidence": 0.9
+  },
+  {
+    "event_id": "8fefaf51c7b8529c47d347a36f588a70a62b2946b36a5fcfcc74ade00e24b85b",
+    "ticker": "FVRR",
+    "company": "Fiverr International Ltd.",
+    "detected_at": "2026-10-29T06:02:22-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Fiverr는 2026년 3분기 실적 호조와 AutoDS 및 전자상거래 부문의 성장세를 반영하여 2026 회계연도 전체 가이던스를 상향 조정했습니다. 연간 매출 가이던스는 3억 7,400만~3억 8,000만 달러, 조정 EBITDA 가이던스는 6,100만~6,500만 달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1762301/000117891326004897/0001178913-26-004897-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "34610e3dbce1ef2a0dd4d6e61cd24639694d92885d0e6e477e11468feafd8952",
+    "ticker": "HIPO",
+    "company": "Hippo Holdings Inc.",
+    "detected_at": "2026-10-28T18:28:31-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Hippo Holdings는 2026년 연간 가이던스를 상향 조정했습니다. 총 원수보험료(GWP)는 기존 16.5억~17억 달러에서 17억~17.5억 달러로, 조정 순이익은 6,200만~7,000만 달러에서 7,700만~8,000만 달러로 상향되었습니다. 또한 합산비율(Combined Ratio) 가이던스를 99%~101%에서 97%~98%로 개선했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1828105/000182810526000048/0001828105-26-000048-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "5ad4baf89dac898080e55f8d013424b3c4cc77b85138178f5fbca02430d3b0a0",
     "ticker": "NOW",
     "company": "ServiceNow, Inc.",
@@ -1163,39 +1218,6 @@
     "signal": "guidance_up",
     "summary": "록히드마틴은 2026년 3분기 실적 호조와 수주 잔고 기록 경신을 바탕으로 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 797.5억~817.5억 달러에서 800억~820억 달러로, 주당순이익(EPS)은 29.95~30.65달러에서 30.35~30.75달러로, 잉여현금흐름(FCF)은 70억~72억 달러에서 78억~80억 달러로 상향되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/0001628280-26-066780-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "56f39db00864e2ecbf7b86e64921ae582943ac84f4d4a8d601936af02f1c2f4c",
-    "ticker": "THRM",
-    "company": "Gentherm Inc",
-    "detected_at": "2026-10-22T06:10:14-04:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "젠썸(Gentherm)은 모딘 퍼포먼스 테크놀로지스(Modine Performance Technologies) 인수 완료를 반영하여 2026년 연간 가이던스를 상향 조정했습니다. 제품 매출 가이던스는 기존 15.5억~16.5억 달러에서 18.25억~19.25억 달러로, 조정 EBITDA는 1.85억~2.0억 달러에서 2.1억~2.3억 달러로, 조정 잉여현금흐름은 0.85억~1.0억 달러에서 1.0억~1.2억 달러로 각각 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/903129/000119312526428275/0001193125-26-428275-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "bf045958f166487840ce70ce51fa6dd16bea4c0a40a4e867a39613ee86cc5e99",
-    "ticker": "ALLE",
-    "company": "Allegion plc",
-    "detected_at": "2026-10-22T06:03:30-04:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "Allegion은 2026년 전체 매출 성장률(보고 기준 9.5~10.5%, 유기적 기준 5.0~6.0%) 및 조정 EPS 가이던스($9.05~$9.10)를 상향 조정했습니다. 이전 가이던스 수치는 명시되지 않았으나, 경영진은 실적 발표를 통해 가이던스 상향을 공식화했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1579241/000157924126000032/0001579241-26-000032-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "1b1913a823654bff791929140a8ec5c31e7dce155ba93ebaca0a210dd2d28219",
-    "ticker": "HON",
-    "company": "HONEYWELL INTERNATIONAL INC",
-    "detected_at": "2026-10-22T06:02:13-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "허니웰 테크놀로지스는 3분기 실적 호조와 포트폴리오 전반의 모멘텀을 바탕으로 2026년 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 198억~200억 달러에서 200억~201억 달러로, 조정 EPS는 기존 8.05~8.35달러에서 8.40~8.45달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000141/0000773840-26-000141-index.htm",
     "confidence": 1.0
   }
 ]
