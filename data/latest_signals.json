@@ -1,5 +1,137 @@
 [
   {
+    "event_id": "a1b956c7592141a8c2fdf581174bab9eaf7c26aff99e834587951a37973b63ad",
+    "ticker": "SNY",
+    "company": "Sanofi",
+    "detected_at": "2026-10-30T08:49:56-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "사노피는 2026년 3분기 실적 호조와 강력한 상업적 모멘텀을 바탕으로 연간 가이던스를 상향 조정했습니다. 매출 성장률은 기존 대비 높은 'low-teens(10%대 초반)' 퍼센트, 비즈니스 EPS 성장률은 'mid-teens(10%대 중반)' 퍼센트로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1121404/000112140426000009/0001121404-26-000009-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "50f1f8e71bbc88424233e4f4fed0d12888698881338aedb7049c292151929be7",
+    "ticker": "AUPH",
+    "company": "Aurinia Pharmaceuticals Inc.",
+    "detected_at": "2026-10-30T08:03:31-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Aurinia Pharmaceuticals는 2026년 총 매출 가이던스를 기존 3억 1,500만~3억 2,500만 달러에서 3억 2,500만~3억 3,000만 달러로 상향 조정했습니다. 또한 순 제품 매출 가이던스를 3억 500만~3억 1,500만 달러에서 3억 1,000만~3억 1,500만 달러로 조정(범위 축소)했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1600620/000160062026000074/0001600620-26-000074-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "eff36d3ac8a0bd1e16b78498bc6c8bd39e6aa7ff811817db5c7de887e8d95f5b",
+    "ticker": "CL",
+    "company": "COLGATE PALMOLIVE CO",
+    "detected_at": "2026-10-30T07:56:34-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "콜게이트-팜올리브는 2026년 연간 가이던스를 상향 조정했습니다. 주요 변경 사항으로 Base Business 주당순이익(EPS) 성장률 전망치를 기존 '중간 한 자릿수(mid-single-digit)'에서 '5%~7%'로 상향했으며, 매출 성장률 전망치를 기존 2~6%에서 4~5%로 범위를 좁혔습니다. 또한 총이익률 전망치도 기존 '보합(roughly flat)'에서 '상승(up)'으로 상향했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/21665/000002166526000047/0000021665-26-000047-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "b36ceedf6bf8a0dfac4b9190439a6d4ec8bff19411f308d78afbffe385b4a801",
+    "ticker": "ABBV",
+    "company": "AbbVie Inc.",
+    "detected_at": "2026-10-30T07:51:51-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "AbbVie는 2026년 연간 조정 주당순이익(EPS) 가이던스를 기존 13.76~13.96달러에서 13.95~13.99달러로 상향 조정했습니다. 이는 3분기까지 발생한 IPR&D 및 마일스톤 비용 0.69달러의 부정적 영향을 포함한 수치입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000033/0001551152-26-000033-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "05ce908ed86a23c3e4dae807994c94b9799266dd64fe7d32e17045b86cfea6be",
+    "ticker": "GTES",
+    "company": "Gates Industrial Corp Ltd.",
+    "detected_at": "2026-10-30T07:32:36-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Gates Industrial은 2026년 연간 수익성 및 조정 EPS 가이던스를 상향 조정했습니다. 조정 EBITDA는 기존 8억~8억 3천만 달러에서 8억 9백만~8억 2천 3백만 달러로, 조정 EPS는 기존 1.62~1.70달러에서 1.66~1.72달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1718512/000162828026068435/0001628280-26-068435-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "ba5606cbc38e9513879bafa3100147a54edac8956eefdbd69ba641a56d7052f7",
+    "ticker": "FRT",
+    "company": "FEDERAL REALTY INVESTMENT TRUST",
+    "detected_at": "2026-10-30T07:31:28-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Federal Realty Investment Trust는 2026년 3분기 실적 발표와 함께 2026년 연간 Nareit FFO 및 Core FFO 가이던스를 주당 7.54~7.58달러로 상향 조정했습니다. 이는 전년 대비 중간값 기준 7% 이상의 성장을 의미하며, 운영 효율성 개선과 자본 배분 전략의 성과가 반영되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/34903/000003490326000054/0000034903-26-000054-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "44733613e48bec6d1b9c95c9e429daa5ea8926309f952cf98e33a9d851a699d5",
+    "ticker": "SXT",
+    "company": "SENSIENT TECHNOLOGIES CORP",
+    "detected_at": "2026-10-30T07:10:09-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "2026년 GAAP 희석 주당순이익(EPS) 가이던스 하단이 기존 $4.10에서 $4.15로 상향 조정되었습니다(범위: $4.15~$4.20).",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/310142/000114036126041223/0001140361-26-041223-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "6ac1eb16c71314d9665f5e0b2e226a159037274c8036ca3a88b3fc201203870f",
+    "ticker": "CHD",
+    "company": "CHURCH & DWIGHT CO INC /DE/",
+    "detected_at": "2026-10-30T07:04:05-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Church & Dwight는 2026년 연간 유기적 매출 성장률 전망치를 기존 4~5%에서 약 5%로 상향 조정했으며, 조정 EPS 성장률 전망치를 기존 6~8%에서 7%로 구체화했습니다. 보고된 매출 성장률 전망치 또한 기존 0~1%에서 약 0.5%로 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/313927/000119312526439864/0001193125-26-439864-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "533ee45113bf040c7e9909e703d6f206b181add9ad296ce10cfcba27369af96c",
+    "ticker": "NWL",
+    "company": "NEWELL BRANDS INC.",
+    "detected_at": "2026-10-30T07:01:31-04:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Newell Brands는 2026년 3분기 실적 호조에 힘입어 연간 매출 가이던스를 상향 조정했습니다. 순매출 성장률 전망치는 기존 1~2%에서 2~3%로, 핵심 매출(Core Sales) 성장률은 기존 보합~1%에서 1~2%로 상향되었습니다. 영업이익률 및 주당순이익(EPS) 가이던스는 중간값을 유지했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/814453/000081445326000035/0000814453-26-000035-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "4925c5e5030da3bae95dd910e9cfb1ba0c0a8c43f8bb3006c98e42e89daa42fa",
+    "ticker": "NVT",
+    "company": "nVent Electric plc",
+    "detected_at": "2026-10-30T06:47:30-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "nVent Electric은 2026년 3분기 실적 호조에 힘입어 연간 가이던스를 상향 조정했습니다. 매출 성장률 가이던스는 기존 37~39%에서 48~49%로, 조정 EPS 가이던스는 기존 5.00~5.10달러에서 5.36~5.39달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026068391/0001628280-26-068391-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "c1496a3b060ce2254b535516abb732c72eed89664a34d07c01c6874762975e3f",
+    "ticker": "KRG",
+    "company": "KITE REALTY GROUP TRUST",
+    "detected_at": "2026-10-30T06:47:09-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Kite Realty Group은 2026년 Core FFO 및 NAREIT FFO 가이던스를 기존 주당 $2.06~$2.12에서 $2.08~$2.12로 상향 조정했습니다. 또한 동일 부동산(Same Property) NOI 성장률 전망치를 기존 3.00%~4.00%에서 3.40%~3.90%로 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1286043/000128604326000054/0001286043-26-000054-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "bdf90e18bfa15139a8bc62da0b6cb3a07553b43a835f4d2c87c1f0895f0a44f9",
+    "ticker": "",
+    "company": "INTERSTATE POWER & LIGHT CO",
+    "detected_at": "2026-10-29T18:06:43-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "2026년 연간 조정 EPS 가이던스를 기존 $3.36 - $3.46에서 $3.41 - $3.46으로 상향 조정했습니다. 또한 2027년 EPS 가이던스를 $3.63 - $3.73으로 신규 제시했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/52485/000035254126000045/0000352541-26-000045-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "8205e7fc49423186a37ed7f4e358033602bd8d11eb6d9e7d1935fb916677b469",
     "ticker": "FET",
     "company": "FORUM ENERGY TECHNOLOGIES, INC.",
@@ -1713,28 +1845,6 @@
     "signal": "guidance_up",
     "summary": "Easterly Government Properties는 2026년 연간 Core FFO 가이던스 하단 범위를 상향 조정하여 3.08~3.13달러로 제시했습니다. 또한 2027년 연간 Core FFO 가이던스를 3.09~3.17달러로 신규 발표했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1622194/000162219426000032/0001622194-26-000032-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "9d28daa8ef32b343a9dc90071c48229386f3d9dccae80490e549b74d6ea95b9c",
-    "ticker": "AXP",
-    "company": "AMERICAN EXPRESS CO",
-    "detected_at": "2026-10-23T07:00:36-04:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "아메리칸 익스프레스는 2026년 3분기 실적 발표와 함께 연간 EPS 가이던스를 상향 조정했습니다. 조정 EPS 가이던스는 기존 대비 상향된 17.60~17.90달러로 제시되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/0000004962-26-000405-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "3323a37d58867e1b6e675d20e36e0787f07b6d54da9a824130fe2fcddac5007b",
-    "ticker": "BAH",
-    "company": "Booz Allen Hamilton Holding Corp",
-    "detected_at": "2026-10-23T06:48:19-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Booz Allen Hamilton은 2027 회계연도 가이던스를 상향 조정했습니다. 조정된 주당순이익(Adjusted Diluted EPS) 가이던스는 기존 $6.00~$6.35에서 $6.50~$6.70으로 상향되었으며, 조정된 EBITDA 가이던스 또한 기존 $1,240M~$1,290M에서 $1,260M~$1,290M으로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026066971/0001628280-26-066971-index.htm",
     "confidence": 1.0
   }
 ]
