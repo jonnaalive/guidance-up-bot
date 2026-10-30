@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "a4028943e07743dc00625642f1dd9d9d7704760b9bf977105b1f2b640854421a",
+    "ticker": "SCCO",
+    "company": "SOUTHERN COPPER CORP/",
+    "detected_at": "2026-10-30T15:52:23-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "2026년 구리 생산량 가이던스를 기존 911,400톤에서 918,000톤으로 상향 조정했습니다. 또한 몰리브덴 생산량 가이던스도 기존 계획 대비 11.7% 증가한 29,000톤으로 상향했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1001838/000110465926120639/0001104659-26-120639-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "a1b956c7592141a8c2fdf581174bab9eaf7c26aff99e834587951a37973b63ad",
     "ticker": "SNY",
     "company": "Sanofi",
