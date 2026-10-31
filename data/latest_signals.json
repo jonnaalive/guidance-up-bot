@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "2c76f6873a8f24ee8877dc93692e37f79d1a967488e96cb3aa8868820b5bee86",
+    "ticker": "SXI",
+    "company": "STANDEX INTERNATIONAL CORP/DE/",
+    "detected_at": "2026-10-30T16:28:28-04:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "스탠덱스 인터내셔널은 2027 회계연도 가이던스를 상향 조정했습니다. 총 매출 성장률 전망치를 기존 '중~고 한 자릿수'에서 '고 한 자릿수'로 상향했으며, 유기적 매출은 1억 달러 이상 증가할 것으로 예상합니다. 또한 조정 주당순이익(EPS)은 '고 십 대(high teens)' 성장률을 기록할 것으로 전망됩니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/310354/000143774926034218/0001437749-26-034218-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "a4028943e07743dc00625642f1dd9d9d7704760b9bf977105b1f2b640854421a",
     "ticker": "SCCO",
     "company": "SOUTHERN COPPER CORP/",
