@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "67f1ea0b993dca8fd3ebe7ae8509addc482642e5111bea1dabd7138a23c2ce48",
+    "ticker": "EL",
+    "company": "ESTEE LAUDER COMPANIES INC",
+    "detected_at": "2026-11-02T08:01:35-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "에스티로더는 2027 회계연도 가이던스를 상향 조정했습니다. 유기적 순매출 성장률은 기존 3~5%에서 4.0~5.5%로, 조정 영업이익률은 12.7~13.5%에서 12.9~13.7%로, 조정 주당순이익(EPS)은 3.10~3.35달러에서 3.20~3.45달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000057/0001001250-26-000057-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "280e85f95cd385f15676f596e2494f00528a531714d74eae1c20312e49dd274c",
+    "ticker": "MAR",
+    "company": "MARRIOTT INTERNATIONAL INC /MD/",
+    "detected_at": "2026-11-02T07:00:19-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "메리어트 인터내셔널은 3분기 실적 호조와 견조한 수요 전망을 바탕으로 2026년 연간 글로벌 RevPAR 성장률 가이던스를 상향 조정했습니다. 신규 가이던스는 4.5%~5.0% 범위입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1048286/000104828626000040/0001048286-26-000040-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "2c76f6873a8f24ee8877dc93692e37f79d1a967488e96cb3aa8868820b5bee86",
     "ticker": "SXI",
     "company": "STANDEX INTERNATIONAL CORP/DE/",
@@ -1845,28 +1867,6 @@
     "signal": "guidance_up",
     "summary": "Cadence는 2026년 3분기 실적 발표에서 강력한 비즈니스 모멘텀과 기록적인 수주 잔고(82억 달러)를 바탕으로 2026년 연간 매출 성장률 전망치를 21%로 상향 조정했습니다. 연간 매출 가이던스는 63.87억~64.17억 달러, 비GAAP 기준 주당순이익(EPS)은 8.37~8.43달러로 제시되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/0000813672-26-000116-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "d9df8fd3aede2cef8db3eb029ca94b69610824101542f5245c25619184e7aa0e",
-    "ticker": "VZ",
-    "company": "VERIZON COMMUNICATIONS INC",
-    "detected_at": "2026-10-26T07:00:28-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Verizon은 2026년 3분기 실적 호조에 힘입어 연간 가이던스를 3분기 연속 상향 조정했습니다. 주요 지표인 후불제 휴대폰 순증 가입자(1.1M~1.2M), 조정 EPS(5.04~5.06달러), 영업 현금 흐름(3.5~5.0% 성장), 잉여 현금 흐름(약 12% 성장) 전망치를 모두 상향했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000049/0000732712-26-000049-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "a9253c1c81df118fb86c948ef45e917d382dff5f687877ddab8162a7a4882ddd",
-    "ticker": "DEA",
-    "company": "Easterly Government Properties, Inc.",
-    "detected_at": "2026-10-26T06:45:17-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Easterly Government Properties는 2026년 연간 Core FFO 가이던스 하단 범위를 상향 조정하여 3.08~3.13달러로 제시했습니다. 또한 2027년 연간 Core FFO 가이던스를 3.09~3.17달러로 신규 발표했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1622194/000162219426000032/0001622194-26-000032-index.htm",
     "confidence": 1.0
   }
 ]
