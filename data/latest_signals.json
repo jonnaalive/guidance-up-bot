@@ -1,5 +1,27 @@
 [
   {
+    "event_id": "a7730ec3f91558c0e901baa062fd813d70501f48cd2bbb8f1d1ff234ec026bfc",
+    "ticker": "MTCH",
+    "company": "Match Group, Inc.",
+    "detected_at": "2026-11-02T16:13:21-05:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Match Group은 2026년 연간 매출 가이던스를 기존 2월 전망치 대비 상향 조정했으며, 조정 EBITDA 마진 가이던스 또한 기존 37.5%에서 38.8%로 상향했습니다. 이는 Tinder의 실적 개선과 비용 절감 노력에 따른 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/891103/000089110326000161/0000891103-26-000161-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "afc3e191a99fdc7711b1c57bef16fa58337c37d0d9f94fdc85bdacec0ad3e9e4",
+    "ticker": "BLZE",
+    "company": "Backblaze, Inc.",
+    "detected_at": "2026-11-02T16:05:02-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Backblaze는 2026년 전체 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 172.0~174.0백만 달러에서 177.8~178.2백만 달러로, 조정 EBITDA 마진은 기존 27~29%에서 30~31%로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1462056/000162828026068866/0001628280-26-068866-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "67f1ea0b993dca8fd3ebe7ae8509addc482642e5111bea1dabd7138a23c2ce48",
     "ticker": "EL",
     "company": "ESTEE LAUDER COMPANIES INC",
@@ -1724,149 +1746,6 @@
     "signal": "guidance_up",
     "summary": "Travel + Leisure Co.는 2026년 전체 연도 가이던스를 업데이트하며 조정 EBITDA 가이던스 중간값을 상향 조정했습니다. 새로운 조정 EBITDA 범위는 10억 7,000만 달러에서 10억 8,500만 달러입니다. 이전 가이던스 수치는 명시되지 않았으나, 경영진은 연간 실적 모멘텀과 강력한 가시성을 바탕으로 가이던스 상향을 발표했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1361658/000136165826000063/0001361658-26-000063-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "3cb61731d5d30e20a1972ee622e1ecd4995d84964dd4db96a9c4439f22dfb638",
-    "ticker": "CNP",
-    "company": "CENTERPOINT ENERGY INC",
-    "detected_at": "2026-10-27T06:15:52-04:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "CenterPoint Energy는 2026년 비GAAP EPS 가이던스를 기존 대비 상향 조정하고, 2027년 가이던스를 신규 제시했습니다. 2026년 가이던스는 1.90~1.92달러로 상향되었으며, 2027년 가이던스는 2.07~2.09달러로 설정되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1130310/000110465926118963/0001104659-26-118963-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "49f500fe51f2041610e3ad9c0241a24cbc415059b72f30dc3575ecf65a97853c",
-    "ticker": "NVS",
-    "company": "NOVARTIS AG",
-    "detected_at": "2026-10-27T06:08:11-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "노바티스는 2026년 연간 핵심 영업이익(Core operating income) 가이던스를 기존 '한 자릿수 감소'에서 '보합 내지 한 자릿수 성장'으로 상향 조정했습니다. 순매출 성장률 가이던스는 '한 자릿수 성장'으로 유지되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000014/0001114448-26-000014-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "afa23f4d423e1b041e4a35ec8811286c2cca30ea581e5a33b758a27df7c338f4",
-    "ticker": "UPS",
-    "company": "UNITED PARCEL SERVICE INC",
-    "detected_at": "2026-10-27T06:05:34-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "UPS는 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. 연간 매출액은 약 926억 달러, 비GAAP 조정 영업이익은 약 87.5억 달러, 비GAAP 조정 주당순이익(EPS)은 약 7.28달러, 비GAAP 조정 잉여현금흐름은 약 61억 달러로 제시되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026067381/0001628280-26-067381-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "1cb7e0547833a020b9604ced0287032ca02ecac3d8ae3e2cc07ff5123e3deddc",
-    "ticker": "PII",
-    "company": "Polaris Inc.",
-    "detected_at": "2026-10-26T18:21:43-04:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "Polaris는 2026년 전체 조정 매출 가이던스를 기존 73억~75억 달러에서 75.5억~76억 달러로, 조정 EPS 가이던스를 기존 3.00~3.10달러에서 3.50~3.60달러로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/931015/000162828026067358/0001628280-26-067358-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "9569fb5433abcb41a0b8a258a320b25fd72f28c1020ef246eacbfafb49839cdb",
-    "ticker": "CLS",
-    "company": "CELESTICA INC",
-    "detected_at": "2026-10-26T16:23:49-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "셀레스티카는 2026년 연간 매출 가이던스를 기존 205억 달러에서 210억 달러로, 조정 EPS 가이던스를 11.30달러에서 11.55달러로 상향 조정했습니다. 또한 2027년 연간 매출 400억 달러, 조정 EPS 21.50달러라는 강력한 초기 가이던스를 제시했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000049/0001030894-26-000049-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "701bfd4741c236b4af9738b6b81b1edc7573bd10824c4610569a71bb361a6bdb",
-    "ticker": "PDM",
-    "company": "Piedmont Realty Trust, Inc.",
-    "detected_at": "2026-10-26T16:20:10-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Piedmont Realty Trust는 2026년 3분기 실적 발표에서 3분기 연속으로 연간 가이던스를 상향 조정했습니다. 이번 상향으로 연간 전망치는 당초 가이던스 대비 0.06달러 높아졌습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1042776/000104277626000072/0001042776-26-000072-index.htm",
-    "confidence": 0.9
-  },
-  {
-    "event_id": "77bcf217a93ca580d4553a7e93eb893069495e58395b580742b8532708d4d3b5",
-    "ticker": "PECO",
-    "company": "Phillips Edison & Company, Inc.",
-    "detected_at": "2026-10-26T16:18:44-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Phillips Edison & Company(PECO)는 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. Nareit FFO 주당 가이던스는 기존 $2.67~$2.72에서 $2.68~$2.72로, Core FFO 주당 가이던스는 기존 $2.73~$2.79에서 $2.75~$2.79로 상향되었습니다. 동일 점포 NOI 성장률 가이던스 또한 기존 3.40%~4.00%에서 3.50%~4.00%로 상향 조정되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1476204/000147620426000052/0001476204-26-000052-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "91e22c021ea9bc034a034d9848f80cc6de120ddc38e1805d493dfd2952418d83",
-    "ticker": "PSA",
-    "company": "Public Storage",
-    "detected_at": "2026-10-26T16:11:58-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Public Storage는 2026년 연간 가이던스를 상향 조정했습니다. Core FFO 주당 순이익 가이던스는 기존 $16.75~$17.05에서 $16.90~$17.10으로 상향되었으며, 동일 점포(Same Store) 순영업이익(NOI) 성장률 전망치도 개선되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026067283/0001628280-26-067283-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "e678cbfe084e0019a571bb2e80040f329b04232da7105a5ae28549d247a8433b",
-    "ticker": "AEYE",
-    "company": "AUDIOEYE INC",
-    "detected_at": "2026-10-26T16:09:45-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "AudioEye는 2026년 4분기 및 연간 가이던스를 제시하며, 조정 EBITDA 가이던스를 상향 조정했습니다. 2026년 연간 조정 EBITDA는 기존 대비 상향된 1,340만~1,360만 달러로 예상되며, 이는 전년 대비 약 50% 성장한 수치입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1362190/000110465926118780/0001104659-26-118780-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "2005b55a51564d5dea81dc40546c4c44f5076e55eeddfa982a2f6d6b252eaba4",
-    "ticker": "BRX",
-    "company": "Brixmor Property Group Inc.",
-    "detected_at": "2026-10-26T16:06:50-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Brixmor Property Group은 2026년 연간 Nareit FFO 가이던스를 기존 $2.35-$2.37에서 $2.36-$2.38로, 동일 부동산(Same Property) NOI 성장률 가이던스를 기존 5.00%-5.75%에서 5.50%-5.75%로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1581068/000158106826000032/0001581068-26-000032-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "4e7c16fadff8d10531fac35a05d2242a8b9d5f6470fcb2563781e047fb008d8e",
-    "ticker": "SUI",
-    "company": "SUN COMMUNITIES INC",
-    "detected_at": "2026-10-26T16:05:37-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Sun Communities은 2026년 연간 Core FFO 가이던스를 6.97~7.05달러(중간값 7.01달러)로 제시하고, 북미 동일 부동산 NOI 성장률 전망치를 기존 4.5%~5.3%에서 4.9%~5.3%로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/912593/000091259326000272/0000912593-26-000272-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "1211150cca48b9de0387ad6b05effc5d5a1b7751da49ec716b8aa1b91d0c426b",
-    "ticker": "AGYS",
-    "company": "AGILYSYS INC",
-    "detected_at": "2026-10-26T16:05:15-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Agilysys는 2027 회계연도 전체 가이던스를 상향 조정했습니다. 총 매출 가이던스는 3억 7,400만~3억 7,800만 달러로, 구독 매출 성장률은 최소 34% 이상으로, 조정 EBITDA 마진은 25%로 각각 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526431911/0001193125-26-431911-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "60c39afdbc9dcaa46f147d1b6fb0825cfcf08a85c6b3c73bcf5e69a7f84050b1",
-    "ticker": "CDNS",
-    "company": "CADENCE DESIGN SYSTEMS INC",
-    "detected_at": "2026-10-26T16:03:09-04:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Cadence는 2026년 3분기 실적 발표에서 강력한 비즈니스 모멘텀과 기록적인 수주 잔고(82억 달러)를 바탕으로 2026년 연간 매출 성장률 전망치를 21%로 상향 조정했습니다. 연간 매출 가이던스는 63.87억~64.17억 달러, 비GAAP 기준 주당순이익(EPS)은 8.37~8.43달러로 제시되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/0000813672-26-000116-index.htm",
     "confidence": 1.0
   }
 ]
