@@ -1,5 +1,192 @@
 [
   {
+    "event_id": "04da42d583bb8b3e19c3040c1f4d8042d893c3baf1ab8d0e6b607fc9e08e6309",
+    "ticker": "NYAX",
+    "company": "Nayax Ltd.",
+    "detected_at": "2026-11-12T07:32:34-05:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Nayax는 IPS Group 인수를 반영하여 2026년 연간 매출 가이던스를 기존 5억 1,000만~5억 2,000만 달러에서 5억 3,000만~5억 4,000만 달러로, 조정 EBITDA 가이던스를 기존 8,500만~9,000만 달러에서 9,000만~9,500만 달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1901279/000117891326005158/0001178913-26-005158-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "9175a5420f447aa64c800c9f930fa89b831f5909d8ee4207416fa4e3f81f73ca",
+    "ticker": "LGN",
+    "company": "Legence Corp.",
+    "detected_at": "2026-11-12T07:23:27-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Legence는 2026년 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 47.0억~48.0억 달러에서 48.7억~49.1억 달러로, 조정 EBITDA는 기존 5.65억~5.85억 달러에서 6.10억~6.20억 달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2052568/000119312526456940/0001193125-26-456940-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "f27e48879993f48285ce111196aed64bee9c4b9cc734ea46a07d918a371b1f86",
+    "ticker": "DPC",
+    "company": "DPC Holdings PLC",
+    "detected_at": "2026-11-12T07:15:23-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "DPC Holdings는 강력한 사업 성과를 바탕으로 2026년 연간 가이던스를 상향 조정했으며, 2027년 가이던스를 신규 도입했습니다. 2026년 매출 가이던스는 기존 $1,000m~$1,040m에서 $1,115m~$1,130m으로, 조정 EBITDA는 $182m~$187m에서 $204m~$207m으로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2107018/000110465926125825/0001104659-26-125825-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "85b458230403ac46f1516e1e6ac1d62ebdaec5e4b6848f64075f355b5f153665",
+    "ticker": "CLBT",
+    "company": "Cellebrite DI Ltd.",
+    "detected_at": "2026-11-12T07:15:01-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "셀레브라이트(Cellebrite)는 3분기 실적 호조를 바탕으로 2026년 연간 조정 EBITDA 가이던스를 상향 조정했습니다. 구체적인 상향 범위는 1억 6,300만 달러에서 1억 6,600만 달러입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1854587/000121390026118368/0001213900-26-118368-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "d0acd235d05102afaf46d5c2bb19dce54833a4ecaf29346f05f7ace150c290cc",
+    "ticker": "MWH",
+    "company": "SOLV Energy, Inc.",
+    "detected_at": "2026-11-12T07:14:59-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "SOLV Energy는 강력한 연초 대비 실적과 향후 기대치를 반영하여 2026년 전체 재무 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 3,870~3,970백만 달러에서 4,030~4,120백만 달러로, 조정 EBITDA는 485~505백만 달러에서 525~540백만 달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2065636/000119312526456918/0001193125-26-456918-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "af7c42c2a1f78bb173f70e9fc9eb48731d3b06581d748ecf33570b6cd1d8f907",
+    "ticker": "ODD",
+    "company": "Oddity Tech Ltd",
+    "detected_at": "2026-11-12T07:05:56-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "ODDITY는 2026년 3분기 실적이 예상치를 상회함에 따라 연간 매출 및 조정 EBITDA 가이던스를 상향 조정했습니다. 연간 매출 감소폭은 기존 -19.0%에서 -18.5%로 개선되었으며, 조정 EBITDA는 기존 3,000만~3,200만 달러에서 3,200만~3,400만 달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1907085/000110465926125812/0001104659-26-125812-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "c3c40f25d67e04a2ea77431851ca9dc27c3eda0e51d89dba00a5d2b0e7b11871",
+    "ticker": "MBGL",
+    "company": "Mobility Global Inc.",
+    "detected_at": "2026-11-12T07:03:24-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Mobility Global은 2026년 연간 조정 EBITDA 가이던스 하단 범위를 기존 7억 4,500만 달러에서 7억 5,000만 달러로 상향 조정했습니다. 매출 가이던스는 18억 7,000만~18억 8,500만 달러로 유지되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2090312/000209031226000034/0002090312-26-000034-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "d51d578ad64a7e6098658aef54e6ac524703674fd262500e9e477335ef6e9ad7",
+    "ticker": "NIQ",
+    "company": "NIQ Global Intelligence plc",
+    "detected_at": "2026-11-12T07:01:43-05:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "NIQ는 2026년 3분기 실적 호조를 바탕으로 연간 가이던스를 상향 조정했습니다. 주요 지표인 OCC 매출 성장률은 5.5%~5.7%, 조정 EBITDA 마진은 23.6%~23.8%, 조정 EPS는 1.16~1.20달러, 레버리지 잉여현금흐름은 2억 4,900만~2억 5,700만 달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2054696/000162828026073088/0001628280-26-073088-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "6b993753e247ca0263ed97b2421328f65cf17aa067134a99ddb14158cdb5fa75",
+    "ticker": "AVAH",
+    "company": "Aveanna Healthcare Holdings, Inc.",
+    "detected_at": "2026-11-12T07:00:15-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Aveanna Healthcare는 2026년 연간 매출 가이던스를 기존 26.8억 달러 이상에서 26.95억 달러 이상으로, 조정 EBITDA 가이던스를 기존 3.65억 달러 이상에서 3.74억 달러 이상으로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1832332/000119312526456864/0001193125-26-456864-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "238bf9358a1f6cfc10094ee7660d220a9825f746b985a9c428ceb0b32cafed5b",
+    "ticker": "PBR",
+    "company": "PETROBRAS - PETROLEO BRASILEIRO SA",
+    "detected_at": "2026-11-12T06:58:00-05:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "페트로브라스는 2026년 석유 생산량 가이던스를 기존 2.5 MMbpd(+/- 4%)에서 2.7~2.8 MMbpd로 상향 조정했습니다. 또한, 프로젝트 가속화와 환율 효과 등을 반영하여 2026년 현금 CAPEX 가이던스를 기존 169억 달러(+/- 5%)에서 210억~220억 달러로, 총 CAPEX 가이던스를 240억~255억 달러로 상향했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1119639/000129281426005256/0001292814-26-005256-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "172c4cc0de798ce0e8d0447b4f576bb4509d4d9251511865f379d2397e9309b3",
+    "ticker": "TE",
+    "company": "T1 Energy Inc.",
+    "detected_at": "2026-11-12T06:37:29-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "T1 Energy는 2026년 G1_Dallas 모듈 생산 가이던스를 기존 3.1~4.2GW에서 4.0~4.2GW로 상향 조정했으며, 2027년 생산 가이던스로 5.3GW를 신규 제시했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1992243/000121390026118327/0001213900-26-118327-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "3fcb733b1397f6d057aa81c125411944e2002280f29ef241fc75a406a791b68f",
+    "ticker": "FPS",
+    "company": "Forgent Power Solutions, Inc.",
+    "detected_at": "2026-11-12T06:33:51-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Forgent Power Solutions는 2027 회계연도 전체 가이던스를 상향 조정했습니다. 매출은 기존 2,400~2,600백만 달러에서 2,450~2,650백만 달러로, 조정 EBITDA는 575~625백만 달러에서 587~637백만 달러로, 조정 EPS는 1.26~1.40달러에서 1.30~1.44달러로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2080126/000208012626000045/0002080126-26-000045-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "5c8ecf407f5aad21cfc36459e698bd662dbebed4caf2675034f38a8676f9a610",
+    "ticker": "WWW",
+    "company": "WOLVERINE WORLD WIDE INC /DE/",
+    "detected_at": "2026-11-12T06:31:10-05:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "울버린 월드와이드(WWW)는 2026년 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 19.8억~20.0억 달러에서 20.0억~20.1억 달러로, 조정 주당순이익(EPS)은 기존 1.55~1.65달러에서 1.95~1.99달러로 상향되었습니다. 이번 상향은 주로 IEEPA 관세 환급금 수령에 따른 일회성 이익이 반영된 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/110471/000162828026073067/0001628280-26-073067-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "97d9e302eb8fc6c15aeae6f20097f27b269bb749d7ce4a32ae8b1f89eb9de614",
+    "ticker": "ALLT",
+    "company": "Allot Ltd.",
+    "detected_at": "2026-11-12T06:24:35-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Allot은 2026년 연간 매출 가이던스 범위를 1억 1,600만 달러 ~ 1억 1,800만 달러로 상향 조정했습니다. 이전 가이던스 수치는 명시되지 않았으나, 경영진은 모멘텀을 근거로 가이던스 중간값을 상향하고 범위를 좁혔다고 밝혔습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1365767/000117891326005152/0001178913-26-005152-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "0ce3168957d4bd00de42366522c137f9ed506e8a02cfdb1e24152319122d6449",
+    "ticker": "CINT",
+    "company": "CI&T Inc",
+    "detected_at": "2026-11-12T06:14:53-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "CI&T는 2026년 연간 매출 가이던스 하단 범위를 상향 조정하여 5억 6,800만 달러에서 5억 7,780만 달러(전년 대비 16~18% 유기적 성장)를 제시했습니다. 이전 가이던스 대비 구체적인 수치는 명시되지 않았으나, CEO는 매출 전망의 하단을 상향 조정했다고 명확히 밝혔습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1868995/000129281426005237/0001292814-26-005237-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "ca0b6b16f600bcad6438cbf5ab99f77388b7afd4f30aa6626121625cc0097664",
+    "ticker": "PBR",
+    "company": "PETROBRAS - PETROLEO BRASILEIRO SA",
+    "detected_at": "2026-11-10T19:17:18-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "페트로브라스는 2026년 운영 및 재무 가이던스를 상향 조정했습니다. 총 석유 및 가스 생산량 전망치는 기존 3.1백만 boed에서 3.3~3.4백만 boed로, 영업현금흐름 전망치는 기존 350억 달러에서 450억~500억 달러로 상향되었습니다. 이는 운영 효율성 개선과 생산 능력 확대에 따른 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1119639/000129281426005231/0001292814-26-005231-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "271d7c872dd50b22de00ec2b5863fb7c22f1fa29ee5580d6d705b0eb9d05e32e",
+    "ticker": "NGS",
+    "company": "NATURAL GAS SERVICES GROUP INC",
+    "detected_at": "2026-11-10T18:03:20-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "NGS는 2026년 연간 조정 EBITDA 가이던스를 상향 조정했습니다. 이는 Flatrock 인수 통합의 성공과 유기적 성장, 그리고 운영 효율성 개선에 따른 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1084991/000108499126000098/0001084991-26-000098-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "c1fd82192c71518f7a1f99c7279fa5e679a4aa24ab40c60a276a7013388799a5",
     "ticker": "HYLN",
     "company": "Hyliion Holdings Corp.",
@@ -1075,17 +1262,6 @@
     "signal": "guidance_up",
     "summary": "ScanSource는 MicroAge 인수 완료를 반영하여 2027 회계연도 연간 가이던스를 상향 조정했습니다. 순매출 가이던스는 38억~40억 달러, 조정 EBITDA는 1억 7,500만~1억 8,500만 달러로 이전 대비 상향되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/918965/000091896526000052/0000918965-26-000052-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "ef0dfe59556a6939c97c9cb8e3c2bb0b53133917a1bff3dda0af9ba3c4192117",
-    "ticker": "TCPA",
-    "company": "TRANSCANADA PIPELINES LTD",
-    "detected_at": "2026-11-05T07:19:25-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "TC Energy는 2026년 3분기 실적 발표를 통해 2026년 조정 EBITDA 가이던스를 기존 대비 상향 조정하여 118억~120억 캐나다 달러로 제시했습니다. 이는 운영 효율성 개선과 프로젝트 조기 가동에 따른 성과를 반영한 결과입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/99070/000123238426000060/0001232384-26-000060-index.htm",
     "confidence": 1.0
   }
 ]
