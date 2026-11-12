@@ -1087,16 +1087,5 @@
     "summary": "TC Energy는 2026년 3분기 실적 발표를 통해 2026년 조정 EBITDA 가이던스를 기존 대비 상향 조정하여 118억~120억 캐나다 달러로 제시했습니다. 이는 운영 효율성 개선과 프로젝트 조기 가동에 따른 성과를 반영한 결과입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/99070/000123238426000060/0001232384-26-000060-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "f6babf0f2339261c946499e6babfb8add2de78f8c13c2a470f046f13e36c3d92",
-    "ticker": "TGB",
-    "company": "Trekor Metals Ltd",
-    "detected_at": "2026-11-04T18:30:04-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Trekor Metals은 Gibraltar 광산의 2026년 구리 생산량 가이던스를 기존 110~115백만 파운드에서 115~120백만 파운드로 상향 조정했습니다. Florence Copper의 2026년 생산량 가이던스는 25~28백만 파운드로 유지되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/878518/000106299326005753/0001062993-26-005753-index.htm",
-    "confidence": 1.0
   }
 ]
