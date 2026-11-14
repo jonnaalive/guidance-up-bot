@@ -1,5 +1,104 @@
 [
   {
+    "event_id": "004d6fbe3510f491334e1f8126ca954cc3b671585e44b0379f2ef5deb18cab69",
+    "ticker": "AVEX",
+    "company": "AEVEX Corp.",
+    "detected_at": "2026-11-13T16:15:19-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "AEVEX Corp.은 2026년 전체 매출 가이던스를 기존 7억~7억 2,000만 달러에서 8억 2,000만~8억 4,000만 달러로, 조정 EBITDA 가이던스를 기존 1억 500만~1억 1,150만 달러에서 1억 2,800만~1억 3,200만 달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2096300/000119312526460685/0001193125-26-460685-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "f417fb439f8e894f8bc54192d7f87d4f73c0231905a3729b0887950733927834",
+    "ticker": "SMFG",
+    "company": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+    "detected_at": "2026-11-13T06:07:53-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "스미토모 미쓰이 금융그룹(SMFG)은 2027년 3월 회계연도에 대한 연간 배당 가이던스를 상향 조정했습니다. 주식 분할을 반영하여 연간 배당 전망치를 기존 90엔(분할 후 기준)에서 100엔으로 상향했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1022837/000119312526459171/0001193125-26-459171-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "3508193de59934755081e34c41176f6e5b0e55c15ade7484403ae1921ed1477f",
+    "ticker": "MUFG",
+    "company": "MITSUBISHI UFJ FINANCIAL GROUP INC",
+    "detected_at": "2026-11-13T06:05:40-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "MUFG는 고객 부문의 견조한 실적과 모건스탠리 관련 지분법 이익 증가를 반영하여 2027년 3월 31일 종료 회계연도의 지배주주 귀속 순이익 목표치를 기존 2,700.0십억 엔에서 2,800.0십억 엔으로 상향 조정하였습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/67088/000119312526459160/0001193125-26-459160-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "2fd35326e96cae3235b79f1c36f921a9d3eb83b10b6154bd5b7fded0430ee269",
+    "ticker": "STN",
+    "company": "STANTEC INC",
+    "detected_at": "2026-11-12T17:04:02-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "스탠텍(Stantec)은 2026년 연간 가이던스를 상향 조정했습니다. 조정된 EBITDA 마진은 기존 17.8~18.3%에서 18.3~18.5%로, 조정 EPS 성장률은 기존 15.0~18.0%에서 17.0~19.0%로 상향되었으며, 조정 순이익률 목표 또한 9.5% 이상에서 9.8% 이상으로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1131383/000113138326000022/0001131383-26-000022-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "d423b14a0d8a878092499d4b82b3dbbc827619c01294b4204d3f8d663e1145e4",
+    "ticker": "STN",
+    "company": "STANTEC INC",
+    "detected_at": "2026-11-12T17:00:03-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Stantec은 2026년 수익성 전망을 상향 조정했습니다. 조정된 EBITDA 마진 가이던스는 기존 17.8~18.3%에서 18.3~18.5%로, 조정 EPS 성장률은 기존 15~18%에서 17~19%로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1131383/000117184326007404/0001171843-26-007404-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "d2ba2fb2976b9ac4786f2ce95e9db00be3377d80cc33f0632227d63327ff51a3",
+    "ticker": "ACCV",
+    "company": "Accelevation Holdings Corp.",
+    "detected_at": "2026-11-12T16:08:18-05:00",
+    "source_bot": "guidance",
+    "signal": "new_guidance",
+    "summary": "Accelevation Holdings Corp.은 2026 회계연도에 대한 신규 가이던스를 발표했습니다. 매출은 9억 500만 달러에서 9억 1,500만 달러(전년 대비 103% 성장), 조정 EBITDA는 1억 5,500만 달러에서 1억 6,500만 달러(전년 대비 76% 성장)로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2141406/000162828026073382/0001628280-26-073382-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "56572a49a778e7e221b2810a5e74e27ffc5f30cbd85c698b15a82e63b1804c64",
+    "ticker": "CSCO",
+    "company": "CISCO SYSTEMS, INC.",
+    "detected_at": "2026-11-12T16:06:24-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "시스코는 2027 회계연도 매출 및 비일반회계기준(Non-GAAP) EPS 가이던스를 상향 조정했습니다. FY27 매출 가이던스는 748억~758억 달러, Non-GAAP EPS 가이던스는 5.47~5.53달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000170/0000858877-26-000170-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "c9d488293857e07d2375fc2d341c99abee22e48fef285546254de0b22872abb8",
+    "ticker": "BSEM",
+    "company": "BioStem Technologies, Inc.",
+    "detected_at": "2026-11-12T16:05:17-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "BioStem Technologies는 2026년 연간 매출 가이던스를 기존 2,600만~2,900만 달러에서 2,800만~2,900만 달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1658678/000119312526458305/0001193125-26-458305-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "43791565b24a404dcff1ccad852152e1a052b7ce78a97bca0b1be40054951a91",
+    "ticker": "HTFL",
+    "company": "Heartflow, Inc.",
+    "detected_at": "2026-11-12T16:02:46-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Heartflow는 2026년 연간 가이던스를 상향 조정했습니다. 총 매출 가이던스는 기존 2억 4,600만~2억 5,000만 달러에서 2억 6,200만~2억 6,400만 달러로, Non-GAAP 매출총이익률 가이던스는 기존 약 82%에서 약 82.5%로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1464521/000146452126000171/0001464521-26-000171-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "b1b662d4db57c04d717435c48062c01671e63623019f6dabe8560247c94fd698",
     "ticker": "RUBI",
     "company": "Rubico Inc.",
@@ -668,193 +767,6 @@
     "signal": "one_off_guidance",
     "summary": "Ferguson은 2026년 연간 가이던스를 상향 조정했습니다. 순매출 성장률 전망은 기존 '한 자릿수 중반(Mid-single digit)'에서 '~7% 성장'으로, 조정 영업이익률은 기존 '9.5%~9.8%'에서 '9.6%~9.8%'로 상향되었습니다. 이는 FloWorks 인수 효과와 견조한 실적을 반영한 결과입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/2011641/000201164126000042/0002011641-26-000042-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "a40c30e6dcbe324b96f1443397e5a8e5b54546cb4c99b4c97787d6a2f1496548",
-    "ticker": "ALTO",
-    "company": "Alto Ingredients, Inc.",
-    "detected_at": "2026-11-06T16:15:40-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Alto Ingredients는 2026년 Section 45Z 청정 연료 생산 세액 공제 수익 가이던스를 기존 최소 1,500만 달러에서 2,000만 달러로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/778164/000121390026116887/0001213900-26-116887-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "1029653b33ca67e9bbe14f039ae653e1ad89f5312ec8775be6973c5a39559de2",
-    "ticker": "TRMD",
-    "company": "TORM plc",
-    "detected_at": "2026-11-06T16:12:26-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "TORM은 2026년 연간 가이던스를 상향 조정했습니다. TCE 가이던스는 기존 1,700~1,900백만 달러에서 1,750~1,900백만 달러로, EBITDA 가이던스는 기존 1,300~1,500백만 달러에서 1,350~1,500백만 달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1655891/000091957426007482/0000919574-26-007482-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "42e54459f7e498b532709ef3798f399ba5332b4d808c5ec3e9f614df9db3ac99",
-    "ticker": "PPL",
-    "company": "PPL Corp",
-    "detected_at": "2026-11-06T07:51:16-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "PPL은 장기 연간 EPS 성장률 목표를 기존 6~8%에서 7~9%로 상향 조정했습니다. 또한 2027년 EPS 가이던스를 2.06~2.14달러로 제시하며 2026년 전망치 대비 성장을 예고했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/922224/000092222426000050/0000922224-26-000050-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "bff1f59ea8a1c10637df08131b3db8895c710eb5418e9285dae3aad3e7ea9293",
-    "ticker": "UAA",
-    "company": "Under Armour, Inc.",
-    "detected_at": "2026-11-06T07:40:34-05:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "언더아머는 2027 회계연도 영업이익 가이던스를 기존 9,600만~1억 1,600만 달러에서 9,900만~1억 1,900만 달러로 상향 조정했습니다. 주당순이익(EPS) 가이던스 또한 기존 -0.01~-0.05달러에서 -0.02~0.02달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1336917/000133691726000160/0001336917-26-000160-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "62268538fdf7acd1eb91fd7da83171b9b32570df3ae0a73e18b8da56ee53c308",
-    "ticker": "SHO",
-    "company": "Sunstone Hotel Investors, Inc.",
-    "detected_at": "2026-11-06T07:35:19-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Sunstone Hotel Investors는 3분기 실적 호조와 향후 수요 전망 개선을 반영하여 2026년 연간 가이던스를 상향 조정했습니다. 주요 지표인 조정 FFO(주당) 가이던스는 기존 $0.93~$0.98에서 $1.00~$1.03으로 상향되었으며, RevPAR 성장률 전망치도 9.5%~10.5%로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1295810/000129581026000005/0001295810-26-000005-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "355b48400d1dbf9260fced58448f1de92521947c0754c78fb9bc325f1b1fd7e9",
-    "ticker": "VEON",
-    "company": "VEON Ltd.",
-    "detected_at": "2026-11-06T07:28:54-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "VEON은 2026년 연간 가이던스의 중간값을 상향 조정했습니다. 매출 성장률 전망치는 기존 15%~18%에서 16%~18%로, EBITDA 성장률 전망치는 기존 9%~12%에서 10%~12%로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1468091/000146809126000049/0001468091-26-000049-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "faae9cfa6d963f95f43f45f4986f2c8a0c7fbaeb0dacf6bf8e40d52a869cd777",
-    "ticker": "MRNA",
-    "company": "Moderna, Inc.",
-    "detected_at": "2026-11-06T06:47:30-05:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "모더나는 2026년 연간 매출 성장률 전망치를 기존 10% 이하에서 15%~25%로 상향 조정했습니다. 또한 R&D 비용 전망치를 29억 달러에서 27억 달러로 낮추고, 연말 현금 및 투자 잔액 전망치를 기존 47억~52억 달러에서 81억~83억 달러로 상향했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/0001682852-26-000194-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "e57007c9f7f1bd55a8a1ddc27e6cacc5d8a98b7e5a62cacd4926bf40fef0def5",
-    "ticker": "ATMU",
-    "company": "Atmus Filtration Technologies Inc.",
-    "detected_at": "2026-11-06T06:47:15-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Atmus Filtration Technologies는 2026년 연간 가이던스를 상향 조정했습니다. 매출은 2,010~2,035백만 달러, 조정 EPS는 2.90~3.05달러, 조정 EBITDA 마진은 19.75~20.25%로 제시되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1921963/000192196326000079/0001921963-26-000079-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "8e92b137052cdded41f76d1a56d47a0df2fa474ecfd7d164edbad1d318f17723",
-    "ticker": "DKL",
-    "company": "Delek Logistics Partners, LP",
-    "detected_at": "2026-11-06T06:33:14-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Delek Logistics는 2026년 연간 조정 EBITDA 가이던스를 기존 5억 2,000만~5억 6,000만 달러에서 5억 3,000만~5억 6,000만 달러로 상향 조정했습니다. 이는 견고한 운영 성과와 유기적 성장 프로젝트의 기여에 따른 것입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1552797/000162828026071295/0001628280-26-071295-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "05d9c7684e8934c308c7c35a9dcf66993a651d5a6711673d0f625ff85d7d27fe",
-    "ticker": "DK",
-    "company": "Delek US Holdings, Inc.",
-    "detected_at": "2026-11-06T06:31:56-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Delek US는 기업 최적화 계획(EOP)의 연간 현금 흐름 개선 가이던스를 기존 2억 2천만 달러에서 최소 2억 5천만 달러로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1694426/000162828026071294/0001628280-26-071294-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "793f1dca10b637c37caebc040933c9ad52adde815ae2122cc1bc06ba45efe361",
-    "ticker": "ELAN",
-    "company": "Elanco Animal Health Inc",
-    "detected_at": "2026-11-06T06:27:25-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Elanco는 2026년 연간 가이던스를 상향 조정했습니다. 매출은 기존 50.9억~51.4억 달러에서 51.55억~51.8억 달러로, 조정 EBITDA는 10.1억~10.35억 달러에서 10.5억~10.65억 달러로, 조정 EPS는 1.10~1.16달러에서 1.17~1.20달러로 각각 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000054/0001739104-26-000054-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "132ce041c002b833e28e2f44d9919ec6008725a8e8efa0a9cac1b6f474345386",
-    "ticker": "HUM",
-    "company": "HUMANA INC",
-    "detected_at": "2026-11-06T06:09:28-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "휴마나(Humana)는 2026년 3분기 실적 발표에서 2026 회계연도 조정 EPS 가이던스를 기존 '최소 9.00달러'에서 '최소 9.50달러'로 상향 조정했습니다. 이는 보험 부문의 견고한 성과와 운영 효율성 개선에 따른 결과입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000064/0000049071-26-000064-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "fb8ee599caa4ce06182367cd702569cd79cfc670562c69fa3eb64231fb68f783",
-    "ticker": "PBA",
-    "company": "PEMBINA PIPELINE CORP",
-    "detected_at": "2026-11-05T17:22:36-05:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "Pembina Pipeline은 2026년 조정 EBITDA 가이던스를 기존 43.5억~45.5억 CAD에서 44.5억~45.5억 CAD로 상향 조정했습니다. 회사는 현재 상품 가격 전망을 고려할 때 가이던스 범위의 상단에 도달할 것으로 예상하고 있습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1546066/000154606626000081/0001546066-26-000081-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "17507ef10723a8cc9bc0b8bed5d9ef943b83d285eca8908ff211b4fd90963be0",
-    "ticker": "REG",
-    "company": "REGENCY CENTERS CORP",
-    "detected_at": "2026-11-05T17:15:06-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Regency Centers는 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. Nareit FFO 가이던스는 기존 $4.84~$4.88에서 $4.86~$4.88로, Core Operating Earnings 가이던스는 기존 $4.62~$4.66에서 $4.65~$4.67로 상향되었습니다. 또한 동일 부동산(Same Property) NOI 성장률 가이던스도 기존 3.7%~4.1%에서 4.25%+로 상향 조정되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/910606/000119312526450159/0001193125-26-450159-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "0965ae1698e77a229a32e55bab37db8fc56d259a42a1b4aa5330420dbf52f9e1",
-    "ticker": "MYPS",
-    "company": "PLAYSTUDIOS, Inc.",
-    "detected_at": "2026-11-05T17:03:33-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "PLAYSTUDIOS는 구조조정 프로그램인 'Renewal'의 연간 비용 절감 목표치를 기존 범위에서 상향 조정하여 3,700만 달러에서 3,900만 달러로 제시했습니다. 다만, 소셜 카지노 시장의 지속적인 압박으로 인해 공식적인 재무 가이던스는 제공하지 않았습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1823878/000182387826000071/0001823878-26-000071-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "c20c305ce3bb3ef184f402033a8ed6ce021acff4897cd8f56850f84c73eeac93",
-    "ticker": "CBL",
-    "company": "CBL & ASSOCIATES PROPERTIES INC",
-    "detected_at": "2026-11-05T16:40:01-05:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "CBL Properties는 2026년 3분기 실적 호조에 힘입어 연간 동일 점포 순영업이익(Same-center NOI) 및 운영자금(FFO) 가이던스를 상향 조정했습니다. 구체적인 수치는 공시 본문에 명시되지 않았으나, 경영진은 올해 두 번째로 가이던스를 상향한다고 밝혔습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/910612/000119312526450022/0001193125-26-450022-index.htm",
-    "confidence": 0.9
-  },
-  {
-    "event_id": "be56f3dc95efb294646b67f9b42aa33e1c86b72a6ef44e75f2bb08141300e0c3",
-    "ticker": "AEE",
-    "company": "AMEREN CORP",
-    "detected_at": "2026-11-05T16:34:53-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Ameren은 2026년 주당순이익(EPS) 가이던스를 기존 $5.25~$5.45에서 $5.35~$5.55로 상향 조정했습니다. 또한 2027년 EPS 가이던스를 $5.70~$5.90으로 새롭게 제시하며 향후 성장 전망을 강화했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1002910/000100291026000030/0001002910-26-000030-index.htm",
     "confidence": 1.0
   }
 ]
