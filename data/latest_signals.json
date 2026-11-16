@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "56ec55a8a8cc273dd5fd3039f4bb1fb743c557746f659ecfd7ba0485f5fb8404",
+    "ticker": "HTHT",
+    "company": "H World Group Ltd",
+    "detected_at": "2026-11-16T06:03:07-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "H World Group은 2026년 전체 매출 성장률 가이던스를 기존 4~8%에서 9~10%로 상향 조정했습니다. 또한 HWC 매출 성장률 가이던스를 7~11%에서 13~14%로, M&F 매출 성장률 가이던스를 16~20%에서 22~23%로 각각 상향했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1483994/000110465926127472/0001104659-26-127472-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "004d6fbe3510f491334e1f8126ca954cc3b671585e44b0379f2ef5deb18cab69",
     "ticker": "AVEX",
     "company": "AEVEX Corp.",
