@@ -1,5 +1,60 @@
 [
   {
+    "event_id": "9f1fd46630376f8ef630eec7163feafb5a97d76040dff4a2d7e9fe28725adf9e",
+    "ticker": "MFP",
+    "company": "Midera Food Processing, Inc.",
+    "detected_at": "2026-11-17T07:05:15-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Midera Food Processing은 2026년 연간 가이던스를 상향 조정했습니다. 순매출 가이던스는 기존 9억 3,500만~9억 6,500만 달러에서 9억 5,300만~9억 7,300만 달러로, 조정 EBITDA는 기존 1억 6,000만~1억 7,600만 달러에서 1억 6,800만~1억 7,800만 달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526464750/0001193125-26-464750-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "23efe534b7b3296eaecd649ef7111b10eb07973c345076dc152a52a8ef0800c7",
+    "ticker": "SMWB",
+    "company": "SIMILARWEB LTD.",
+    "detected_at": "2026-11-17T07:02:18-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Similarweb은 AI 관련 비즈니스의 강력한 모멘텀과 엔터프라이즈 고객 수요 증가를 바탕으로 2026년 연간 매출 및 영업이익 가이던스를 상향 조정했습니다. 연간 매출 가이던스는 3억 1,800만~3억 2,000만 달러, 비GAAP 영업이익은 2,900만~3,100만 달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1842731/000184273126000056/0001842731-26-000056-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "42444050b29a1ea4904ac1e7ed0e69d8f98e694e40a2be0ba70519623e4bd4a4",
+    "ticker": "OPRA",
+    "company": "Opera Ltd",
+    "detected_at": "2026-11-17T07:01:31-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Opera는 2026년 연간 매출 가이던스를 7억 3,500만~7억 4,200만 달러로, 조정 EBITDA 가이던스를 1억 7,200만~1억 7,500만 달러로 상향 조정했습니다. 경영진은 기존 가이던스의 상단 수준을 새로운 하단으로 설정하며 사업의 회복력과 지속적인 성장을 강조했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1737450/000173745026000025/0001737450-26-000025-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "02a6863359bc43b7ff56d1ed9e32af6aeddf627a648539be3bce72255ac7987c",
+    "ticker": "LUXE",
+    "company": "LuxExperience B.V.",
+    "detected_at": "2026-11-17T06:59:29-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "LuxExperience는 FY2027 가이던스를 상향 조정했습니다. 순매출 성장률은 기존 +MSD%~+HSD%에서 +6%~+9%로 범위를 구체화했으며, 조정 EBITDA 마진은 기존 2%~3%에서 2.5%~3.5%로 상향했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1831907/000110465926128821/0001104659-26-128821-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "bea0ec7f1e4ec39ef18cae688246389b926178992732e0c5a6f1006b28e0cfff",
+    "ticker": "XBP",
+    "company": "XBP Global Holdings, Inc.",
+    "detected_at": "2026-11-16T17:22:22-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "XBP Global은 연간 운영 효율화 목표를 기존 6,500만~7,500만 달러에서 7,000만~7,500만 달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1839530/000110465926128573/0001104659-26-128573-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "56ec55a8a8cc273dd5fd3039f4bb1fb743c557746f659ecfd7ba0485f5fb8404",
     "ticker": "HTHT",
     "company": "H World Group Ltd",
@@ -338,215 +393,6 @@
     "signal": "guidance_up",
     "summary": "페트로브라스는 2026년 운영 및 재무 가이던스를 상향 조정했습니다. 총 석유 및 가스 생산량 전망치는 기존 3.1백만 boed에서 3.3~3.4백만 boed로, 영업현금흐름 전망치는 기존 350억 달러에서 450억~500억 달러로 상향되었습니다. 이는 운영 효율성 개선과 생산 능력 확대에 따른 결과입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1119639/000129281426005231/0001292814-26-005231-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "271d7c872dd50b22de00ec2b5863fb7c22f1fa29ee5580d6d705b0eb9d05e32e",
-    "ticker": "NGS",
-    "company": "NATURAL GAS SERVICES GROUP INC",
-    "detected_at": "2026-11-10T18:03:20-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "NGS는 2026년 연간 조정 EBITDA 가이던스를 상향 조정했습니다. 이는 Flatrock 인수 통합의 성공과 유기적 성장, 그리고 운영 효율성 개선에 따른 결과입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1084991/000108499126000098/0001084991-26-000098-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "c1fd82192c71518f7a1f99c7279fa5e679a4aa24ab40c60a276a7013388799a5",
-    "ticker": "HYLN",
-    "company": "Hyliion Holdings Corp.",
-    "detected_at": "2026-11-10T16:46:18-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Hyliion은 2026년 연간 매출 가이던스를 기존 1,500만 달러에서 1,800만 달러로 상향 조정했습니다. 이는 군사 연구 및 개발 서비스 부문의 성과가 예상보다 강력했기 때문입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1759631/000162828026072808/0001628280-26-072808-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "ef3e271197a5ea9b0e1ffb259eb14ea367cb71875de344b737da79fa27ebafbd",
-    "ticker": "KRMD",
-    "company": "KORU Medical Systems, Inc.",
-    "detected_at": "2026-11-10T16:43:30-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "KORU Medical은 2026년 연간 매출 가이던스를 기존 47.5~48.5백만 달러에서 48.0~48.5백만 달러로 상향 조정했습니다. 또한 연간 매출총이익률 가이던스를 62~64%에서 63~64%로, 연말 현금 잔액 가이던스를 7.5백만 달러 초과에서 8.0백만 달러 초과로 상향했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/704440/000116169726000243/0001161697-26-000243-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "4b7bdb39251e0d5605c242ef46c26ac54e93e1231db0ef37a1869dfaff7706b0",
-    "ticker": "ELE",
-    "company": "Elemental Royalty Corp",
-    "detected_at": "2026-11-10T16:36:19-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Elemental Royalty는 기존 포트폴리오의 성과를 반영하여 2026년 GEO 판매 가이던스를 18,000~20,500 GEO로 조정하고, Orion 포트폴리오 기여분을 포함하여 총 19,500~22,000 GEO를 제시했습니다. 기존 포트폴리오 매출 가이던스는 80.5~90.5백만 달러로 업데이트되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/2086771/000162828026072792/0001628280-26-072792-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "43e8939570328f070ada66a8addf8f6de8b14ebc77135b5948c90f01ef6b75a8",
-    "ticker": "AMPX",
-    "company": "Amprius Technologies, Inc.",
-    "detected_at": "2026-11-10T16:28:59-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Amprius Technologies는 2026년 연간 매출 가이던스를 기존 최소 1억 4,000만 달러에서 1억 4,500만 달러로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000069/0001899287-26-000069-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "74897fad64a1c0948953eee34efafb5f91dc6fb038cdee1f4844f2c806fef204",
-    "ticker": "EVLV",
-    "company": "Evolv Technologies Holdings, Inc.",
-    "detected_at": "2026-11-10T16:08:02-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Evolv Technologies는 2026년 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 1억 8,000만~1억 8,500만 달러에서 1억 8,200만~1억 8,500만 달러로, 조정 EBITDA는 기존 1,500만~1,600만 달러에서 1,550만~1,650만 달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1805385/000180538526000056/0001805385-26-000056-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "076e609e590a208fba81a290f316ce4eadc2f298e73365e375904dce896b8eb6",
-    "ticker": "CRWV",
-    "company": "CoreWeave, Inc.",
-    "detected_at": "2026-11-10T16:05:53-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "CoreWeave는 2026년 연간 매출 가이던스를 130억~133억 달러로, 조정 영업이익 가이던스를 12.75억~13.75억 달러로 상향 조정했습니다. 또한 2026년 말 기준 연간 매출 런레이트 가이던스를 200억~210억 달러로 상향했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/0001769628-26-000461-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "0ad4c0f2186ad1a632404314287231abf78f4fc99c1da17f7fb571a609188c6b",
-    "ticker": "LMRI",
-    "company": "Lumexa Imaging Holdings, Inc.",
-    "detected_at": "2026-11-10T16:05:40-05:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "Lumexa Imaging은 2026년 연간 조정 EPS 가이던스를 기존 $0.71~$0.77에서 $0.86~$0.90으로 상향 조정했습니다. 매출 가이던스는 $1.045B~$1.097B로 유지되었으며, 조정 EBITDA 가이던스는 $236M~$240M으로 범위가 좁혀졌습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/2071288/000119312526455427/0001193125-26-455427-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "ed6d25a2ee04e121998388cc6ce74e3e6c80e3d2c16a5e9619cb90244fc785cf",
-    "ticker": "CARL",
-    "company": "CARLSMED, INC.",
-    "detected_at": "2026-11-10T16:05:17-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Carlsmed은 2026년 연간 매출 가이던스를 기존 7,400만~7,800만 달러에서 7,800만~8,000만 달러로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1794546/000179454626000025/0001794546-26-000025-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "ae0eb447ef874c13ac109f409b03d6265b254cce01ba692c20f60fcf09818374",
-    "ticker": "MRCY",
-    "company": "MERCURY SYSTEMS INC",
-    "detected_at": "2026-11-10T16:01:58-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Mercury Systems는 2027 회계연도 가이던스를 상향 조정했습니다. 매출 성장률은 기존 '두 자릿수에 근접'에서 '두 자릿수'로, 조정 EBITDA는 기존 2억 달러(성장률 30%)에서 2억 1천만 달러(성장률 40%)로, 잉여현금흐름(FCF) 전환율은 기존 35%에서 40%로 각각 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000096/0001049521-26-000096-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "7bf3b2b3c3cc62309fadc35dc59af3cfe91b7b702a132c658bc76fdd6cffcc28",
-    "ticker": "MXCT",
-    "company": "MAXCYTE, INC.",
-    "detected_at": "2026-11-10T08:21:10-05:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "MaxCyte는 2026년 전체 매출 가이던스를 기존 약 3,400만 달러에서 최소 3,450만 달러로 상향 조정했습니다. SPL 프로그램 관련 매출 가이던스 역시 기존 약 600만 달러에서 최소 650만 달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1287098/000110465926124829/0001104659-26-124829-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "be5a8aa4298f10af98b81215fc22afd8276f57c2b7b6fdebbc072b49add2cd55",
-    "ticker": "ALH",
-    "company": "Alliance Laundry Holdings Inc.",
-    "detected_at": "2026-11-10T07:51:16-05:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "2026년 연간 조정 EBITDA 성장률 가이던스를 기존 8~10%에서 10% 수준으로 상향 조정했습니다. 매출 성장률 가이던스는 6~7%로 유지되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1317685/000162828026072509/0001628280-26-072509-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "a66a8a38ab75b5f3f39d2ea1b5b6e6c8ddf7c7cdc8e628f1858e60024d06e4f1",
-    "ticker": "MCFT",
-    "company": "MasterCraft Boat Holdings, Inc.",
-    "detected_at": "2026-11-10T07:36:11-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "MasterCraft Boat Holdings는 회계연도 전환 기간(2026년 7월~12월)에 대한 가이던스를 상향 조정했습니다. 순매출은 기존 2억 8,700만~2억 9,100만 달러에서 2억 9,300만~2억 9,700만 달러로, 조정 EBITDA는 2,900만~3,200만 달러에서 3,200만~3,400만 달러로, 조정 EPS는 0.66~0.76달러에서 0.75~0.80달러로 각각 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1638290/000119312526454450/0001193125-26-454450-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "7b6a5839da89fd2a5d547d16713715be84d241bc2cce2ac845632b98ff0ccb8e",
-    "ticker": "XCH",
-    "company": "XCHG Ltd",
-    "detected_at": "2026-11-10T07:30:03-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "XCharge는 2026년 연간 매출 가이던스를 기존 3,290만~3,820만 달러에서 3,320만~3,940만 달러로 상향 조정했습니다. 이는 3분기 매출의 전년 대비 61% 성장과 인도량 증가를 반영한 결과입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1979887/000119312526454443/0001193125-26-454443-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "e94516153e1e7417dfb5a5b45cf1f7391cedc8be356b63f051f193702068f1e5",
-    "ticker": "MASS",
-    "company": "908 Devices Inc.",
-    "detected_at": "2026-11-10T07:05:15-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "908 Devices는 2026년 연간 매출 가이던스 하단 범위를 기존 6,800만 달러에서 6,850만 달러로 상향 조정했습니다(범위: 6,850만~7,000만 달러).",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1555279/000110465926124772/0001104659-26-124772-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "14f9b0c3cdf4907986c4c7bb7f2b8a621d8d154845c4fe23bcbea8eb4b3edbf8",
-    "ticker": "",
-    "company": "Keenova Therapeutics plc",
-    "detected_at": "2026-11-10T06:36:54-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Keenova Therapeutics는 XIAFLEX의 성장세와 Acthar Gel의 견조한 실적을 바탕으로 2026년 연간 매출 및 조정 EBITDA 가이던스를 상향 조정했습니다. 프로포마 매출 가이던스는 기존 19.4억~20.0억 달러에서 20.0억~20.25억 달러로, 조정 EBITDA는 7.15억~7.45억 달러에서 7.5억~7.7억 달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1567892/000162828026072488/0001628280-26-072488-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "5cceeee24a47a02b8b05952efe72c8c2d285b88875554c3de453a1dbc04e61ad",
-    "ticker": "EMBJ",
-    "company": "EMBRAER S.A.",
-    "detected_at": "2026-11-10T06:12:40-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "엠브라에르는 2026년 연간 가이던스를 상향 조정했습니다. 연결 순매출 가이던스는 기존 8.2~8.5십억 달러에서 8.4~8.6십억 달러로, 조정 잉여현금흐름(Eve 제외)은 기존 4억 달러 이상에서 7억 달러 이상으로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1355444/000129281426005209/0001292814-26-005209-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "a1c55d17920bef98bf5b300204ec04b9985e08cd0def0dbe6175c40fcfda27ce",
-    "ticker": "ONON",
-    "company": "On Holding AG",
-    "detected_at": "2026-11-10T06:06:50-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "On Holding은 2026년 연간 매출총이익률 가이던스를 기존 65% 이상에서 66% 수준(환급금 제외 기준)으로 상향 조정했습니다. 매출 성장률과 조정 EBITDA 마진 가이던스는 기존 수준을 유지했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1858985/000185898526000025/0001858985-26-000025-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "6f6bfb884258a787f2b2c819164e87b7f055c053f2d3476be3687aafbef6e6b6",
-    "ticker": "EMBJ",
-    "company": "EMBRAER S.A.",
-    "detected_at": "2026-11-10T06:02:28-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "엠브라에르는 2026년 연간 가이던스를 상향 조정했습니다. 연결 순매출 전망치는 기존 8.2~8.5십억 달러에서 8.4~8.6십억 달러로, 잉여현금흐름(FCF) 전망치는 기존 4억 달러 이상에서 7억 달러 이상으로 상향되었습니다. 상업용 및 비즈니스 항공기 인도량 가이던스는 기존 수준을 유지했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1355444/000129281426005205/0001292814-26-005205-index.htm",
     "confidence": 1.0
   }
 ]
