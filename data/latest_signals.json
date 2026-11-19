@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "0a566991f1c7e7041af907e1b2e2c3c09b8f2b4a41e9ba0bb31f30feec17437d",
+    "ticker": "NVS",
+    "company": "NOVARTIS AG",
+    "detected_at": "2026-11-19T07:28:27-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "노바티스는 2026-2031년 중기 가이던스를 제시하며, Kesimpta(60억→80억 달러), Scemblix(40억→50억 달러), Leqvio(40억→50억 달러) 등 주요 제품의 피크 매출 가이던스를 상향 조정했습니다. 또한 2026-2031년 순매출 연평균 성장률(CAGR) 5% 달성 및 2029년까지 핵심 영업이익률 40% 회복 목표를 재확인했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1114448/000117184326007584/0001171843-26-007584-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "5b861b33966d45ee624087a4f370451c6470164ea6ee7e0de3fe948da1406c66",
     "ticker": "PANW",
     "company": "Palo Alto Networks Inc",
@@ -140,94 +151,6 @@
     "signal": "guidance_up",
     "summary": "MUFG는 고객 부문의 견조한 실적과 모건스탠리 관련 지분법 이익 증가를 반영하여 2027년 3월 31일 종료 회계연도의 지배주주 귀속 순이익 목표치를 기존 2,700.0십억 엔에서 2,800.0십억 엔으로 상향 조정하였습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/67088/000119312526459160/0001193125-26-459160-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "2fd35326e96cae3235b79f1c36f921a9d3eb83b10b6154bd5b7fded0430ee269",
-    "ticker": "STN",
-    "company": "STANTEC INC",
-    "detected_at": "2026-11-12T17:04:02-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "스탠텍(Stantec)은 2026년 연간 가이던스를 상향 조정했습니다. 조정된 EBITDA 마진은 기존 17.8~18.3%에서 18.3~18.5%로, 조정 EPS 성장률은 기존 15.0~18.0%에서 17.0~19.0%로 상향되었으며, 조정 순이익률 목표 또한 9.5% 이상에서 9.8% 이상으로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1131383/000113138326000022/0001131383-26-000022-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "d423b14a0d8a878092499d4b82b3dbbc827619c01294b4204d3f8d663e1145e4",
-    "ticker": "STN",
-    "company": "STANTEC INC",
-    "detected_at": "2026-11-12T17:00:03-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Stantec은 2026년 수익성 전망을 상향 조정했습니다. 조정된 EBITDA 마진 가이던스는 기존 17.8~18.3%에서 18.3~18.5%로, 조정 EPS 성장률은 기존 15~18%에서 17~19%로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1131383/000117184326007404/0001171843-26-007404-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "d2ba2fb2976b9ac4786f2ce95e9db00be3377d80cc33f0632227d63327ff51a3",
-    "ticker": "ACCV",
-    "company": "Accelevation Holdings Corp.",
-    "detected_at": "2026-11-12T16:08:18-05:00",
-    "source_bot": "guidance",
-    "signal": "new_guidance",
-    "summary": "Accelevation Holdings Corp.은 2026 회계연도에 대한 신규 가이던스를 발표했습니다. 매출은 9억 500만 달러에서 9억 1,500만 달러(전년 대비 103% 성장), 조정 EBITDA는 1억 5,500만 달러에서 1억 6,500만 달러(전년 대비 76% 성장)로 제시되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/2141406/000162828026073382/0001628280-26-073382-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "56572a49a778e7e221b2810a5e74e27ffc5f30cbd85c698b15a82e63b1804c64",
-    "ticker": "CSCO",
-    "company": "CISCO SYSTEMS, INC.",
-    "detected_at": "2026-11-12T16:06:24-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "시스코는 2027 회계연도 매출 및 비일반회계기준(Non-GAAP) EPS 가이던스를 상향 조정했습니다. FY27 매출 가이던스는 748억~758억 달러, Non-GAAP EPS 가이던스는 5.47~5.53달러로 제시되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000170/0000858877-26-000170-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "c9d488293857e07d2375fc2d341c99abee22e48fef285546254de0b22872abb8",
-    "ticker": "BSEM",
-    "company": "BioStem Technologies, Inc.",
-    "detected_at": "2026-11-12T16:05:17-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "BioStem Technologies는 2026년 연간 매출 가이던스를 기존 2,600만~2,900만 달러에서 2,800만~2,900만 달러로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1658678/000119312526458305/0001193125-26-458305-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "43791565b24a404dcff1ccad852152e1a052b7ce78a97bca0b1be40054951a91",
-    "ticker": "HTFL",
-    "company": "Heartflow, Inc.",
-    "detected_at": "2026-11-12T16:02:46-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Heartflow는 2026년 연간 가이던스를 상향 조정했습니다. 총 매출 가이던스는 기존 2억 4,600만~2억 5,000만 달러에서 2억 6,200만~2억 6,400만 달러로, Non-GAAP 매출총이익률 가이던스는 기존 약 82%에서 약 82.5%로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1464521/000146452126000171/0001464521-26-000171-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "b1b662d4db57c04d717435c48062c01671e63623019f6dabe8560247c94fd698",
-    "ticker": "RUBI",
-    "company": "Rubico Inc.",
-    "detected_at": "2026-11-12T12:41:21-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Rubico Inc.는 신규 MR 탱커 2척 인수를 통해 잠재적 총 매출 수주잔고(Gross Revenue Backlog)를 약 5억 2,300만 달러로 기존 대비 40% 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1943421/000117184326007387/0001171843-26-007387-index.htm",
-    "confidence": 0.9
-  },
-  {
-    "event_id": "803fa913634e2f3ef90fe37ff843376dd25a7dedc890b7a5524e786c629254e3",
-    "ticker": "CAE",
-    "company": "CAE INC",
-    "detected_at": "2026-11-12T08:50:13-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "CAE는 2027 회계연도 조정 EPS 가이던스를 기존 $1.21~$1.28에서 $1.28~$1.35로, 조정 부문 영업이익률 가이던스를 기존 14.6%~15.1%에서 14.9%~15.4%로 상향 조정했습니다. 이는 운영 효율성 개선과 하반기 실행력에 대한 자신감에 기인합니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1173382/000117338226000046/0001173382-26-000046-index.htm",
     "confidence": 1.0
   }
 ]
