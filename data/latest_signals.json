@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "c45120d1b5892f3346523729e6970fc37f9428a256357b9493f1fab6ec01355b",
+    "ticker": "BSP",
+    "company": "Bending Spoons S.p.A.",
+    "detected_at": "2026-11-19T16:22:49-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Bending Spoons은 2026년 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 27.8억~28.2억 달러에서 30.7억~30.9억 달러로, 조정 영업이익 가이던스는 기존 14.6억~15.1억 달러에서 15.8억~16.0억 달러로 상향되었습니다. 이는 기존 사업의 견조한 전망과 Airtable 및 Miro 인수 효과가 반영된 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2004711/000200471126000027/0002004711-26-000027-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "0a566991f1c7e7041af907e1b2e2c3c09b8f2b4a41e9ba0bb31f30feec17437d",
     "ticker": "NVS",
     "company": "NOVARTIS AG",
