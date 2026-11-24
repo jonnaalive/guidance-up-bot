@@ -1,5 +1,82 @@
 [
   {
+    "event_id": "2952ccf65d75c87b88cf80fa2031c815d959d9c0c49d988e55c0a82b9ec60388",
+    "ticker": "ADSK",
+    "company": "Autodesk, Inc.",
+    "detected_at": "2026-11-24T16:05:29-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Autodesk은 3분기 실적 호조와 견고한 기본 성장세를 반영하여 2027 회계연도 연간 매출 및 청구액(billings) 가이던스 중간값을 상향 조정했습니다. 연간 매출 가이던스는 83.6억~83.75억 달러, 청구액 가이던스는 86억~86.5억 달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000069/0000769397-26-000069-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "a874e472f80cc942129ec2a5ec0c3a7bd400c2591100239363c36db75778bf9c",
+    "ticker": "ANF",
+    "company": "ABERCROMBIE & FITCH CO /DE/",
+    "detected_at": "2026-11-24T07:36:44-05:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "Abercrombie & Fitch는 2026 회계연도 연간 가이던스를 상향 조정했습니다. 순매출 성장률은 기존 약 5%에서 약 6%로, 주당순이익(EPS)은 기존 13.10~13.60달러에서 13.70~13.90달러로 상향되었습니다. 이는 브랜드 전반의 견조한 실적과 운영 효율성 개선에 따른 결과입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/0001018840-26-000052-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "299d5406007177658901c5803d16336ab756c254359f427886e2b8e94a5bc337",
+    "ticker": "SJM",
+    "company": "J M SMUCKER Co",
+    "detected_at": "2026-11-24T07:04:40-05:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "J.M. Smucker는 2027 회계연도 2분기 실적 호조를 반영하여 연간 조정 주당순이익(EPS) 가이던스를 기존 $9.75~$10.25(이전 공시 기준)에서 $10.80~$11.20으로 상향 조정했습니다. 매출 및 잉여현금흐름 가이던스는 기존 수준을 유지했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/91419/000009141926000110/0000091419-26-000110-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "98d1bf2cafcd5cb1bf27c1604013921947ab17601e384659031a4562c136df15",
+    "ticker": "DY",
+    "company": "DYCOM INDUSTRIES INC",
+    "detected_at": "2026-11-24T07:03:52-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Dycom Industries는 3분기 실적 호조를 바탕으로 2027 회계연도 연간 매출 가이던스를 기존 74.8억~76.6억 달러에서 76.6억~77.3억 달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000048/0000067215-26-000048-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "4a536289af4949950e37dff51f28963d83aad1e160ec602740b94c90e80cf20c",
+    "ticker": "DKS",
+    "company": "DICK'S SPORTING GOODS, INC.",
+    "detected_at": "2026-11-24T07:02:02-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "DICK'S Sporting Goods는 3분기 실적 호조와 DICK'S 사업 부문의 경쟁력 강화를 바탕으로 2026 회계연도 연간 가이던스를 상향 조정했습니다. 희석 주당순이익(EPS) 가이던스는 기존 10.94~11.94달러에서 11.40~12.25달러로, 비GAAP 기준 EPS는 11.00~12.00달러에서 11.45~12.30달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906326000039/0001089063-26-000039-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "7d92ba3132b83306ff1951925f78d00a21f2dea2463d449af7cf1a07863ff7a8",
+    "ticker": "BBY",
+    "company": "BEST BUY CO INC",
+    "detected_at": "2026-11-24T07:00:31-05:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "베스트바이는 3분기 실적 호조와 강력한 매출 모멘텀을 바탕으로 FY27 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 423억~428억 달러에서 430억~433억 달러로, 조정 EPS는 기존 6.70~6.90달러에서 6.90~7.05달러로 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000045/0000764478-26-000045-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "9602d9f204058827f679e8f6446592ed77c79dea4e75e6492c0a8692e3d2f24c",
+    "ticker": "BWLP",
+    "company": "BW LPG Ltd",
+    "detected_at": "2026-11-24T06:03:10-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "BW LPG는 2026년 4분기 가용 선대 일수의 92%를 일평균 약 102,000달러에 고정했다고 발표했습니다. 이는 이전 분기 가이던스인 88,000달러 대비 상향된 수치입니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1649313/000121390026123350/0001213900-26-123350-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "d19d2cbe40f4f3b0aa17d0cc3b9f307d57a391f2249e64c62a2e1c67e04b68f0",
     "ticker": "HPE",
     "company": "Hewlett Packard Enterprise Co",
@@ -85,50 +162,6 @@
     "signal": "one_off_guidance",
     "summary": "타겟은 3분기 실적 호조를 바탕으로 2026년 연간 가이던스를 상향 조정했습니다. 연간 순매출 성장률은 기존 대비 1%p 높은 약 6%로 제시되었으며, GAAP 및 조정 EPS 가이던스는 10.65달러~11.40달러로 업데이트되었습니다. 다만, 해당 가이던스에는 약 2.14달러 규모의 일회성 관세 환급 효과가 포함되어 있습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000051/0000027419-26-000051-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "9f1fd46630376f8ef630eec7163feafb5a97d76040dff4a2d7e9fe28725adf9e",
-    "ticker": "MFP",
-    "company": "Midera Food Processing, Inc.",
-    "detected_at": "2026-11-17T07:05:15-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Midera Food Processing은 2026년 연간 가이던스를 상향 조정했습니다. 순매출 가이던스는 기존 9억 3,500만~9억 6,500만 달러에서 9억 5,300만~9억 7,300만 달러로, 조정 EBITDA는 기존 1억 6,000만~1억 7,600만 달러에서 1억 6,800만~1억 7,800만 달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526464750/0001193125-26-464750-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "23efe534b7b3296eaecd649ef7111b10eb07973c345076dc152a52a8ef0800c7",
-    "ticker": "SMWB",
-    "company": "SIMILARWEB LTD.",
-    "detected_at": "2026-11-17T07:02:18-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Similarweb은 AI 관련 비즈니스의 강력한 모멘텀과 엔터프라이즈 고객 수요 증가를 바탕으로 2026년 연간 매출 및 영업이익 가이던스를 상향 조정했습니다. 연간 매출 가이던스는 3억 1,800만~3억 2,000만 달러, 비GAAP 영업이익은 2,900만~3,100만 달러로 제시되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1842731/000184273126000056/0001842731-26-000056-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "42444050b29a1ea4904ac1e7ed0e69d8f98e694e40a2be0ba70519623e4bd4a4",
-    "ticker": "OPRA",
-    "company": "Opera Ltd",
-    "detected_at": "2026-11-17T07:01:31-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Opera는 2026년 연간 매출 가이던스를 7억 3,500만~7억 4,200만 달러로, 조정 EBITDA 가이던스를 1억 7,200만~1억 7,500만 달러로 상향 조정했습니다. 경영진은 기존 가이던스의 상단 수준을 새로운 하단으로 설정하며 사업의 회복력과 지속적인 성장을 강조했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1737450/000173745026000025/0001737450-26-000025-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "02a6863359bc43b7ff56d1ed9e32af6aeddf627a648539be3bce72255ac7987c",
-    "ticker": "LUXE",
-    "company": "LuxExperience B.V.",
-    "detected_at": "2026-11-17T06:59:29-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "LuxExperience는 FY2027 가이던스를 상향 조정했습니다. 순매출 성장률은 기존 +MSD%~+HSD%에서 +6%~+9%로 범위를 구체화했으며, 조정 EBITDA 마진은 기존 2%~3%에서 2.5%~3.5%로 상향했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1831907/000110465926128821/0001104659-26-128821-index.htm",
     "confidence": 1.0
   }
 ]
