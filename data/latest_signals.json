@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "d19d2cbe40f4f3b0aa17d0cc3b9f307d57a391f2249e64c62a2e1c67e04b68f0",
+    "ticker": "HPE",
+    "company": "Hewlett Packard Enterprise Co",
+    "detected_at": "2026-11-23T16:12:08-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "HPE는 FY26 실적 호조와 AI 인프라 시장에서의 경쟁력 강화를 바탕으로 FY27 가이던스를 상향 조정했습니다. FY27 매출 성장률 전망치를 27~35%로 높였으며, Non-GAAP EPS 및 잉여현금흐름(FCF) 목표치도 상향했습니다. 또한 FY27 1분기 가이던스를 새롭게 제시하며 견고한 성장세를 예고했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000097/0001645590-26-000097-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "ce5ea7114ec15ead61e82fa6c49ebb6cd83363214394760c997c44b31259d503",
     "ticker": "BJ",
     "company": "BJ's Wholesale Club Holdings, Inc.",
@@ -118,17 +129,6 @@
     "signal": "guidance_up",
     "summary": "LuxExperience는 FY2027 가이던스를 상향 조정했습니다. 순매출 성장률은 기존 +MSD%~+HSD%에서 +6%~+9%로 범위를 구체화했으며, 조정 EBITDA 마진은 기존 2%~3%에서 2.5%~3.5%로 상향했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1831907/000110465926128821/0001104659-26-128821-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "bea0ec7f1e4ec39ef18cae688246389b926178992732e0c5a6f1006b28e0cfff",
-    "ticker": "XBP",
-    "company": "XBP Global Holdings, Inc.",
-    "detected_at": "2026-11-16T17:22:22-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "XBP Global은 연간 운영 효율화 목표를 기존 6,500만~7,500만 달러에서 7,000만~7,500만 달러로 상향 조정했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1839530/000110465926128573/0001104659-26-128573-index.htm",
     "confidence": 1.0
   }
 ]
