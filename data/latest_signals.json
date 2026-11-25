@@ -163,38 +163,5 @@
     "summary": "팔로알토 네트웍스는 2027 회계연도 연간 가이던스를 상향 조정했습니다. 연간 매출 가이던스는 기존 141억~142억 달러에서 145.2억~145.7억 달러로, 비GAAP 주당순이익(EPS)은 기존 4.16~4.19달러에서 4.26~4.30달러로 상향되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/0001327567-26-000030-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "871c26840868b8e16c33e7b93fa3c8a2ec8bbda7c279a42333d315470a1eeb8d",
-    "ticker": "GLBE",
-    "company": "Global-E Online Ltd.",
-    "detected_at": "2026-11-18T07:30:09-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Global-e는 2026년 3분기 실적 발표와 함께 연간 가이던스를 상향 조정했습니다. GMV는 기존 8,810~9,110백만 달러에서 8,957~9,117백만 달러로, 매출은 1,305~1,355백만 달러에서 1,329~1,353백만 달러로, 조정 EBITDA는 278~300백만 달러에서 290~300백만 달러로 각각 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1835963/000117891326005272/0001178913-26-005272-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "2b8b57e6e1c0af7530a3d6090fcfbe9b32bb3ad98e1f33e135ca14fb0a5d941c",
-    "ticker": "ZIM",
-    "company": "ZIM Integrated Shipping Services Ltd.",
-    "detected_at": "2026-11-18T07:10:44-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "ZIM은 3분기 실적 호조와 시장 상황을 반영하여 2026년 연간 가이던스를 재차 상향 조정했습니다. 조정 EBITDA는 기존 27억~30억 달러에서 33억~35억 달러로, 조정 EBIT는 기존 14억~17억 달러에서 20억~22억 달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1654126/000117891326005268/0001178913-26-005268-index.htm",
-    "confidence": 1.0
-  },
-  {
-    "event_id": "9cc4ad04eab851522b9146d3a4fa7781dc87c76655aeba9cee684aa90a608e9b",
-    "ticker": "TGT",
-    "company": "TARGET CORP",
-    "detected_at": "2026-11-18T06:46:59-05:00",
-    "source_bot": "guidance",
-    "signal": "one_off_guidance",
-    "summary": "타겟은 3분기 실적 호조를 바탕으로 2026년 연간 가이던스를 상향 조정했습니다. 연간 순매출 성장률은 기존 대비 1%p 높은 약 6%로 제시되었으며, GAAP 및 조정 EPS 가이던스는 10.65달러~11.40달러로 업데이트되었습니다. 다만, 해당 가이던스에는 약 2.14달러 규모의 일회성 관세 환급 효과가 포함되어 있습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000051/0000027419-26-000051-index.htm",
-    "confidence": 1.0
   }
 ]
