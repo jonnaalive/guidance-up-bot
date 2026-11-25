@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "3d6612993fc460019343879cf5eb96329f85fedebf4e94482c17f5374db0124a",
+    "ticker": "GDRX",
+    "company": "GoodRx Holdings, Inc.",
+    "detected_at": "2026-11-24T16:32:08-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "GoodRx는 2026년 전체 매출 및 조정 EBITDA 가이던스를 상향 조정했습니다. 매출 가이던스는 8억 4,400만~8억 5,000만 달러, 조정 EBITDA 가이던스는 2억 8,000만~2억 8,600만 달러로 제시되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1809519/000180951926000231/0001809519-26-000231-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "2952ccf65d75c87b88cf80fa2031c815d959d9c0c49d988e55c0a82b9ec60388",
     "ticker": "ADSK",
     "company": "Autodesk, Inc.",
@@ -8,6 +19,17 @@
     "signal": "guidance_up",
     "summary": "Autodesk은 3분기 실적 호조와 견고한 기본 성장세를 반영하여 2027 회계연도 연간 매출 및 청구액(billings) 가이던스 중간값을 상향 조정했습니다. 연간 매출 가이던스는 83.6억~83.75억 달러, 청구액 가이던스는 86억~86.5억 달러로 제시되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000069/0000769397-26-000069-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "4c23b1c66bec88ac4d832d60125ac6cd80864f8b55e7d40fc7447444f3ac6989",
+    "ticker": "WDAY",
+    "company": "Workday, Inc.",
+    "detected_at": "2026-11-24T16:01:55-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Workday는 2027 회계연도 연간 구독 매출 및 비GAAP 영업이익률 가이던스를 상향 조정했습니다. 연간 구독 매출 가이던스는 99.58억 달러(13% 성장)로, 비GAAP 영업이익률 가이던스는 31.5%로 각각 상향되었습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000057/0001327811-26-000057-index.htm",
     "confidence": 1.0
   },
   {
@@ -63,6 +85,17 @@
     "signal": "one_off_guidance",
     "summary": "베스트바이는 3분기 실적 호조와 강력한 매출 모멘텀을 바탕으로 FY27 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 423억~428억 달러에서 430억~433억 달러로, 조정 EPS는 기존 6.70~6.90달러에서 6.90~7.05달러로 상향되었습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000045/0000764478-26-000045-index.htm",
+    "confidence": 1.0
+  },
+  {
+    "event_id": "d6f553732476296ca02ddbae32bb3087eedbc97e06607d5c9436baa521de25ac",
+    "ticker": "DLTR",
+    "company": "DOLLAR TREE, INC.",
+    "detected_at": "2026-11-24T06:30:42-05:00",
+    "source_bot": "guidance",
+    "signal": "one_off_guidance",
+    "summary": "달러 트리는 2026 회계연도 조정 EPS 가이던스를 기존 7.70~8.05달러에서 8.05~8.25달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000136/0000935703-26-000136-index.htm",
     "confidence": 1.0
   },
   {
