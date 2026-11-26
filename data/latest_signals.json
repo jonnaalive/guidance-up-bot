@@ -141,16 +141,5 @@
     "summary": "Bending Spoons은 2026년 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 27.8억~28.2억 달러에서 30.7억~30.9억 달러로, 조정 영업이익 가이던스는 기존 14.6억~15.1억 달러에서 15.8억~16.0억 달러로 상향되었습니다. 이는 기존 사업의 견조한 전망과 Airtable 및 Miro 인수 효과가 반영된 결과입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/2004711/000200471126000027/0002004711-26-000027-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "0a566991f1c7e7041af907e1b2e2c3c09b8f2b4a41e9ba0bb31f30feec17437d",
-    "ticker": "NVS",
-    "company": "NOVARTIS AG",
-    "detected_at": "2026-11-19T07:28:27-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "노바티스는 2026-2031년 중기 가이던스를 제시하며, Kesimpta(60억→80억 달러), Scemblix(40억→50억 달러), Leqvio(40억→50억 달러) 등 주요 제품의 피크 매출 가이던스를 상향 조정했습니다. 또한 2026-2031년 순매출 연평균 성장률(CAGR) 5% 달성 및 2029년까지 핵심 영업이익률 40% 회복 목표를 재확인했습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1114448/000117184326007584/0001171843-26-007584-index.htm",
-    "confidence": 1.0
   }
 ]
