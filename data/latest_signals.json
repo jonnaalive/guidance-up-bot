@@ -152,16 +152,5 @@
     "summary": "노바티스는 2026-2031년 중기 가이던스를 제시하며, Kesimpta(60억→80억 달러), Scemblix(40억→50억 달러), Leqvio(40억→50억 달러) 등 주요 제품의 피크 매출 가이던스를 상향 조정했습니다. 또한 2026-2031년 순매출 연평균 성장률(CAGR) 5% 달성 및 2029년까지 핵심 영업이익률 40% 회복 목표를 재확인했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1114448/000117184326007584/0001171843-26-007584-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "5b861b33966d45ee624087a4f370451c6470164ea6ee7e0de3fe948da1406c66",
-    "ticker": "PANW",
-    "company": "Palo Alto Networks Inc",
-    "detected_at": "2026-11-18T16:37:04-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "팔로알토 네트웍스는 2027 회계연도 연간 가이던스를 상향 조정했습니다. 연간 매출 가이던스는 기존 141억~142억 달러에서 145.2억~145.7억 달러로, 비GAAP 주당순이익(EPS)은 기존 4.16~4.19달러에서 4.26~4.30달러로 상향되었습니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/0001327567-26-000030-index.htm",
-    "confidence": 1.0
   }
 ]
