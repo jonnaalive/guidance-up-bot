@@ -119,16 +119,5 @@
     "summary": "HPE는 FY26 실적 호조와 AI 인프라 시장에서의 경쟁력 강화를 바탕으로 FY27 가이던스를 상향 조정했습니다. FY27 매출 성장률 전망치를 27~35%로 높였으며, Non-GAAP EPS 및 잉여현금흐름(FCF) 목표치도 상향했습니다. 또한 FY27 1분기 가이던스를 새롭게 제시하며 견고한 성장세를 예고했습니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000097/0001645590-26-000097-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "ce5ea7114ec15ead61e82fa6c49ebb6cd83363214394760c997c44b31259d503",
-    "ticker": "BJ",
-    "company": "BJ's Wholesale Club Holdings, Inc.",
-    "detected_at": "2026-11-20T07:01:48-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "BJ's Wholesale Club은 2026 회계연도 전체 가이던스를 상향 조정했습니다. 기존 가이던스 수치가 명시되지 않았으나, 경영진은 비교 매출(Comparable sales) 및 조정 EPS 가이던스를 상향한다고 명시적으로 밝혔습니다. 새로운 가이던스는 비교 매출(휘발유 제외) 2.5%~3.0% 증가, 조정 EPS 5.10~5.30달러입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000083/0001531152-26-000083-index.htm",
-    "confidence": 1.0
   }
 ]
