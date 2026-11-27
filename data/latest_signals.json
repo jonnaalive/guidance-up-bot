@@ -130,16 +130,5 @@
     "summary": "BJ's Wholesale Club은 2026 회계연도 전체 가이던스를 상향 조정했습니다. 기존 가이던스 수치가 명시되지 않았으나, 경영진은 비교 매출(Comparable sales) 및 조정 EPS 가이던스를 상향한다고 명시적으로 밝혔습니다. 새로운 가이던스는 비교 매출(휘발유 제외) 2.5%~3.0% 증가, 조정 EPS 5.10~5.30달러입니다.",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000083/0001531152-26-000083-index.htm",
     "confidence": 1.0
-  },
-  {
-    "event_id": "c45120d1b5892f3346523729e6970fc37f9428a256357b9493f1fab6ec01355b",
-    "ticker": "BSP",
-    "company": "Bending Spoons S.p.A.",
-    "detected_at": "2026-11-19T16:22:49-05:00",
-    "source_bot": "guidance",
-    "signal": "guidance_up",
-    "summary": "Bending Spoons은 2026년 연간 가이던스를 상향 조정했습니다. 매출 가이던스는 기존 27.8억~28.2억 달러에서 30.7억~30.9억 달러로, 조정 영업이익 가이던스는 기존 14.6억~15.1억 달러에서 15.8억~16.0억 달러로 상향되었습니다. 이는 기존 사업의 견조한 전망과 Airtable 및 Miro 인수 효과가 반영된 결과입니다.",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/2004711/000200471126000027/0002004711-26-000027-index.htm",
-    "confidence": 1.0
   }
 ]
