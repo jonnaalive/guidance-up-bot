@@ -1,5 +1,16 @@
 [
   {
+    "event_id": "7670485e75321668e7f43b1890dbb2f79e30cb9ac79ef88a679e6b10df5ee029",
+    "ticker": "UFG",
+    "company": "Uni-Fuels Holdings Ltd",
+    "detected_at": "2026-11-27T09:33:02-05:00",
+    "source_bot": "guidance",
+    "signal": "guidance_up",
+    "summary": "Uni-Fuels는 2026년 3분기까지의 견조한 실적과 4분기 성장 모멘텀을 반영하여 연간 매출 가이던스를 기존 3억 4,000만~3억 6,000만 달러에서 4억 1,000만~4억 3,000만 달러로 상향 조정했습니다.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2021688/000149315226054443/0001493152-26-054443-index.htm",
+    "confidence": 1.0
+  },
+  {
     "event_id": "3d6612993fc460019343879cf5eb96329f85fedebf4e94482c17f5374db0124a",
     "ticker": "GDRX",
     "company": "GoodRx Holdings, Inc.",
